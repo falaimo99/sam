@@ -1,0 +1,380 @@
+@prefix : <http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wdp: <https://www.wikidata.org/wiki/Property:> .
+@prefix wdt: <https://www.wikidata.org/wiki/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/> .
+
+<http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/diegeticTime
+:diegeticTime rdf:type owl:ObjectProperty ;
+              rdfs:domain wdt:Q617332 ;
+              rdfs:range wdt:Q12322185 ;
+              rdfs:comment "This property describes the diegetic time of a setting." .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/hasChange
+:hasChange rdf:type owl:ObjectProperty ;
+           rdfs:domain :Scene ;
+           rdfs:range wdt:Q1150070 .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/hasPlace
+:hasPlace rdf:type owl:ObjectProperty ;
+          rdfs:domain wdt:Q617332 ;
+          rdfs:range wdt:Q17334923 ;
+          rdfs:comment "This property links a Setting to a 'physical location\" class." .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/hasSetting
+:hasSetting rdf:type owl:ObjectProperty ;
+            rdfs:domain :Scene ;
+            rdfs:range wdt:Q617332 ;
+            rdfs:comment "This property links a Scene to a correspondent Setting" .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/hasTrope
+:hasTrope rdf:type owl:ObjectProperty ;
+          rdfs:domain [ rdf:type owl:Class ;
+                        owl:unionOf ( :
+                                      :Scene
+                                    )
+                      ] ;
+          rdfs:range [ rdf:type owl:Class ;
+                       owl:unionOf ( :StoryTrope
+                                     :Trope
+                                   )
+                     ] ;
+          rdfs:comment "This property relates a Story or a Scene to a Trope" .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/inspiredBy
+:inspiredBy rdf:type owl:ObjectProperty ;
+            rdfs:domain : ,
+                        :GroupOfCharacters ,
+                        wdt:Q95074 .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/referenceManifestation
+:referenceManifestation rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Scene ;
+                        rdfs:range <https://vocab.org/frbr/core#term-Manifestation> ;
+                        rdfs:comment "This property connects a scene to the reference Manifestation that is used as base to model and describe it." .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/role
+:role rdf:type owl:ObjectProperty ;
+      rdfs:domain [ rdf:type owl:Class ;
+                    owl:unionOf ( :GroupOfCharacters
+                                  wdt:Q95074
+                                )
+                  ] ;
+      rdfs:range :CharacterTrope ,
+                 :Trope ;
+      rdfs:comment "This property describes how a character fits into a certain archetype or character trope" .
+
+
+###  https://www.wikidata.org/wiki/Property:P106
+wdp:P106 rdf:type owl:ObjectProperty ;
+         rdfs:domain wdt:Q95074 ;
+         rdfs:range wdt:Q12737077 ;
+         rdfs:label "occupation" .
+
+
+###  https://www.wikidata.org/wiki/Property:P1343
+wdp:P1343 rdf:type owl:ObjectProperty ;
+          rdfs:domain :Scene ;
+          rdfs:range wdt:Q15989253 ;
+          rdfs:label "described by source" .
+
+
+###  https://www.wikidata.org/wiki/Property:P1416
+wdp:P1416 rdf:type owl:ObjectProperty ;
+          rdfs:domain wdt:Q12737077 ;
+          rdfs:range :GroupOfCharacters ,
+                     wdt:Q43229 ,
+                     wdt:Q95074 ;
+          rdfs:label "affiliation" .
+
+
+###  https://www.wikidata.org/wiki/Property:P21
+wdp:P21 rdf:type owl:ObjectProperty ;
+        rdfs:domain wdt:Q95074 ;
+        rdfs:label "gender" .
+
+
+###  https://www.wikidata.org/wiki/Property:P2561
+wdp:P2561 rdf:type owl:ObjectProperty ;
+          rdfs:domain wdt:Q95074 ;
+          rdfs:range wdt:Q82799 ;
+          rdfs:label "name" .
+
+
+###  https://www.wikidata.org/wiki/Property:P360
+wdp:P360 rdf:type owl:ObjectProperty ;
+         rdfs:domain :CharacterList ;
+         rdfs:range :GroupOfCharacters ,
+                    wdt:Q95074 ;
+         rdfs:label "is a list of" .
+
+
+###  https://www.wikidata.org/wiki/Property:P361
+wdp:P361 rdf:type owl:ObjectProperty ;
+         owl:inverseOf wdp:P527 ;
+         rdfs:domain :Scene ,
+                     wdt:Q95074 ;
+         rdfs:range :GroupOfCharacters ,
+                    :Sequence_of_Scenes ;
+         rdfs:label "part of" .
+
+
+###  https://www.wikidata.org/wiki/Property:P3938
+wdp:P3938 rdf:type owl:ObjectProperty ;
+          rdfs:domain wdt:Q82799 ;
+          rdfs:range [ rdf:type owl:Class ;
+                       owl:unionOf ( :GroupOfCharacters
+                                     wdt:Q43229
+                                     wdt:Q95074
+                                   )
+                     ] ;
+          rdfs:label "named by" .
+
+
+###  https://www.wikidata.org/wiki/Property:P527
+wdp:P527 rdf:type owl:ObjectProperty ;
+         rdfs:domain : ;
+         rdfs:range :CharacterList ,
+                    :Sequence_of_Scenes .
+
+
+###  https://www.wikidata.org/wiki/Property:P625
+wdp:P625 rdf:type owl:ObjectProperty ;
+         rdfs:domain wdt:Q17334923 ;
+         rdfs:range wdt:Q104224919 ;
+         rdfs:label "coordinate location" .
+
+
+###  https://www.wikidata.org/wiki/Property:P710
+wdp:P710 rdf:type owl:ObjectProperty ;
+         rdfs:domain :Scene ,
+                     :Trope ,
+                     wdt:Q1150070 ;
+         rdfs:range [ owl:intersectionOf ( :GroupOfCharacters
+                                           wdt:Q95074
+                                         ) ;
+                      rdf:type owl:Class
+                    ] ;
+         rdfs:label "participant" .
+
+
+###  https://www.wikidata.org/wiki/Property:P8371
+wdp:P8371 rdf:type owl:ObjectProperty ;
+          rdfs:label "references work, tradition or theory" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/date
+:date rdf:type owl:DatatypeProperty ;
+      rdfs:domain wdt:Q12322185 ;
+      rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/descriptor
+:descriptor rdf:type owl:DatatypeProperty ;
+            rdfs:domain wdt:Q95074 ;
+            rdfs:range rdfs:Literal .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:domain wdt:Q17334923 ,
+                     wdt:Q82799 ;
+         rdfs:range rdfs:Literal .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/hasTitle
+:hasTitle rdf:type owl:DatatypeProperty ;
+          rdfs:domain wdt:Q12737077 ;
+          rdfs:range rdfs:Literal ;
+          rdfs:comment "Current title for the occupation." .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/laconic_URI
+:laconic_URI rdf:type owl:DatatypeProperty ;
+             rdfs:domain :TvTropesTrope ;
+             rdfs:range rdfs:Literal ;
+             rdfs:comment "URI leading to the laconic description of a trope on the domain \"https://tvtropes.org/pmwiki/pmwiki.php/Laconic/\"" ;
+             rdfs:label "laconic URI" .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/narratorName
+:narratorName rdf:type owl:DatatypeProperty ;
+              rdfs:domain wdt:Q95074 ;
+              rdfs:range rdfs:Literal .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/periodic_table
+:periodic_table rdf:type owl:DatatypeProperty ;
+                rdfs:domain :TvTropesTrope ;
+                rdfs:range xsd:boolean ;
+                rdfs:comment "True if the Trope is present on \"The Periodic Table of Storytelling\", available at \"https://jamesharris.design/periodic\"" .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/stringDate
+:stringDate rdf:type owl:DatatypeProperty ;
+            rdfs:domain wdt:Q12322185 ;
+            rdfs:range rdfs:Literal .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/transition
+:transition rdf:type owl:DatatypeProperty ;
+            rdfs:comment "A word, sequence of words or timestamp that contains a clear transition from a scene to the other." .
+
+
+###  https://www.wikidata.org/wiki/Property:P527
+wdp:P527 rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/
+: rdf:type owl:Class ;
+  rdfs:comment "The vocabulary entry from wikidata in this case is unfitting. A narrative is described as the account of a series of events in written or oral form. In this model the intention is to abstract it from any constraint given by any form of expression, using it only as the source and reference to build the Story object, and disambiguating any definition that identify them as the same object." ;
+  rdfs:label "Story" .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/CharacterList
+:CharacterList rdf:type owl:Class ;
+               rdfs:comment "This class collects all the character and group of characters." .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/CharacterTrope
+:CharacterTrope rdf:type owl:Class ;
+                rdfs:subClassOf :PeriodicTableTrope ;
+                rdfs:comment "In \"The Periodic Table of Storytelling\" by James Harris you can find some categories dedicated to character tropes, this class represents the abstraction that contains all of them. The categories are \"Heroes\", \"Character Modifiers\", \"Archetypes\" and \"Villains\"." .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/GroupOfCharacters
+:GroupOfCharacters rdf:type owl:Class ;
+                   rdfs:comment "This class represents group of characters that are diegetically or narratively distinct. They can be ethnic groups that are relevant to the story, fantasy races or groups of people acting together or sharing a common scene, like an angry mob or a Greek tragedy chorus." .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/PeriodicTableTrope
+:PeriodicTableTrope rdf:type owl:Class ;
+                    rdfs:subClassOf :TvTropesTrope ;
+                    rdfs:comment "This class represent tropes selected by designer James Harris in his online tool \"The Periodic Table of Storytelling\". The current url for the selection is at \"https://jamesharris.design/periodic/\"" .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/Scene
+:Scene rdf:type owl:Class ;
+       rdfs:comment "Any distinct unit of time and space that is perceived in the story. Having a portion of the work available as reference." ;
+       rdfs:label "Scene" .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/Sequence_of_Scenes
+:Sequence_of_Scenes rdf:type owl:Class ;
+                    rdfs:comment "A coherent or strongly related sequence of scenes. This is usually called story arc, but it can also represent strong authorial choices in the structure of the story, therefore the collected scenes can be a part, or a chapter." .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/StoryTrope
+:StoryTrope rdf:type owl:Class ;
+            rdfs:subClassOf :PeriodicTableTrope ;
+            rdfs:comment "In \"The Periodic Table of Storytelling\" by James Harris you can find some categories dedicated to story tropes, this class represents the abstraction that contains all of them. The categories are \"Structure\", \"Setting, laws and plots\", \"Story Modifiers\" and \"Plot Devices\"." .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/Trope
+:Trope rdf:type owl:Class ;
+       rdfs:comment "Any recognizable pattern in narrative." ;
+       rdfs:label "Trope" .
+
+
+###  http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/TvTropesTrope
+:TvTropesTrope rdf:type owl:Class ;
+               rdfs:subClassOf :Trope ;
+               rdfs:comment "A Trope defined by the online, crowd-sourced wiki \"https://tvtropes.org\"." .
+
+
+###  https://vocab.org/frbr/core#term-Manifestation
+<https://vocab.org/frbr/core#term-Manifestation> rdf:type owl:Class ;
+                                                 rdfs:comment "It is necessary to have a Manifestation, instead of an Expression because we can clearly reference the material, usually with timestamp and strings." .
+
+
+###  https://www.wikidata.org/wiki/Q104224919
+wdt:Q104224919 rdf:type owl:Class ;
+               rdfs:label "geographic coordinates" .
+
+
+###  https://www.wikidata.org/wiki/Q1150070
+wdt:Q1150070 rdf:type owl:Class ;
+             rdfs:comment "This class is set to be a node that should host any sort of character change, it is attached to scenes and can be in the header or bound to a string." ;
+             rdfs:label "change" .
+
+
+###  https://www.wikidata.org/wiki/Q12322185
+wdt:Q12322185 rdf:type owl:Class ;
+              rdfs:label "time" .
+
+
+###  https://www.wikidata.org/wiki/Q12737077
+wdt:Q12737077 rdf:type owl:Class ;
+              rdfs:label "Occupation" .
+
+
+###  https://www.wikidata.org/wiki/Q15989253
+wdt:Q15989253 rdf:type owl:Class ;
+              rdfs:comment "Portion of the original material in which the scene is described." ;
+              rdfs:label "part" .
+
+
+###  https://www.wikidata.org/wiki/Q17334923
+wdt:Q17334923 rdf:type owl:Class ;
+              rdfs:label "physical location" .
+
+
+###  https://www.wikidata.org/wiki/Q43229
+wdt:Q43229 rdf:type owl:Class ;
+           rdfs:subClassOf :GroupOfCharacters ;
+           rdfs:label "Organisation" .
+
+
+###  https://www.wikidata.org/wiki/Q48277
+wdt:Q48277 rdf:type owl:Class ;
+           rdfs:label "gender" .
+
+
+###  https://www.wikidata.org/wiki/Q617332
+wdt:Q617332 rdf:type owl:Class ;
+            rdfs:label "Setting" .
+
+
+###  https://www.wikidata.org/wiki/Q82799
+wdt:Q82799 rdf:type owl:Class ;
+           rdfs:label "name" .
+
+
+###  https://www.wikidata.org/wiki/Q95074
+wdt:Q95074 rdf:type owl:Class ;
+           rdfs:label "fictional character" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+wdp:P527 rdfs:label "has part(s)" .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
