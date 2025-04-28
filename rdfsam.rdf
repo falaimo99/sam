@@ -8,7 +8,9 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2">
+        <rdfs:label>Sam (Story Abstract Metadata)</rdfs:label>
+    </owl:Ontology>
     
 
 
@@ -406,6 +408,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/CharacterList">
         <rdfs:comment>This class collects all the characters and group of characters.</rdfs:comment>
+        <rdfs:label>Character List</rdfs:label>
     </owl:Class>
     
 
@@ -567,7 +570,7 @@
     <!-- https://www.wikidata.org/wiki/Q95074 -->
 
     <owl:Class rdf:about="https://www.wikidata.org/wiki/Q95074">
-        <rdfs:label>fictional character</rdfs:label>
+        <rdfs:label>Fictional Character</rdfs:label>
     </owl:Class>
     
 
