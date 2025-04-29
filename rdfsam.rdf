@@ -312,7 +312,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/laconic_URI">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/TvTropesTrope"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>A URI leading to the relevant trope reference, the source of the trope may vary the domain of the URI.</rdfs:comment>
         <rdfs:label>tropeURI</rdfs:label>
     </owl:DatatypeProperty>
@@ -360,12 +360,6 @@
     
 
 
-    <!-- https://www.wikidata.org/wiki/Property:P527 -->
-
-    <owl:DatatypeProperty rdf:about="https://www.wikidata.org/wiki/Property:P527"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -382,6 +376,14 @@
     <owl:Class rdf:about="http://iflastandards.info/ns/lrm/lrmer/E4">
         <rdfs:comment>It is necessary to have a Manifestation, instead of an Expression because we can clearly reference the material, usually with timestamp and strings.</rdfs:comment>
         <rdfs:label>Manifestation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2#referenceInspiration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2#referenceInspiration">
+        <rdfs:label>Reference Inspiration</rdfs:label>
     </owl:Class>
     
 
@@ -418,6 +420,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/CharacterTrope">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/PeriodicTableTrope"/>
         <rdfs:comment>In &quot;The Periodic Table of Storytelling&quot; by James Harris you can find some categories dedicated to character tropes, this class represents the abstraction that contains all of them. The categories are &quot;Heroes&quot;, &quot;Character Modifiers&quot;, &quot;Archetypes&quot; and &quot;Villains&quot;.</rdfs:comment>
+        <rdfs:label>Character Trope</rdfs:label>
     </owl:Class>
     
 
@@ -426,6 +429,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/GroupOfCharacters">
         <rdfs:comment>This class represents group of characters that are diegetically or narratively distinct. They can be ethnic groups that are relevant to the story, fantasy races or groups of people acting together or sharing a common scene, like an angry mob or a Greek tragedy chorus.</rdfs:comment>
+        <rdfs:label>Group Of Characters</rdfs:label>
     </owl:Class>
     
 
@@ -435,6 +439,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/PeriodicTableTrope">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/TvTropesTrope"/>
         <rdfs:comment>This class represent tropes selected by designer James Harris in his online tool &quot;The Periodic Table of Storytelling&quot;. The current url for the selection is at &quot;https://jamesharris.design/periodic/&quot;</rdfs:comment>
+        <rdfs:label>Periodic Table Trope</rdfs:label>
     </owl:Class>
     
 
@@ -461,6 +466,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/StoryTrope">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/PeriodicTableTrope"/>
         <rdfs:comment>In &quot;The Periodic Table of Storytelling&quot; by James Harris you can find some categories dedicated to story tropes, this class represents the abstraction that contains all of them. The categories are &quot;Structure&quot;, &quot;Setting, laws and plots&quot;, &quot;Story Modifiers&quot; and &quot;Plot Devices&quot;.</rdfs:comment>
+        <rdfs:label>Story Trope</rdfs:label>
     </owl:Class>
     
 
@@ -479,6 +485,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/TvTropesTrope">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/Trope"/>
         <rdfs:comment>A Trope defined by the online, crowd-sourced wiki &quot;https://tvtropes.org&quot;.</rdfs:comment>
+        <rdfs:label>Tv Tropes Trope</rdfs:label>
     </owl:Class>
     
 
@@ -486,7 +493,7 @@
     <!-- https://www.wikidata.org/wiki/Q104224919 -->
 
     <owl:Class rdf:about="https://www.wikidata.org/wiki/Q104224919">
-        <rdfs:label>geographic coordinates</rdfs:label>
+        <rdfs:label>Geographic Coordinates</rdfs:label>
     </owl:Class>
     
 
@@ -512,15 +519,6 @@
 
     <owl:Class rdf:about="https://www.wikidata.org/wiki/Q12737077">
         <rdfs:label>Occupation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://www.wikidata.org/wiki/Q15989253 -->
-
-    <owl:Class rdf:about="https://www.wikidata.org/wiki/Q15989253">
-        <rdfs:comment>Portion of the original material in which the scene is described.</rdfs:comment>
-        <rdfs:label>part</rdfs:label>
     </owl:Class>
     
 
@@ -562,7 +560,7 @@
 
     <owl:Class rdf:about="https://www.wikidata.org/wiki/Q82799">
         <rdfs:comment>This class creates the entity that identify the portion and the manifestation the scene is attached to. This is necessary because the concept of Story conveyed by this model allows a scene to be shared by multiple manifestations.</rdfs:comment>
-        <rdfs:label>name</rdfs:label>
+        <rdfs:label>Name</rdfs:label>
     </owl:Class>
     
 
@@ -572,20 +570,6 @@
     <owl:Class rdf:about="https://www.wikidata.org/wiki/Q95074">
         <rdfs:label>Fictional Character</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Property:P527">
-        <rdfs:label>has part(s)</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
