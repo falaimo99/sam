@@ -10,7 +10,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:cwrc="https://sparql.cwrc.ca/ontologies/cwrc.html#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://purl.org/samcore">
+    <owl:Ontology rdf:about="https://purl.org/samcore#">
         <dc:creator>Francesco Alaimo</dc:creator>
         <rdfs:label>Sam (Story Abstract Metadata)</rdfs:label>
     </owl:Ontology>
