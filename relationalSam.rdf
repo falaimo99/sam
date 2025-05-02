@@ -612,7 +612,7 @@
     <!-- https://www.wikidata.org/wiki/Property:P625 -->
 
     <owl:ObjectProperty rdf:about="https://www.wikidata.org/wiki/Property:P625">
-        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/knows"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q17334923"/>
         <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q104224919"/>
         <rdfs:comment>As defined by Wikidata (&quot;https://www.wikidata.org/wiki/Property:P625&quot;), this property links to the geocoordinates of the subject.</rdfs:comment>
