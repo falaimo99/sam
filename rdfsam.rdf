@@ -1,17 +1,37 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/"
-     xml:base="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2/"
+<rdf:RDF xmlns="https://purl.org/samcore#"
+     xml:base="https://purl.org/samcore"
+     xmlns:dc="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sam="https://purl.org/samcore"
      xmlns:wdp="https://www.wikidata.org/wiki/Property:"
      xmlns:wdt="https://www.wikidata.org/wiki/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:cwrc="https://sparql.cwrc.ca/ontologies/cwrc.html#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/owly/ontologies/2024/11/untitled-ontology-2">
+    <owl:Ontology rdf:about="https://purl.org/samcore">
+        <dc:creator>Francesco Alaimo</dc:creator>
         <rdfs:label>Sam (Story Abstract Metadata)</rdfs:label>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
     
 
 
