@@ -254,14 +254,8 @@
     <owl:ObjectProperty rdf:about="https://www.wikidata.org/wiki/Property:P527">
         <rdfs:domain rdf:resource="https://purl.org/samcore#Story"/>
         <rdfs:range rdf:resource="https://purl.org/samcore#CharacterList"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.org/samcore#CharacterList"/>
-                    <rdf:Description rdf:about="https://purl.org/samcore#SequenceOfScenes"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:range>
+        <rdfs:range rdf:resource="https://purl.org/samcore#Scene"/>
+        <rdfs:range rdf:resource="https://purl.org/samcore#SequenceOfScenes"/>
         <rdfs:comment>As described by Wikidata (&quot;https://www.wikidata.org/wiki/Property:P527&quot;), this property represents a part (or parts) of this subject.</rdfs:comment>
         <rdfs:label>has part(s)</rdfs:label>
     </owl:ObjectProperty>
