@@ -370,6 +370,7 @@
     <owl:DatatypeProperty rdf:about="https://purl.org/samcore#hasName">
         <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q82799" />
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal" />
+        <rdfs:comment>Name for the Name class, associated to a character</rdfs:comment>
     </owl:DatatypeProperty>
 
 
