@@ -45,6 +45,7 @@
 	<CharacterList>
 		<Character xml:id='federigoImperadore' name='Federigo' occupation='imperadore'
 			narratorName="'mperadore" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#man">
+			<Trope></Trope>
 		</Character>
 
 		<Character xml:id='prestoGiovanni' name='Presto Giovanni' occupation='signore indiano'
