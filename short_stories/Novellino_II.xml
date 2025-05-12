@@ -45,6 +45,9 @@
 	<CharacterList>
 		<Character xml:id='federigoImperadore' name='Federigo' occupation='imperadore'
 			narratorName="'mperadore" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#man">
+			<relationship ref="prestoGiovanni"
+				uri="https://vocab.org/relationship/#knowsByReputation"></relationship>
+			<Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing"></Trope>
 		</Character>
 
 		<Character xml:id='prestoGiovanni' name='Presto Giovanni' occupation='signore indiano'
@@ -56,13 +59,6 @@
 			gender='https://sparql.cwrc.ca/ontologies/cwrc.html#man' narratorName='lapidario'
 			occupation='lapidario' for='prestoGiovanni'>
 		</Character>
-
-		<relationship xml:id='relationship1' relationshipType='knows'>
-			<Character ref='#prestogiovanni'>
-			</Character>
-			<Character ref='#federigo'>
-			</Character>
-		</relationship>
 
 		<!--In
 		the context of novelle it is useful to broaden the CharacterGroup class and making it able
