@@ -45,13 +45,9 @@
 	<CharacterList>
 		<Character xml:id='federigoImperadore' name='Federigo' occupation='imperadore'
 			narratorName="'mperadore" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#man">
-<<<<<<< HEAD
 			<relationship ref="prestoGiovanni"
 				uri="https://vocab.org/relationship/#knowsByReputation"></relationship>
 			<Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing"></Trope>
-=======
-			<Trope></Trope>
->>>>>>> refs/remotes/origin/main
 		</Character>
 
 		<Character xml:id='prestoGiovanni' name='Presto Giovanni' occupation='signore indiano'
