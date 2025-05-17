@@ -2,6 +2,8 @@
 
 <root>
 
+<Story xml:id="Novella_V_Giornata_II_Decameron_Boccaccio"></Story>
+
 <characterList>
     <character id="andreuccio_di_pietro" name="Andreuccio di Pietro" narratorName="Andreuccio da Perugia" occupation="cozzone di cavalli" gender="2">
         <role>

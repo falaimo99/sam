@@ -296,10 +296,8 @@
         <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q1150070" />
         <rdfs:range>
             <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.org/samcore#GroupOfCharacters" />
-                    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q95074" />
-                </owl:intersectionOf>
+                <rdf:Description rdf:about="https://purl.org/samcore#GroupOfCharacters" />
+                <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q95074" />
             </owl:Class>
         </rdfs:range>
         <rdfs:comment>As described by Wikidata
