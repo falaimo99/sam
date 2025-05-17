@@ -135,7 +135,7 @@
 		per lo ’mperadore conosciute, tolse uno suo carissimo lapidario, e mandollo celatamente alla
 		corte dello ’mperadore, e disse: al postutto metti lo ’ngegno tuo, che tu quelle pietre mi
 		rechi; per niun tesoro rimanga.</Scene>
-	<Scene xml:id="scene5" setting='#setting2'>
+	<Scene xml:id="scene5" setting='setting2'>
 		<participants>
 			<Character ref='lapidario'></Character>
 			<Character ref='federigoImperadore'></Character>
