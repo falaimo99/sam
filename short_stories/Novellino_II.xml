@@ -70,13 +70,13 @@
 		</CharacterGroup>
 	</CharacterList>
 
-	<setting xml:id='setting1'>
+	<Setting xml:id='setting1'>
 		<place xml:id='atPrestoGiovanni'>At Presto Giovanni</place>
-	</setting>
+	</Setting>
 
-	<setting xml:id='setting2' diegeticTime='not specified'>
-		<place>at imperadore Federigo</place>
-	</setting>
+	<Setting xml:id='setting2' diegeticTime='not specified'>
+		<place xml:id="atImperadoreFederigo">at imperadore Federigo</place>
+	</Setting>
 
 
 	<Scene xml:id="scene1" setting='setting1'>
@@ -156,10 +156,9 @@
 			<Character ref='lapidario'></Character>
 			<Character ref='prestoGiovanni'></Character>
 		</participants>
-		<relationshipChange
-			ref='#relationship1' quality='+1'></relationshipChange>
-		<transitionWord>e tornò</transitionWord>
-		al suo signore Presto Giovanni, e presentolli le pietre con grande allegrezza. </Scene>
+		<transitionWord>e
+		tornò</transitionWord> al suo signore Presto Giovanni, e presentolli le pietre con grande
+		allegrezza. </Scene>
 
 
 	<notes>
