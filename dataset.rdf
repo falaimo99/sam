@@ -1,0 +1,105 @@
+@prefix cwrc: <https://sparql.cwrc.ca/ontologies/cwrc.html#> .
+@prefix datasam: <https://github.com/falaimo99/sam/data/> .
+@prefix rel: <https://vocab.org/relationship/#> .
+@prefix sam: <https://purl.org/samcore#> .
+@prefix wdp: <https://www.wikidata.org/wiki/Property:> .
+@prefix wdt: <https://www.wikidata.org/wiki/> .
+
+datasam:novellino_II_anonimo a sam:Story ;
+    wdp:P527 datasam:novellino_II_anonimo_scene1,
+        datasam:novellino_II_anonimo_scene2,
+        datasam:novellino_II_anonimo_scene3,
+        datasam:novellino_II_anonimo_scene4,
+        datasam:novellino_II_anonimo_scene5,
+        datasam:novellino_II_anonimo_scene6 .
+
+datasam:novellino_II_anonimo_CharacterList a sam:CharacterList ;
+    wdp:P527 datasam:novellino_II_anonimo_ambasciatori,
+        datasam:novellino_II_anonimo_federigoImperadore,
+        datasam:novellino_II_anonimo_lapidario,
+        datasam:novellino_II_anonimo_prestoGiovanni .
+
+datasam:novellino_II_anonimo_atImperadoreFederigo a wdt:Q17334923 ;
+    sam:placeDescriptor "at imperadore Federigo" .
+
+datasam:novellino_II_anonimo_atPrestoGiovanni a wdt:Q17334923 ;
+    sam:placeDescriptor "At Presto Giovanni" .
+
+datasam:novellino_II_anonimo_federigoImperadore_name a wdt:Q82799 ;
+    sam:hasName "Federigo" .
+
+datasam:novellino_II_anonimo_federigoImperadore_occupation a wdt:Q12737077 ;
+    sam:hasTitle "imperadore" .
+
+datasam:novellino_II_anonimo_lapidario_name a wdt:Q82799 ;
+    sam:hasName "lapidario" .
+
+datasam:novellino_II_anonimo_lapidario_occupation a wdt:Q12737077 ;
+    sam:hasTitle "lapidario" .
+
+datasam:novellino_II_anonimo_prestoGiovanni_name a wdt:Q82799 ;
+    sam:hasName "Presto Giovanni" .
+
+datasam:novellino_II_anonimo_prestoGiovanni_occupation a wdt:Q12737077 ;
+    sam:hasTitle "signore indiano" .
+
+datasam:novellino_II_anonimo_scene1 a sam:Scene ;
+    sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
+    wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
+        datasam:novellino_II_anonimo_prestoGiovanni .
+
+datasam:novellino_II_anonimo_scene2 a sam:Scene ;
+    sam:hasSetting datasam:novellino_II_anonimo_setting2 ;
+    wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
+        datasam:novellino_II_anonimo_federigoImperadore .
+
+datasam:novellino_II_anonimo_scene3 a sam:Scene ;
+    sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
+    wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
+        datasam:novellino_II_anonimo_prestoGiovanni .
+
+datasam:novellino_II_anonimo_scene4 a sam:Scene ;
+    sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
+    wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
+        datasam:novellino_II_anonimo_lapidario,
+        datasam:novellino_II_anonimo_prestoGiovanni .
+
+datasam:novellino_II_anonimo_scene5 a sam:Scene ;
+    sam:hasSetting datasam:novellino_II_anonimo_setting2 ;
+    wdp:P710 datasam:novellino_II_anonimo_federigoImperadore,
+        datasam:novellino_II_anonimo_lapidario .
+
+datasam:novellino_II_anonimo_scene6 a sam:Scene ;
+    sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
+    wdp:P710 datasam:novellino_II_anonimo_lapidario,
+        datasam:novellino_II_anonimo_prestoGiovanni .
+
+datasam:trope_TheGoodKing sam:tropeURI <https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing> .
+
+datasam:novellino_II_anonimo_setting2 a sam:Setting .
+
+datasam:novellino_II_anonimo_federigoImperadore a wdt:Q95074 ;
+    sam:hasTrope datasam:trope_TheGoodKing ;
+    sam:narratorName "'mperadore" ;
+    rel:knowsByReputation datasam:novellino_II_anonimo_prestoGiovanni ;
+    wdp:P106 datasam:novellino_II_anonimo_federigoImperadore_occupation ;
+    wdp:P21 cwrc:man ;
+    wdp:P2561 datasam:novellino_II_anonimo_federigoImperadore_name .
+
+cwrc:man a cwrc:Gender .
+
+datasam:novellino_II_anonimo_lapidario a wdt:Q95074 ;
+    sam:narratorName "lapidario" ;
+    wdp:P106 datasam:novellino_II_anonimo_lapidario_occupation ;
+    wdp:P21 cwrc:man ;
+    wdp:P2561 datasam:novellino_II_anonimo_lapidario_name .
+
+datasam:novellino_II_anonimo_setting1 a sam:Setting .
+
+datasam:novellino_II_anonimo_prestoGiovanni a wdt:Q95074 ;
+    sam:descriptor "nobilissimo" ;
+    sam:narratorName "Presto Giovanni" ;
+    wdp:P106 datasam:novellino_II_anonimo_prestoGiovanni_occupation ;
+    wdp:P21 cwrc:man ;
+    wdp:P2561 datasam:novellino_II_anonimo_prestoGiovanni_name .
+
