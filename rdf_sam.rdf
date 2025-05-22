@@ -103,6 +103,10 @@
     <!-- https://purl.org/samcore#hasTrope -->
 
     <owl:ObjectProperty rdf:about="https://purl.org/samcore#hasTrope">
+        <rdfs:domain rdf:resource="https://purl.org/samcore#GroupOfCharacters"/>
+        <rdfs:domain rdf:resource="https://purl.org/samcore#SequenceOfScenes"/>
+        <rdfs:domain rdf:resource="https://purl.org/samcore#Story"/>
+        <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q617332"/>
         <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q95074"/>
         <rdfs:range rdf:resource="https://purl.org/samcore#Trope"/>
         <rdfs:comment>This property relates a Story or a Scene to a Trope.</rdfs:comment>
@@ -120,26 +124,6 @@
             it.</rdfs:comment>
         <rdfs:label>reference material</rdfs:label>
         <rdfs:seeAlso>https://www.wikidata.org/wiki/Property:P144</rdfs:seeAlso>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://purl.org/samcore#role -->
-
-    <owl:ObjectProperty rdf:about="https://purl.org/samcore#role">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://purl.org/samcore#GroupOfCharacters"/>
-                    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q95074"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="https://purl.org/samcore#CharacterTrope"/>
-        <rdfs:range rdf:resource="https://purl.org/samcore#Trope"/>
-        <rdfs:comment>This property describes how a character fits into a certain archetype or
-            character trope.</rdfs:comment>
-        <rdfs:label>role</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -347,6 +331,15 @@
     
 
 
+    <!-- https://purl.org/samcore#changeExcerpt -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.org/samcore#changeExcerpt">
+        <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q1150070"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://purl.org/samcore#date -->
 
     <owl:DatatypeProperty rdf:about="https://purl.org/samcore#date">
@@ -435,6 +428,17 @@
     
 
 
+    <!-- https://purl.org/samcore#referenceMaterialSource -->
+
+    <owl:DatatypeProperty rdf:about="https://purl.org/samcore#referenceMaterialSource">
+        <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q1385610"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>This property allows to link to the resource that describes the reference material currently in use.</rdfs:comment>
+        <rdfs:label>reference material source</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://purl.org/samcore#stringDate -->
 
     <owl:DatatypeProperty rdf:about="https://purl.org/samcore#stringDate">
@@ -460,7 +464,7 @@
     <!-- https://purl.org/samcore#tropeURI -->
 
     <owl:DatatypeProperty rdf:about="https://purl.org/samcore#tropeURI">
-        <rdfs:domain rdf:resource="https://purl.org/samcore#TvTropesTrope"/>
+        <rdfs:domain rdf:resource="https://purl.org/samcore#Trope"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:comment>A URI leading to the relevant trope reference, the source of the trope may
             vary the domain of the URI.</rdfs:comment>
@@ -522,19 +526,6 @@
     
 
 
-    <!-- https://purl.org/samcore#CharacterTrope -->
-
-    <owl:Class rdf:about="https://purl.org/samcore#CharacterTrope">
-        <rdfs:subClassOf rdf:resource="https://purl.org/samcore#PeriodicTableTrope"/>
-        <rdfs:comment>In &quot;The Periodic Table of Storytelling&quot; by James Harris you can find
-            some categories dedicated to character tropes, this class represents the abstraction
-            that contains all of them. The categories are &quot;Heroes&quot;, &quot;Character
-            Modifiers&quot;, &quot;Archetypes&quot; and &quot;Villains&quot;.</rdfs:comment>
-        <rdfs:label>Character Trope</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://purl.org/samcore#GroupOfCharacters -->
 
     <owl:Class rdf:about="https://purl.org/samcore#GroupOfCharacters">
@@ -588,19 +579,6 @@
             using it only as the source and reference to build the Story object, and disambiguating
             any definition that identify them as the same object.</rdfs:comment>
         <rdfs:label>Story</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.org/samcore#StoryTrope -->
-
-    <owl:Class rdf:about="https://purl.org/samcore#StoryTrope">
-        <rdfs:subClassOf rdf:resource="https://purl.org/samcore#PeriodicTableTrope"/>
-        <rdfs:comment>In &quot;The Periodic Table of Storytelling&quot; by James Harris you can find
-            some categories dedicated to story tropes, this class represents the abstraction that
-            contains all of them. The categories are &quot;Structure&quot;, &quot;Setting, laws and
-            plots&quot;, &quot;Story Modifiers&quot; and &quot;Plot Devices&quot;.</rdfs:comment>
-        <rdfs:label>Story Trope</rdfs:label>
     </owl:Class>
     
 

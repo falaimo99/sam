@@ -42,6 +42,7 @@
 		NOVELLA II.
 	</div>
 	<Story xml:id="novellino_II_anonimo"></Story>
+	<referenceMaterial uri=""></referenceMaterial>
 	<CharacterList>
 		<Character xml:id='federigoImperadore' name='Federigo' occupation='imperadore'
 			narratorName="'mperadore" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#man">
@@ -63,7 +64,7 @@
 		<!--In
 		the context of novelle it is useful to broaden the CharacterGroup class and making it able
 		to -->
-		<CharacterGroup xml:id='ambasciatori' diegeticType='ambasciatori'>
+		<CharacterGroup xml:id='ambasciatori'>
 			<occupation for='prestoGiovanni' title="ambasciatori">
 			</occupation>
 			<narratologicalRole type='helper' />
