@@ -46,34 +46,135 @@ datasam:novellino_II_anonimo_prestoGiovanni_occupation a wdt:Q12737077 ;
 
 datasam:novellino_II_anonimo_scene1 a sam:Scene ;
     sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
+    sam:referenceMaterial datasam:novellino_II_anonimo_scene1_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
         datasam:novellino_II_anonimo_prestoGiovanni .
+
+datasam:novellino_II_anonimo_scene1_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """
+		
+			
+			
+		 Presto
+		Giovanni, nobilissimo signore indiano, mandoe ricca e nobile ambasceria al nobile e potente
+		imperadore' imperadore Federigo, a colui che veramente fu specchio del mondo in parlare et
+		in costumi, et amò molto dilicato parlare, et istudiò in dare savi risposi. La forma e la
+		intenzione di quella ambasceria fu solo in due cose, per volere al postutto2 provare se lo
+		’mperadore fosse savio in parlare et in opere. Mandolli per li detti ambasciadori tre pietre
+		nobilissime, e disse loro: donatele allo ’mperadore, e diteli dalla parte mia, che vi dica
+		quale è la migliore cosa del mondo; e le sue parole e risposte serberete, et avviserete3 la
+		corte sua e costumi di quella, e quello che inverrete,4 raccontarete a me sanza niuna
+		mancanza.""" .
 
 datasam:novellino_II_anonimo_scene2 a sam:Scene ;
     sam:hasSetting datasam:novellino_II_anonimo_setting2 ;
+    sam:referenceMaterial datasam:novellino_II_anonimo_scene2_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
         datasam:novellino_II_anonimo_federigoImperadore .
 
+datasam:novellino_II_anonimo_scene2_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """
+		
+			
+			
+		
+		Furo
+		allo ’mperadore dove erano mandati per lo loro signore; salutaronlo,
+		siccome si convenia, per la parte della sua Maestade, e per la parte dello loro soprascritto
+		signore donaronli le sopra dette pietre. Quelli le prese, e non domandò di loro virtude:
+		fecele riporre, e lodolle molto di grande bellezza. Li ambasciadori fecero la domanda loro,
+		e videro li costumi e la corte. Poi dopo pochi giorni addomandaro conmiato. Lo ’mperadore
+		diede loro risposta, e disse: ditemi5 al signor vostro, che la miglior cosa di questo mondo
+		si è misura.""" .
+
 datasam:novellino_II_anonimo_scene3 a sam:Scene ;
     sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
+    sam:referenceMaterial datasam:novellino_II_anonimo_scene3_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
         datasam:novellino_II_anonimo_prestoGiovanni .
 
+datasam:novellino_II_anonimo_scene3_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """
+		
+			
+			
+		
+		
+		Andaro li
+		ambasciadori, e rinunziaro6, e raccontaro ciò ch’aveano veduto et udito, lodando molto la
+		corte dello ’mperadore ornata di bellissimi costumi, e ’l modo de’ suoi cavalieri. Il Presto
+		Giovanni, udendo ciò che raccontaro li suoi ambasciadori, lodò lo ’mperadore, e disse ch’era
+		molto savio in parola, ma non in fatto, acciocche non avea domandato della virtù di così
+		care pietre.""" .
+
 datasam:novellino_II_anonimo_scene4 a sam:Scene ;
     sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
+    sam:referenceMaterial datasam:novellino_II_anonimo_scene4_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
         datasam:novellino_II_anonimo_lapidario,
         datasam:novellino_II_anonimo_prestoGiovanni .
 
+datasam:novellino_II_anonimo_scene4_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """
+		
+			
+			
+			
+		
+		
+		Rimandò li ambasciadori, et offerseli, se li piacesse, che ’l farebbe
+		siniscalco della sua corte. E feceli contare le sue ricchezze e le diverse generazioni de’
+		sudditi suoi et il modo del suo paese. Dopo non gran tempo, pensando il Presto Giovanni, che
+		le pietre ch’avea donate allo ’mperadore avevano perduta loro virtude7, dappoi che non erano
+		per lo ’mperadore conosciute, tolse uno suo carissimo lapidario, e mandollo celatamente alla
+		corte dello ’mperadore, e disse: al postutto metti lo ’ngegno tuo, che tu quelle pietre mi
+		rechi; per niun tesoro rimanga.""" .
+
 datasam:novellino_II_anonimo_scene5 a sam:Scene ;
     sam:hasSetting datasam:novellino_II_anonimo_setting2 ;
+    sam:referenceMaterial datasam:novellino_II_anonimo_scene5_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_federigoImperadore,
         datasam:novellino_II_anonimo_lapidario .
 
+datasam:novellino_II_anonimo_scene5_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """
+		
+			
+			
+		 Lo lapidaro si
+		mosse guernito di molte pietre di gran bellezza, e cominciò presso alla corte a legare sue
+		pietre. Li baroni e cavalieri veniano a vedere di suo mestiero. L’uomo era molto savio:
+		quando vedeva alcuno ch’avesse luogo in corte, non vendeva, ma donava; e donò anella molte;
+		tanto che la lode di lui andò dinanzi allo ’mperadore. Lo quale mandò per lui, e mostrolli
+		sue pietre. Lodolle, ma non di gran vertude. Domandò se avesse più care pietre. Allora lo
+		’mperadore fece venire le tre care pietre preziose ch’elli disiderava di vedere. Allora il
+		lapidaro si rallegrò, e prese l’una pietra, e miselasi in mano e disse così: questa pietra,
+		messere, vale la migliore città che voi avete. Poi prese l’altra, e disse: questa, messere,
+		vale la migliore provincia che voi avete. E poi prese la terza, e disse: messere, questa
+		vale più che tutto lo ’mperio; e strinse il pugno con le soprascritte pietre. La vertude
+		dell’una il celò, che nol potero vedere, e discese giù per le gradora,""" .
+
 datasam:novellino_II_anonimo_scene6 a sam:Scene ;
     sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
+    sam:referenceMaterial datasam:novellino_II_anonimo_scene6_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_lapidario,
         datasam:novellino_II_anonimo_prestoGiovanni .
+
+datasam:novellino_II_anonimo_scene6_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """
+		
+			
+			
+		
+		e
+		tornò al suo signore Presto Giovanni, e presentolli le pietre con grande
+		allegrezza. """ .
 
 datasam:trope_TheGoodKing a sam:Trope ;
     sam:tropeURI <https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing> .
