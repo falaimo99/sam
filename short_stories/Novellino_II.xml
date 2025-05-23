@@ -54,6 +54,7 @@
 		<Character xml:id='prestoGiovanni' name='Presto Giovanni' occupation='signore indiano'
 			gender='https://sparql.cwrc.ca/ontologies/cwrc.html#man' narratorName="Presto Giovanni"
 			descriptor='nobilissimo'>
+			<Trope uri="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist" isPeriodic="True"></Trope>
 		</Character>
 
 		<Character xml:id='lapidario' name='lapidario'
@@ -61,13 +62,9 @@
 			occupation='lapidario' for='prestoGiovanni'>
 		</Character>
 
-		<!--In
-		the context of novelle it is useful to broaden the CharacterGroup class and making it able
-		to -->
 		<CharacterGroup xml:id='ambasciatori'>
 			<occupation for='prestoGiovanni' title="ambasciatori">
 			</occupation>
-			<narratologicalRole type='helper' />
 		</CharacterGroup>
 	</CharacterList>
 

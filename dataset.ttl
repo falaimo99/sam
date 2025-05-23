@@ -26,6 +26,10 @@ datasam:novellino_II_anonimo_CharacterList a sam:CharacterList ;
         datasam:novellino_II_anonimo_lapidario,
         datasam:novellino_II_anonimo_prestoGiovanni .
 
+datasam:novellino_II_anonimo_ambasciatori_occupation_ambasciatori a wdt:Q12737077 ;
+    sam:hasTitle "ambasciatori" ;
+    wdp:P1416 datasam:novellino_II_anonimo_prestoGiovanni .
+
 datasam:novellino_II_anonimo_federigoImperadore_name a wdt:Q82799 ;
     sam:hasName "Federigo" .
 
@@ -75,8 +79,10 @@ datasam:novellino_II_anonimo_scene6 a sam:Scene ;
     wdp:P710 datasam:novellino_II_anonimo_lapidario,
         datasam:novellino_II_anonimo_prestoGiovanni .
 
-datasam:trope_TheGoodKing a sam:Trope ;
-    sam:tropeURI <https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing> .
+datasam:trope_TheGoodKing sam:tropeURI <https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing> .
+
+datasam:trope_TheProtagonist a sam:PeriodicTableTrope ;
+    sam:tropeURI <http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist> .
 
 datasam:novellino_II_anonimo_setting2 a sam:Setting .
 
@@ -98,8 +104,12 @@ datasam:novellino_II_anonimo_lapidario a wdt:Q95074 ;
 
 datasam:novellino_II_anonimo_setting1 a sam:Setting .
 
+datasam:novellino_II_anonimo_ambasciatori a sam:GroupOfCharacters ;
+    wdp:P106 datasam:novellino_II_anonimo_ambasciatori_occupation_ambasciatori .
+
 datasam:novellino_II_anonimo_prestoGiovanni a wdt:Q95074 ;
     sam:descriptor "nobilissimo" ;
+    sam:hasTrope datasam:trope_TheProtagonist ;
     sam:narratorName "Presto Giovanni" ;
     wdp:P106 datasam:novellino_II_anonimo_prestoGiovanni_occupation ;
     wdp:P21 cwrc:man ;
