@@ -170,12 +170,6 @@ datasam:novellino_II_anonimo_scene6 a sam:Scene ;
     wdp:P710 datasam:novellino_II_anonimo_lapidario,
         datasam:novellino_II_anonimo_prestoGiovanni .
 
-<<<<<<< HEAD
-datasam:trope_TheGoodKing sam:tropeURI <https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing> .
-
-datasam:trope_TheProtagonist a sam:PeriodicTableTrope ;
-    sam:tropeURI <http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist> .
-=======
 datasam:novellino_II_anonimo_scene6_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """
 		
@@ -186,9 +180,10 @@ datasam:novellino_II_anonimo_scene6_excerpt a wdt:Q1385610 ;
 		tornò al suo signore Presto Giovanni, e presentolli le pietre con grande
 		allegrezza. """ .
 
-datasam:trope_TheGoodKing a sam:Trope ;
-    sam:tropeURI <https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing> .
->>>>>>> refs/remotes/origin/main
+datasam:trope_TheGoodKing sam:tropeURI <https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing> .
+
+datasam:trope_TheProtagonist a sam:PeriodicTableTrope ;
+    sam:tropeURI <http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist> .
 
 datasam:novellino_II_anonimo_setting2 a sam:Setting .
 
