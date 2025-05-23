@@ -42,7 +42,7 @@
 		NOVELLA II.
 	</div>
 	<Story xml:id="novellino_II_anonimo"></Story>
-	<referenceMaterial uri=""></referenceMaterial>
+	<referenceMaterial uri='https://it.wikisource.org/w/index.php?title=Novellino/I'></referenceMaterial>
 	<CharacterList>
 		<Character xml:id='federigoImperadore' name='Federigo' occupation='imperadore'
 			narratorName="'mperadore" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#man">
