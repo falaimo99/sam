@@ -182,6 +182,15 @@
     
 
 
+    <!-- https://www.wikidata.org/wiki/Property:P2408 -->
+
+    <owl:ObjectProperty rdf:about="https://www.wikidata.org/wiki/Property:P2408">
+        <rdf:Description>As described by Wikidata (&quot;https://www.wikidata.org/wiki/Property:P2408&quot;), historical, contemporary, or future period, year, century or day the work or genre is set in or event featured in the story of the work</rdf:Description>
+        <rdfs:label>set in period</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://www.wikidata.org/wiki/Property:P2561 -->
 
     <owl:ObjectProperty rdf:about="https://www.wikidata.org/wiki/Property:P2561">
@@ -336,6 +345,7 @@
     <owl:DatatypeProperty rdf:about="https://purl.org/samcore#changeExcerpt">
         <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q1150070"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment>This property is used to represent the literal value of a Change class if expressed through a string or referenced via an audiovisual timestamp.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -473,20 +483,6 @@
     
 
 
-    <!-- https://www.wikidata.org/wiki/Property:P2408 -->
-
-    <owl:DatatypeProperty rdf:about="https://www.wikidata.org/wiki/Property:P2408">
-        <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q617332"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:comment>As defined by Wikidata
-            (&quot;https://www.wikidata.org/wiki/Property:P2408&quot;) this property links to a
-            relevant historical, contemporary, or future period, year, century or day the work or
-            genre is set in or event featured in the story of the work.</rdfs:comment>
-        <rdfs:label>set in period</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -579,6 +575,15 @@
             using it only as the source and reference to build the Story object, and disambiguating
             any definition that identify them as the same object.</rdfs:comment>
         <rdfs:label>Story</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/samcore#TimePeriod -->
+
+    <owl:Class rdf:about="https://purl.org/samcore#TimePeriod">
+        <rdf:Description>As descibed by Wikidata (&quot;https://www.wikidata.org/wiki/Property:P2348&quot;), time period (historic period or era, sports season, theatre season, legislative period etc.) in which the subject occurred or with which it is associated</rdf:Description>
+        <rdfs:label>Time Period</rdfs:label>
     </owl:Class>
     
 

@@ -46,15 +46,15 @@
 	<CharacterList>
 		<Character xml:id='federigoImperadore' name='Federigo' occupation='imperadore'
 			narratorName="'mperadore" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#man">
-			<relationship ref="prestoGiovanni"
-				uri="https://vocab.org/relationship/#knowsByReputation"></relationship>
 			<Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing"></Trope>
 		</Character>
-
+		
 		<Character xml:id='prestoGiovanni' name='Presto Giovanni' occupation='signore indiano'
-			gender='https://sparql.cwrc.ca/ontologies/cwrc.html#man' narratorName="Presto Giovanni"
-			descriptor='nobilissimo'>
+		gender='https://sparql.cwrc.ca/ontologies/cwrc.html#man' narratorName="Presto Giovanni"
+		descriptor='nobilissimo'>
 			<Trope uri="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist" isPeriodic="True"></Trope>
+			<relationship ref="federigoImperadore"
+				uri="https://vocab.org/relationship/#knowsByReputation"></relationship>
 		</Character>
 
 		<Character xml:id='lapidario' name='lapidario'
@@ -111,8 +111,9 @@
 			<CharacterGroup ref='ambasciatori'></CharacterGroup>
 			<Character ref='prestoGiovanni'></Character>
 		</participants>
-		<relationshipChange
-			ref='#relationship1' quality='-1' />
+		<change participant="prestoGiovanni" >
+			<relationship uri="https://vocab.org/relationship/#antagonistOf" ref="federigoImperadore"></relationship>
+		</change>
 		<transitionWord>Andaro</transitionWord> li
 		ambasciadori, e rinunziaro6, e raccontaro ciò ch’aveano veduto et udito, lodando molto la
 		corte dello ’mperadore ornata di bellissimi costumi, e ’l modo de’ suoi cavalieri. Il Presto
@@ -154,6 +155,9 @@
 			<Character ref='lapidario'></Character>
 			<Character ref='prestoGiovanni'></Character>
 		</participants>
+		<change participant="prestoGiovanni">
+			<relationship uri="https://vocab.org/relationship/#knowsByReputation" ref="federigoImperadore"></relationship>
+		</change>
 		<transitionWord>e
 		tornò</transitionWord> al suo signore Presto Giovanni, e presentolli le pietre con grande
 		allegrezza. </Scene>

@@ -3,53 +3,42 @@
 <root>
 
 <Story xml:id="Novella_V_Giornata_II_Decameron_Boccaccio"></Story>
+<referenceMaterial uri=""></referenceMaterial>
+<CharacterList>
+    <Character xml:id="andreuccioDiPietro" name="Andreuccio di Pietro" narratorName="Andreuccio da Perugia" occupation="cozzone di cavalli" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#cisMan">
+            <trope uri="protagonist"></trope>
+            <trope title="dynamic character"></trope>
+    </Character>
 
-<characterList>
-    <character id="andreuccio_di_pietro" name="Andreuccio di Pietro" narratorName="Andreuccio da Perugia" occupation="cozzone di cavalli" gender="2">
-        <role>
-            <trope title='Protagonist'></trope>
-            <trope title='Dynamic Character'></trope>
-        </role>
-    </character>
+    <Character xml:id="oste" narratorName="oste">
+    </Character>
 
-    <character narratorName="oste">
-    </character>
+    <Character xml:id="madama_Fiordaliso" name="Madama Fiordaliso" narratorName="[la giovane, ciciliana]" descriptor="[giovane, bellissima]" role="Antagonist" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#cisWoman">
+        <occupation title="prostituta" for="ruffiano"></occupation>
+    </Character>
 
-    <character id="madama_Fiordaliso" name="Madama Fiordaliso" narratorName="[la giovane, ciciliana]" descriptor="[giovane, bellissima]" role="Antagonist" gender="1" type='[antagonist, manipulative_bastard]'>
-        <occupation title='prostituta' for='ruffiano'></occupation>
-    </character>
+    <Character xml:id="vecchia" narratorName="Vecchia" descriptor="[ciciliana]" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#cisWoman"></Character>
 
-    <character id="vecchia" narratorName="Vecchia" descriptor="[ciciliana]" gender="1">
-    <role>
-        <helper for='madama_fiordaliso'></helper>
-    </role>
-    </character>
-
-    <character narratorName="fanticella" type="Helper" gender="1">
-        <occupation for='madama_Fiordaliso'>fanticella</occupation>
-        <role>
-            <helper for='madama_Fiordaliso'></helper>
-        </role>
-    </character>
+    <Character xml:id="fanticella" narratorName="fanticella" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#cisWoman">
+        <occupation for="madama_Fiordaliso">fanticella</occupation>
+    </Character>
     
-    <characterGroup diegeticType='Vicinato'>
-        <character id='vicino_1'></character>
-        <character id='vicino_2'></character>
-        <character narratorName='ruffiano'>
-            <name inferred='Buttafuoco'></name>
-        </character>
-    </characterGroup>
+    <CharacterGroup xml:id="vicinato" diegeticType="Vicinato">
+        <Character xml:id="vicino_1"></Character>
+        <Character xml:id="vicino_2"></Character>
+        <Character xml:id="ruffiano" narratorName="ruffiano"></Character>
+    </CharacterGroup>
 
-    <characterGroup id='ladri_di_tombe' role='antagonist'></characterGroup>
+    <CharacterGroup xml:id="ladri_di_tombe" role="antagonist"></CharacterGroup>
 
-    <characterGroup id='ladri_di_tombe_secondi' role='antagonist'></characterGroup>
+    <CharacterGroup xml:id="secondi_ladri_di_tombe" role="antagonist"></CharacterGroup>
 
-</characterList>
+</CharacterList>
 
-<setting id="Napoli"></setting>
-<setting id="mercato_Napoli"></setting>
-<setting id="casa_fiordaliso"></setting>
-<setting id="cattedrale_maggiore_Napoli" sameAs="https://www.wikidata.org/wiki/Q1084608"></setting>
+<setting xml:id="Napoli"></setting>
+<setting xml:id="mercato_Napoli"></setting>
+<setting xml:id="casa_fiordaliso"></setting>
+<setting xml:id="cattedrale_maggiore_Napoli" sameAs="https://www.wikidata.org/wiki/Q1084608"></setting>
 
 
 
@@ -73,11 +62,11 @@
     rete.
 </paraText>
 
-<scene setting="Mercato_di_Napoli" >
+<Scene xml:id="Scene1" setting="Mercato_di_Napoli" >
 <participants>
-    <character ref="Andreuccio di Pietro"></character>
-    <character ref="madama_Fiordaliso"></character>
-    <character ref="vecchia"></character>
+    <Character ref="AndreuccioDiPietro"></Character>
+    <Character ref="madama_Fiordaliso"></Character>
+    <Character ref="vecchia"></Character>
 </participants>
 Fu, secondo che io già intesi, in Perugia un giovane il
 cui nome era Andreuccio di Pietro, cozzone di cavalli; il
@@ -120,14 +109,14 @@ fatti d’Andreuccio le disse come avrebbe per poco detto
 egli stesso, sì come colei che lungamente in Cicilia col 
 padre di lui e poi a Perugia dimorata era, e similmente le 
 contò dove tornasse e perché venuto fosse. 
-</scene>
+</Scene>
 
-<scene setting="casa_fiordaliso">
+<Scene xml:id="Scene2" setting="casa_fiordaliso">
 	<participants>
-		<character ref="madama_Fiordaliso"></character>
-		<character ref="vecchia"></character>
-		<character ref="fanticella"></character>
-		<character ref="andreuccio_di_pietro"></character>
+		<Character ref="madama_Fiordaliso"></Character>
+		<Character ref="vecchia"></Character>
+		<Character ref="fanticella"></Character>
+		<Character ref="andreuccio_di_pietro"></Character>
 	</participants>
     La giovane, pienamente informata e del parentado di
     lui e de’ nomi, al suo appetito fornire con una sottil ma¬
@@ -161,16 +150,14 @@ contò dove tornasse e perché venuto fosse.
     disse:
     
     - Or via mettiti avanti, io ti verrò appresso.
-</scene>
+</Scene>
 
-<scene setting="casa_fiordaliso">
-	
+<Scene xml:id="Scene3" setting="casa_fiordaliso">
 	<participants>
-		<character ref="fanticella"></character>
-		<character ref="andreuccio_di_pietro"></character>
-		<character ref="madama_Fiordaliso"></character>
+		<Character ref="fanticella"></Character>
+		<Character ref="andreuccio_di_pietro"></Character>
+		<Character ref="madama_Fiordaliso"></Character>
 	</participants>
-	
     Laonde la fanticella a casa di costei il condusse, la
     
     quale dimorava in una contrada chiamata Malpertugio,
@@ -214,7 +201,7 @@ contò dove tornasse e perché venuto fosse.
     me colui che non mi conosci e per avventura mai ricor¬
     dar non m’udisti. Ma tu udirai tosto cosa la quale più ti
     farà forse maravigliare, sì come è che io sia tua sorella; e
-    dicoti che, poi che Idio m’ha fatta tanta grazia che io an¬
+    dicoti che, poi che idio m’ha fatta tanta grazia che io an¬
     zi la mia morte ho veduto alcuno de’ miei fratelli, come
     che io disideri di vedervi tutti, io non morrò a quella ora
     che io consolata non muoia. E se tu forse questo mai più
@@ -301,12 +288,12 @@ contò dove tornasse e perché venuto fosse.
     domandare di tutti i suoi parenti nominatamente, alla
     quale di tutti Andreuccio rispose, per questo ancora più
     credendo quello che meno di creder gli bisognava.
-</scene>
+</Scene>
 
-<scene setting="casa_fiordaliso">
+<Scene xml:id="Scene4" setting="casa_fiordaliso">
     <participants>
-		<character ref="andreuccio_di_pietro"></character>
-		<character ref="madama_Fiordaliso"></character>
+		<Character ref="andreuccio_di_pietro"></Character>
+		<Character ref="madama_Fiordaliso"></Character>
     </participants>
     Essendo stati i ragionamenti lunghi e il caldo grande,
     ella fece venire greco e confetti e fè dar bere a Andreuc¬
@@ -332,7 +319,7 @@ contò dove tornasse e perché venuto fosse.
     
     Ed ella allora disse:
     
-    - Lodato sia Idio, se io non ho in casa per cui manda¬
+    - Lodato sia idio, se io non ho in casa per cui manda¬
     re a dire che tu non sii aspettato! benché tu faresti assai
     maggior cortesia, e tuo dovere, mandare a dire a’ tuoi
     compagni che qui venissero a cenare, e poi, se pure an¬
@@ -351,16 +338,16 @@ contò dove tornasse e perché venuto fosse.
     re; e che come che egli a cena non fosse atteso aveva
     mandato a dire, così aveva dello albergo fatto il somi¬
     gliante.    
-</scene>
+</Scene>
 
-<scene setting="casa_fiordaliso">
+<Scene xml:id="Scene5" setting="casa_fiordaliso">
     <participants>
-        <character ref="fanciullo"></character>
-		<character ref="andreuccio_di_pietro"></character>
-		<character ref="madama_Fiordaliso"></character>
-        <character ref='vicino_1'></character>
-        <character ref='vicino_2'></character>
-        <character ref='ruffiano'></character>
+        <Character ref="fanciullo"></Character>
+		<Character ref="andreuccio_di_pietro"></Character>
+		<Character ref="madama_Fiordaliso"></Character>
+        <Character ref="vicino_1"></Character>
+        <Character ref="vicino_2"></Character>
+        <Character ref="ruffiano"></Character>
     </participants>
     Egli, questo credendo e dilettandogli, da falsa creden¬
     za ingannato, d’esser con costei, stette. Furono adunque
@@ -384,7 +371,7 @@ contò dove tornasse e perché venuto fosse.
     per ventura posto il piè sopra una tavola, la quale dalla
     contraposta parte sconfitta dal travicello sopra il quale
     era; per la qual cosa capolevando questa tavola con lui
-    insieme se n’andò quindi giuso: e di tanto l’amò Idio,
+    insieme se n’andò quindi giuso: e di tanto l’amò idio,
     che niuno male si fece nella caduta, quantunque alquan-
     
     to cadesse da alto, ma tutto della bruttura, della quale il
@@ -496,12 +483,12 @@ contò dove tornasse e perché venuto fosse.
     
     - Per Dio, buono uomo, vatti con Dio, non volere sta¬
     notte essere ucciso costì: vattene per lo tuo migliore.
-</scene>
+</Scene>
 
-<scene setting="Napoli">
+<Scene xml:id="Scene6" setting="Napoli">
     <participants>
-        <character ref="andreuccio_di_pietro"></character>
-        <characterGroup ref='ladri_di_tombe'></characterGroup>
+        <Character ref="andreuccio_di_pietro"></Character>
+        <CharacterGroup ref="ladri_di_tombe"></CharacterGroup>
     </participants>
     Laonde Andreuccio, spaventato dalla voce di colui e
     dalla vista e sospinto da’ conforti di coloro li quali gli
@@ -528,7 +515,7 @@ contò dove tornasse e perché venuto fosse.
     
     - Che vuol dir questo? Io sento il maggior puzzo che
     mai mi paresse sentire e questo detto alzata alquanto
-    la lanterna, ebbe veduto il <change descriptor='cattivel' participant='andreuccio_di_pietro'>cattivel</change> d’Andreuccio, e stu¬
+    la lanterna, ebbe veduto il <change descriptor="cattivel" participant="andreuccioDiPietro">cattivel</change> d’Andreuccio, e stu¬
     pefatti domandar: - Chi è là?
     
     Andreuccio taceva, ma essi avvicinatiglisi con lume il
@@ -539,7 +526,7 @@ contò dove tornasse e perché venuto fosse.
     tafuoco fia stato questo -. E a lui rivolti, disse l’uno:
     
     - Buono uomo, come che tu abbi perduti i tuoi dena¬
-    ri, tu molto a lodare Idio che quel caso ti venne che tu
+    ri, tu molto a lodare idio che quel caso ti venne che tu
     cadesti né potesti poi in casa rientrare: per ciò che, se
     caduto non fossi, vivi sicuro che, come prima adormen-
     tato ti fossi, saresti stato amazzato e co’ denari avresti la
@@ -576,9 +563,9 @@ contò dove tornasse e perché venuto fosse.
     - Sì, noi siam qui presso a un pozzo al quale suole
     sempre esser la carrucola e un gran secchione; andianne
     là e laverenlo spacciatamente.
-</scene>
+</Scene>
 
-<scene setting="Napoli">
+<Scene xml:id="Scene7" setting="Napoli">
     Giunti a questo pozzo trovarono che la fune v’era ma
     il secchione n’era stato levato: per che insieme dilibera¬
     rono di legarlo alla fune e di collarlo nel pozzo, e egli là
@@ -611,14 +598,14 @@ contò dove tornasse e perché venuto fosse.
     non sappiendo che, della sua fortuna dolendosi, senza
     alcuna cosa toccar quindi diliberò di partirsi: e andava
     senza saper dove.
-</scene>
+</Scene>
 
-<scene 
+<Scene xml:id="Scene8" 
 setting="cattedrale_maggiore_Napoli" 
-contains='https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead'>
+contains="https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead">
     <participants>
-        <character ref='andreuccio_di_pietro'></character>
-        <characterGroup ref='ladri_di_tombe'></characterGroup>
+        <Character ref="andreuccio_di_pietro"></Character>
+        <CharacterGroup ref="ladri_di_tombe"></CharacterGroup>
     </participants>
     Così andando si venne scontrato in que’ due suoi
     compagni, li quali a trarlo del pozzo venivano; e come il
@@ -672,13 +659,13 @@ contains='https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead'>
     sostenea, e fuggendosi lui dentro dall’arca lasciaron rac¬
     chiuso.
     
-</scene>
+</Scene>
 
-<scene setting="cattedrale_maggiore_Napoli">
+<Scene xml:id="Scene9" setting="cattedrale_maggiore_Napoli">
     <Trope url="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></Trope>
     <participants>
-        <character ref='andreuccio_di_pietro'></character>
-        <characterGroup ref='ladri_di_tombe_secondi'></characterGroup>
+        <Character ref="andreuccio_di_pietro"></Character>
+        <CharacterGroup ref="ladri_di_tombe_secondi"></CharacterGroup>
     </participants>
     La qual cosa sentendo Andreuccio, qual egli allor di¬
     venisse ciascun sei può pensare.
@@ -732,6 +719,6 @@ contains='https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead'>
     re; la qual cosa egli fece prestamente e a Perugia tornos-
     si, avendo il suo investito in uno anello, dove per com¬
     perare cavalli era andato.
-</scene>
+</Scene>
 
 </root>
