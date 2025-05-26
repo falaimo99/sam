@@ -6,8 +6,8 @@
 <referenceMaterial uri=""></referenceMaterial>
 <CharacterList>
     <Character xml:id="andreuccioDiPietro" name="Andreuccio di Pietro" narratorName="Andreuccio da Perugia" occupation="cozzone di cavalli" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#cisMan">
-            <trope uri="protagonist"></trope>
-            <trope title="dynamic character"></trope>
+        <trope uri="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist" isPeriodic="True"></trope>
+        <trope uri="http://tvtropes.org/pmwiki/pmwiki.php/Main/DynamicCharacter" isPeriodic="True"></trope>
     </Character>
 
     <Character xml:id="oste" narratorName="oste">
@@ -15,21 +15,25 @@
 
     <Character xml:id="madama_Fiordaliso" name="Madama Fiordaliso" narratorName="[la giovane, ciciliana]" descriptor="[giovane, bellissima]" role="Antagonist" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#cisWoman">
         <occupation title="prostituta" for="ruffiano"></occupation>
+        <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/FemmeFatale"></trope>
+        <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheAntagonist"></trope>
     </Character>
 
     <Character xml:id="vecchia" narratorName="Vecchia" descriptor="[ciciliana]" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#cisWoman"></Character>
 
     <Character xml:id="fanticella" narratorName="fanticella" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#cisWoman">
-        <occupation for="madama_Fiordaliso">fanticella</occupation>
+        <occupation for="madama_Fiordaliso" title="fanticella">fanticella</occupation>
     </Character>
     
     <CharacterGroup xml:id="vicinato" diegeticType="Vicinato">
         <Character xml:id="vicino_1"></Character>
         <Character xml:id="vicino_2"></Character>
-        <Character xml:id="ruffiano" narratorName="ruffiano"></Character>
+        <Character xml:id="ruffiano" narratorName="ruffiano" gender="https://sparql.cwrc.ca/ontologies/cwrc.html#cisMan"></Character>
     </CharacterGroup>
 
-    <CharacterGroup xml:id="ladri_di_tombe" role="antagonist"></CharacterGroup>
+    <CharacterGroup xml:id="ladri_di_tombe" role="antagonist">
+        <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheAntagonist"></trope>
+    </CharacterGroup>
 
     <CharacterGroup xml:id="secondi_ladri_di_tombe" role="antagonist"></CharacterGroup>
 
@@ -602,7 +606,8 @@ contò dove tornasse e perché venuto fosse.
 
 <Scene xml:id="Scene8" 
 setting="cattedrale_maggiore_Napoli" 
-contains="https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead">
+>
+    <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead"></trope>
     <participants>
         <Character ref="andreuccio_di_pietro"></Character>
         <CharacterGroup ref="ladri_di_tombe"></CharacterGroup>
@@ -662,7 +667,7 @@ contains="https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead">
 </Scene>
 
 <Scene xml:id="Scene9" setting="cattedrale_maggiore_Napoli">
-    <Trope url="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></Trope>
+    <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></trope>
     <participants>
         <Character ref="andreuccio_di_pietro"></Character>
         <CharacterGroup ref="ladri_di_tombe_secondi"></CharacterGroup>
@@ -709,9 +714,9 @@ contains="https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead">
     
     La qual cosa veggendo Andreuccio, lieto oltre a quel¬
     lo che sperava, subito si gittò fuori e per quella via onde
-    era venuto se ne uscì dalla chiesa; e già avvicinandosi al
+    era venuto se ne uscì dalla chiesa;</Scene><Scene xml:id="Scene10" setting=""><transition>e già avvicinandosi al
     giorno, con quello anello in dito andando all’avventura,
-    pervenne alla marina e quindi al suo albergo si abbattè;
+    pervenne alla marina e quindi al suo albergo si abbattè;</transition>
     dove li suoi compagni e l’albergatore trovò tutta la notte
     stati in sollecitudine de’ fatti suoi. A’quali ciò che avve¬
     nuto gli era raccontato, parve per lo consiglio dell’oste

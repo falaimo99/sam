@@ -68,7 +68,7 @@
 		</CharacterGroup>
 	</CharacterList>
 
-	<Setting xml:id='setting1'>
+	<Setting xml:id='setting1' diegeticTime="not specified">
 		<place xml:id='atPrestoGiovanni'>At Presto Giovanni</place>
 	</Setting>
 

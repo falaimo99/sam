@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <characterList>
-        <Character id="Petrosinella"></Character>
-        <Character id="Pascadozia"></Character>
-        <CharacterGroup id="orca">
+    <CharacterList>
+        <Character xml:id="Petrosinella" name="Petrosinella"></Character>
+        <Character xml:id="Pascadozia" name="Pascadozia"></Character>
+        <CharacterGroup xml:id="orcs">
             <diegeticType url="https://tvtropes.org/pmwiki/pmwiki.php/Main/OurOgresAreHungrier"></diegeticType>
-            <Character id="orca"></Character>
+            <Character xml:id="orca"></Character>
         </CharacterGroup>
-    </characterList>
+        <CharacterGroup xml:id="animalitrasformati"></CharacterGroup>
+        
+    </CharacterList>
+<Setting xml:id="giardinoOrca">Giardino dell'orca</Setting>
+<Setting xml:id="torreNelBosco">Torre nel Bosco</Setting>
+<Story xml:id="Petrosinella_CuntodeliCunti_Basile">
+    <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/GirlInTheTower"></trope>
+</Story>
+<referenceMaterial uri="https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I"></referenceMaterial>
 <title>PETROSINELLA</title>
 
 
@@ -21,48 +29,47 @@ Na femmena prena se magna li petrosine1 de l’uorto de n’orca, e, couta nfall
 È cossì granne lo desiderio mio de mantenere allegra la prencipessa, che tutta sta notte passata, dove autro non se sente nè da capo, nè da pede, n’aggio fatto autro, che revotare le casce vecchie de lo cellevriello, e cercare tutte li scaracuoncole de la mammoria, sciegliendo fra le cose, che soleva contare chella bona arma de madamma Chiarella Vusciolo, vava de ziemo, (che Dio l’aggia ngrolia, nsanetate vostra!), chille cunte, che me so parzete chiù a proposeto de ve sborzare uno lo juorno. De li quale, s’io non m’aggio cauzato l’uocchie a la merza6, me mageno che averrite sfazione. E, si non serveranno pe squatre armate da sbaragliare li fastidie de l’anemo vuostro, saranno a lo manco trommette da scetare sto compagne meje a scire ncampagna co chiù
 
 potenzia de le povere forze meje, pe sopprire co l’abbonnanzia de lo ngiegno loro a lo defietto de le parole meje.</paraText>
-<scene>
+<Scene xml:id="Scene1" setting="giardinoOrca">
     <participants>
         <Character ref="Pascadozia"></Character>
     </participants>
-Era na vota na femmena prena, chiammata Pascadozia; la quale, affacciatose a na fenestra, che sboccava a no giardino de n’orca, vedde no bello quatro de petrosine. De lo quale le venne tanto golio, che se senteva ashievolire. Tanto che, non potenno resistere, abistato quanno scette l’orca, ne cogliette na vraucata.</scene> 
-<scene>
+Era na vota na femmena prena, chiammata Pascadozia; la quale, affacciatose a na fenestra, che sboccava a no giardino de n’orca, vedde no bello quatro de petrosine. De lo quale le venne tanto golio, che se senteva ashievolire. Tanto che, non potenno resistere, abistato quanno scette l’orca, ne cogliette na vraucata.</Scene> 
+<Scene xml:id="Scene2" setting="giardinoOrca">
     <participants>
         <Character ref="orca"></Character>
         <Character ref="Pascadozia"></Character>
     </participants>
 Ma, <transitionWord>tornata</transitionWord> l’orca a la casa, e volenno fare la sauza, s’addonaje, ca nc’era menata la fauce, e disse: «Me se pozza scatenare lo cuollo, si nce matto sto maneco d’ancino, e non ne lo faccio pentire, azzò se mpara ogne une a magnare a lo tagliere sujo, e no scocchiariare pe le pignate d’autre!» Ma, continovanno la povera prena a rescennere9 all’uorto, nce fu na matina mattuta da l’orca. La quale, tutta arraggiata e nfelata, le disse: «Aggiotence ncappata, latra, mariola! E che ne paghe lo pesone de st’uorto, che viene, co tanta poca descrezione, a zeppoliarene l’erve meje? Affè, ca non te mannarraggio a Roma pe penetenzia!» Pascadozia, negrecata, commenzaje a scusarese, decenno, ca non pe cannarizia10, o lopa11 ch’avesse ncuorpo, l’aveva cecato lo diascance a fare st’arrore; ma ped essere prena, e dubetava, che la facce de la criatura non nascesse semmenata de petrosine; anze, deveva averele grazia, che no l’avesse mannato quarche agliarulo. «Parole vo la zita, — respose l’orca — ; no
-me nce pische co sse chiacchiare! Tu hai scomputo lo staglio de la vita, si non prommiette de daremo la criatura, che farrai, o mascolo o femmena, che se sia». La negra Pascadozia, pe scappare lo pericolo, dove se trovava, ne joraje co na mano ncoppa all’autra; e cossì l’orca la lassaje scapolà.</scene> 
-<scene>
+me nce pische co sse chiacchiare! Tu hai scomputo lo staglio de la vita, si non prommiette de daremo la criatura, che farrai, o mascolo o femmena, che se sia». La negra Pascadozia, pe scappare lo pericolo, dove se trovava, ne joraje co na mano ncoppa all’autra; e cossì l’orca la lassaje scapolà.</Scene> 
+<Scene xml:id="Scene3" setting="torreNelBosco">
     <participants>
         <Character ref="Petrosinella"></Character>
         <Character ref="Pascadozia"></Character>
         <Character ref="Orca"></Character>
     </participants>
-Ma, venuto lo tiempo de partorire, fece na figliola cossì bella, ch’era na gioja, che, pe avere na bella cimma de petrosino mpietto, la chiammaje Petrosinella. La quale, ogne juorno crescenno no parmo, comme fu de sette anne, la mannaje a la majestra. La quale sempre che jeva pe la strata, e se scontrava coll’orca, le deceva: «Dì a mammata, che s’allecorde de la mprommessa!» E, tanta vote fece sso taluerno, che la scura mamma, non avenno chiù cellevriello de sentire sta museca, le disse na vota: «Si te scuntre co la solita vecchia, e te cercarrà sta mardetta prommessa, e tu le respunne: pigliatella!» Petrosinella, che non sapeva de cola, trovanno l’orca, e facennole la stessa proposta, le respose nocentemente, comme l’aveva ditto la mamma. E l’orca, afferratala pe li capille, se ne la portaje a no vosco, dove non trasevano mai li cavalle de lo sole, pe n’essere affedate a li pascolo de chell’ombre, mettennola drinto a na torre, che fece nascere ped arte, senza porte, nè scale, sulo co no fenestriello. Pe la quale, pe li capille de Petrosinella, ch’erano luonghe luonghe, saglieva e scenneva, comme sóle batto de nave pe le nsarte dell’arvolo.</scene> 
-<scene>
+Ma, venuto lo tiempo de partorire, fece na figliola cossì bella, ch’era na gioja, che, pe avere na bella cimma de petrosino mpietto, la chiammaje Petrosinella. La quale, ogne juorno crescenno no parmo, comme fu de sette anne, la mannaje a la majestra. La quale sempre che jeva pe la strata, e se scontrava coll’orca, le deceva: «Dì a mammata, che s’allecorde de la mprommessa!» E, tanta vote fece sso taluerno, che la scura mamma, non avenno chiù cellevriello de sentire sta museca, le disse na vota: «Si te scuntre co la solita vecchia, e te cercarrà sta mardetta prommessa, e tu le respunne: pigliatella!» Petrosinella, che non sapeva de cola, trovanno l’orca, e facennole la stessa proposta, le respose nocentemente, comme l’aveva ditto la mamma. E l’orca, afferratala pe li capille, se ne la portaje a no vosco, dove non trasevano mai li cavalle de lo sole, pe n’essere affedate a li pascolo de chell’ombre, mettennola drinto a na torre, che fece nascere ped arte, senza porte, nè scale, sulo co no fenestriello. Pe la quale, pe li capille de Petrosinella, ch’erano luonghe luonghe, saglieva e scenneva, comme sóle batto de nave pe le nsarte dell’arvolo.</Scene> 
+<Scene xml:id="Scene4" setting="torreNelBosco">
     <participants>
         <Character ref="Petrosinella"></Character>
         <Character ref="figliodenoprencipe"></Character>
-
     </participants>
-Ora soccesse, ch’essenno fora de chella torre l’orca, Petrosinella, cacciato la capo fora de chillo pertuso, e spase le trezze a lo sole, pasajelo figlio de no prencipe. Lo quale, vedenno doje bannere d’oro, che chiammavano l’arme ad assentarese a lo rollo d’ammore, e miranno drinto a chelle onne preziose na facce de serena, che ncantava li core, se ncrapicciaje fora de mesura de tanta bellezze. E, mannatole no memmoriale de sospiri, fu decretato, che se l’assentasse la chiazza a la grazia soja, e la mercanzia rescì de manera, cho lo prencepe appo calate de capo a vasate de mano, nocchie a zennariello a leverenzie, rengraziamiente ad afferte, speranze a prommesse, e bone parole a liccasalemme. La quale cosa continuata pe chiù juorne, s’addomestecaro de manera, che vennero ad appontamiento de trovarese nsiemme.</scene>
-<scene>
+Ora soccesse, ch’essenno fora de chella torre l’orca, Petrosinella, cacciato la capo fora de chillo pertuso, e spase le trezze a lo sole, pasajelo figlio de no prencipe. Lo quale, vedenno doje bannere d’oro, che chiammavano l’arme ad assentarese a lo rollo d’ammore, e miranno drinto a chelle onne preziose na facce de serena, che ncantava li core, se ncrapicciaje fora de mesura de tanta bellezze. E, mannatole no memmoriale de sospiri, fu decretato, che se l’assentasse la chiazza a la grazia soja, e la mercanzia rescì de manera, cho lo prencepe appo calate de capo a vasate de mano, nocchie a zennariello a leverenzie, rengraziamiente ad afferte, speranze a prommesse, e bone parole a liccasalemme. La quale cosa continuata pe chiù juorne, s’addomestecaro de manera, che vennero ad appontamiento de trovarese nsiemme.</Scene>
+<Scene xml:id="Scene5" setting="torreNelBosco">
     <participants>
         <Character ref="Petrosinella"></Character>
         <Character ref="figliodenoprencipe"></Character>
     </participants>
 La quale cosa doveva essere la notte, quanno la luna joqua a passara muta co le stelle, ch’essa averria dato l’addormio a l’orca, e ne l’averria aisato co li capille. E, cossì restate de commegna, venne l’ora appontata; e lo prencepe se consignaje a la torre. Dove, fatto calare a sisco le trezze de Petrosinella, ed afferratose a doi mano, disse: «Aisa!»; e, tirato ncoppa, schiaffatose pe lo fenestriello drinto la cammara, se fece no pasto de chillo petrosino de la sauza d’ammore. E, nante che lo sole mozzasse li cavalle suoje a sautare pe lo chirchio de lo zodiaco, se ne calaje pe la medesema scala d’oro a fare li fatto suoje. 
-</scene>
-<scene>
+</Scene>
+<Scene xml:id="Scene6" setting="">
     <participants>
         <Character ref="orca"></Character>
         <Character ref="commaredellorca"></Character>
         <Character ref="Petrosinella"></Character>
     </participants>
 La quale cosa <transitionWord>continuanno spesse vote a fare</transitionWord>, se n’addonaje na commare dell’orca; la quale, pigliannose lo mpaccio de lo Russo, voze mettere lo musso a la merda, e disse all’orca, che stesse ncellevriello, ca Petrosinella faceva l’ammore co no cierto giovene, e sospettava, che non fossero passate chiù nante le cose; perchè vedeva lo moschito, e lo trafeco, che se faceva; e dobetava, che, fatto no leva ejo, non fossero sfrattate nante Majo da chella casa. L’orca rengraziaje la commare de lo buono avertemiento, e disse, ca sarria stato penziero sujo de mpedire la strata a Petrosinella, otra che non era possibile, che fosse potuta foire ped averele fatto no ncanto, che, si n’aveva mano tre gliantre, nascose drinto a no trave de la cecina, era opera perza, che potesse sfilarennella. Ma, mentre erano a sti ragionamiente Petrosinella, che steva co l’aurecchie appezzute, ed aveva quarche sospetto de la commare, ntese tutto lo trascurzo.
-</scene>
-<scene>
+</Scene>
+<Scene xml:id="Scene7" setting="notSpecified">
     <participants>
         <Character ref="commaredellorca"></Character>
         <Character ref="Petrosinella"></Character>
@@ -70,15 +77,16 @@ La quale cosa <transitionWord>continuanno spesse vote a fare</transitionWord>, s
         <Character ref="orca"></Character>
         <CharacterGroup ref="animalitrasformati"></CharacterGroup>
     </participants>
- E, comme la notte spase li vestite nigre, perchè se conservassero da le carole, venuto a lo solito lo prencepe, lo fece saglire ncoppa li trave. E, trovate le gliantre, le quale sapenno comme se l’avevano da adoperare, ped essere stata fatata dall’orca, fatta na scala de fonecella, se ne scesero tutte duje a bascio, e commenzaro a toccare de carcagne verzo la cetate. Ma, essenno viste a lo scire da la commare, commenzaje a strillare, chiammanno l’orca; e tanto fu lo strillatorio, che se scetaje. E, sentenno ca Petrosinella se n’era fojuta, se ne scese pe la medesima scala, ch’era legata a lo fenestriello, e commenzaje a correre dereto li nnamorate. Li quale, comme la veddero venire, chiù de no cavallo scapolo, a la vota lloro, se tennero perdute. Ma, lecordannose Petrosinella de le gliantre, ne jettaje subeto una nterra. Ed eccote sguigliare no cane corzo, cossì terribile, ch’o mamma mia! Lo quale, co tanto de canna aperta, abbajanno, jeze ncontra all’orca pe se ne fare no voccone. Ma chella, ch’era chiù maliziosa de parasacco, puostose mano a la saccocciola, ne cacciaje na panella; e, datola a lo cane, le fece cadere la coda, ed ammosciare la furia. E, tornato a correre dereto chille, che fojevano, Petrosinella, vistola avvecenare, jettaje la seconna gliantra. Ed ecco scire no feroce lione, che, sbattenno la coda nterra, e scotolanno li crine, co dui parme de cannarone spaparanzato, s’era puosto all’ordene de fare scafaccio dell’orca. E l’orca, tornanno arreto, scortecaje n’aseno, che pasceva miezo a no prato; e, puostose la pella ncoppa, corze de nuovo ncontra a chillo lione. Lo quale, credennose che fosse no ciuccio, appe tanta paura, ch’ancora fuje. Pe la quale cosa, sautato sto secunno fuosso, l’orca tornaje a secotare chille povere giuvane, che, sentenno lo scarponejare, e vedenno la nuvola de la porvere, che s’auzava a lo cielo, conjetturaro ca l’orca se ne veneva de nuovo. La quale, avenno sempre sospetto, che no la secotasse lo lione, non se avea levato la pelle dell’aseno. Ed, avonno Petrosinella jettato la terza gallozza, ne scette no lupo. Lo quale, senza dare tiempo all’orca de pigliare nuovo partito, se la norcaje comm’a n’aseno,</scene>
-<scene>
-    <Trope url="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></Trope>
+ E, comme la notte spase li vestite nigre, perchè se conservassero da le carole, venuto a lo solito lo prencepe, lo fece saglire ncoppa li trave. E, trovate le gliantre, le quale sapenno comme se l’avevano da adoperare, ped essere stata fatata dall’orca, fatta na scala de fonecella, se ne scesero tutte duje a bascio, e commenzaro a toccare de carcagne verzo la cetate. Ma, essenno viste a lo scire da la commare, commenzaje a strillare, chiammanno l’orca; e tanto fu lo strillatorio, che se scetaje. E, sentenno ca Petrosinella se n’era fojuta, se ne scese pe la medesima scala, ch’era legata a lo fenestriello, e commenzaje a correre dereto li nnamorate. Li quale, comme la veddero venire, chiù de no cavallo scapolo, a la vota lloro, se tennero perdute. Ma, lecordannose Petrosinella de le gliantre, ne jettaje subeto una nterra. Ed eccote sguigliare no cane corzo, cossì terribile, ch’o mamma mia! Lo quale, co tanto de canna aperta, abbajanno, jeze ncontra all’orca pe se ne fare no voccone. Ma chella, ch’era chiù maliziosa de parasacco, puostose mano a la saccocciola, ne cacciaje na panella; e, datola a lo cane, le fece cadere la coda, ed ammosciare la furia. E, tornato a correre dereto chille, che fojevano, Petrosinella, vistola avvecenare, jettaje la seconna gliantra. Ed ecco scire no feroce lione, che, sbattenno la coda nterra, e scotolanno li crine, co dui parme de cannarone spaparanzato, s’era puosto all’ordene de fare scafaccio dell’orca. E l’orca, tornanno arreto, scortecaje n’aseno, che pasceva miezo a no prato; e, puostose la pella ncoppa, corze de nuovo ncontra a chillo lione. Lo quale, credennose che fosse no ciuccio, appe tanta paura, ch’ancora fuje. Pe la quale cosa, sautato sto secunno fuosso, l’orca tornaje a secotare chille povere giuvane, che, sentenno lo scarponejare, e vedenno la nuvola de la porvere, che s’auzava a lo cielo, conjetturaro ca l’orca se ne veneva de nuovo. La quale, avenno sempre sospetto, che no la secotasse lo lione, non se avea levato la pelle dell’aseno. Ed, avonno Petrosinella jettato la terza gallozza, ne scette no lupo. Lo quale, senza dare tiempo all’orca de pigliare nuovo partito, se la norcaje comm’a n’aseno,</Scene>
+<Scene xml:id="Scene8" setting="notSpecified">
+    <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></trope>
     <participants>
-        <Character ref=""></Character>
+        <Character ref="petrosinella"></Character>
+        <Character ref="figliodenoprincipe"></Character>
     </participants>
 e li nammorate, scenno de mpaccio, se ne jettero chiano chiano a lo regno de lo prencepe. Dove, co bona lecenzia de lo patre, se la pigliaje pe mogliere, e provaro, dapò tante tempeste de travaglie:
 
           Che n’ora di buon puorto
           Fa scordare cient’anne de fortuna!
-</scene>
+</Scene>
 </root>

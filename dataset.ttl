@@ -7,6 +7,7 @@
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio a sam:Story ;
     wdp:P527 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_CharacterList,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1,
+        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4,
@@ -36,6 +37,24 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1 a sam:Scene ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_AndreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia .
+
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10 a sam:Scene ;
+    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ ;
+    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt ;
+    sam:referenceMaterialSource "" .
+
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """e già avvicinandosi al
+    giorno, con quello anello in dito andando all’avventura,
+    pervenne alla marina e quindi al suo albergo si abbattè;
+    dove li suoi compagni e l’albergatore trovò tutta la notte
+    stati in sollecitudine de’ fatti suoi. A’quali ciò che avve¬
+    nuto gli era raccontato, parve per lo consiglio dell’oste
+    loro che costui incontanente si dovesse di Napoli parti¬
+    re; la qual cosa egli fece prestamente e a Perugia tornos-
+    si, avendo il suo investito in uno anello, dove per com¬
+    perare cavalli era andato.
+""" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """
@@ -637,6 +656,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7_excerpt a wdt:Q1385610 
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli ;
+    sam:hasTrope datasam:trope_RobbingTheDead ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8_excerpt ;
     sam:referenceMaterialSource "" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
@@ -644,6 +664,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8 a sam:Scene ;
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """
+    
     
         
         
@@ -704,6 +725,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8_excerpt a wdt:Q1385610 
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli ;
+    sam:hasTrope datasam:trope_HappyEnding ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9_excerpt ;
     sam:referenceMaterialSource "" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
@@ -758,23 +780,17 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9_excerpt a wdt:Q1385610 
     
     La qual cosa veggendo Andreuccio, lieto oltre a quel¬
     lo che sperava, subito si gittò fuori e per quella via onde
-    era venuto se ne uscì dalla chiesa; e già avvicinandosi al
-    giorno, con quello anello in dito andando all’avventura,
-    pervenne alla marina e quindi al suo albergo si abbattè;
-    dove li suoi compagni e l’albergatore trovò tutta la notte
-    stati in sollecitudine de’ fatti suoi. A’quali ciò che avve¬
-    nuto gli era raccontato, parve per lo consiglio dell’oste
-    loro che costui incontanente si dovesse di Napoli parti¬
-    re; la qual cosa egli fece prestamente e a Perugia tornos-
-    si, avendo il suo investito in uno anello, dove per com¬
-    perare cavalli era andato.
-""" .
+    era venuto se ne uscì dalla chiesa;""" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_name a wdt:Q82799 ;
     sam:hasName "Andreuccio di Pietro" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_occupation a wdt:Q12737077 ;
     sam:hasTitle "cozzone di cavalli" .
+
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella_occupation_fanticella a wdt:Q12737077 ;
+    sam:hasTitle "fanticella" ;
+    wdp:P1416 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso_name a wdt:Q82799 ;
     sam:hasName "Madama Fiordaliso" .
@@ -790,9 +806,21 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_secondi_ladri_di_tombe a sam:G
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicinato a sam:GroupOfCharacters .
 
-cwrc:cisMan a cwrc:Gender .
+datasam:trope_DynamicCharacter a sam:PeriodicTableTrope ;
+    sam:tropeURI "http://tvtropes.org/pmwiki/pmwiki.php/Main/DynamicCharacter" .
+
+datasam:trope_FemmeFatale sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/FemmeFatale" .
+
+datasam:trope_HappyEnding sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding" .
+
+datasam:trope_RobbingTheDead sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead" .
+
+datasam:trope_TheProtagonist a sam:PeriodicTableTrope ;
+    sam:tropeURI "http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro a wdt:Q95074 ;
+    sam:hasTrope datasam:trope_DynamicCharacter,
+        datasam:trope_TheProtagonist ;
     sam:narratorName "Andreuccio da Perugia" ;
     wdp:P106 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_occupation ;
     wdp:P21 cwrc:cisMan ;
@@ -802,14 +830,21 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_1 a wdt:Q95074 .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_2 a wdt:Q95074 .
 
+datasam:trope_TheAntagonist sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/TheAntagonist" .
+
+cwrc:cisMan a cwrc:Gender .
+
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella a wdt:Q95074 ;
     sam:narratorName "fanticella" ;
+    wdp:P106 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella_occupation_fanticella ;
     wdp:P21 cwrc:cisWoman .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe a sam:GroupOfCharacters .
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe a sam:GroupOfCharacters ;
+    sam:hasTrope datasam:trope_TheAntagonist .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ruffiano a wdt:Q95074 ;
-    sam:narratorName "ruffiano" .
+    sam:narratorName "ruffiano" ;
+    wdp:P21 cwrc:cisMan .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia a wdt:Q95074 ;
     sam:descriptor "[ciciliana]" ;
@@ -820,6 +855,8 @@ cwrc:cisWoman a cwrc:Gender .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso a wdt:Q95074 ;
     sam:descriptor "[giovane, bellissima]" ;
+    sam:hasTrope datasam:trope_FemmeFatale,
+        datasam:trope_TheAntagonist ;
     sam:narratorName "[la giovane, ciciliana]" ;
     wdp:P106 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso_occupation_prostituta ;
     wdp:P21 cwrc:cisWoman ;
