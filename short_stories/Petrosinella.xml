@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <CharacterList>
-        <Character xml:id="Petrosinella" name="Petrosinella"></Character>
-        <Character xml:id="Pascadozia" name="Pascadozia"></Character>
+        <Character xml:id="Petrosinella" name="Petrosinella">
+            <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/DamselInDistress"></trope>
+        </Character>
+        <Character xml:id="Pascadozia" name="Pascadozia">
+            <relationship rel="Petrosinella" uri="http://purl.org/vocab/relationship/parentOf"></relationship>
+        </Character>
         <CharacterGroup xml:id="orcs">
-            <diegeticType url="https://tvtropes.org/pmwiki/pmwiki.php/Main/OurOgresAreHungrier"></diegeticType>
-            <Character xml:id="orca"></Character>
+            <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/OurOgresAreHungrier"></trope>
+            <Character xml:id="orca">
+                <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheAntagonist" isPeriodic="True"></trope>
+            </Character>
         </CharacterGroup>
-        <CharacterGroup xml:id="animalitrasformati"></CharacterGroup>
+        <Character xml:id="vicina">
+            <relationship uri="http://purl.org/vocab/relationship/friendOf" rel="orca"></relationship>
+        </Character>
+        <Character xml:id="figliodenoprencipe">
+            <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/KnightInShiningArmor" isPeriodic="True"></trope>
+        </Character>
+        <CharacterGroup xml:id="animalitrasformati">
+            <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/SummonMagic"></trope>
+        </CharacterGroup>
         
     </CharacterList>
 <Setting xml:id="giardinoOrca">Giardino dell'orca</Setting>
@@ -61,7 +75,7 @@ Ora soccesse, ch’essenno fora de chella torre l’orca, Petrosinella, cacciato
     </participants>
 La quale cosa doveva essere la notte, quanno la luna joqua a passara muta co le stelle, ch’essa averria dato l’addormio a l’orca, e ne l’averria aisato co li capille. E, cossì restate de commegna, venne l’ora appontata; e lo prencepe se consignaje a la torre. Dove, fatto calare a sisco le trezze de Petrosinella, ed afferratose a doi mano, disse: «Aisa!»; e, tirato ncoppa, schiaffatose pe lo fenestriello drinto la cammara, se fece no pasto de chillo petrosino de la sauza d’ammore. E, nante che lo sole mozzasse li cavalle suoje a sautare pe lo chirchio de lo zodiaco, se ne calaje pe la medesema scala d’oro a fare li fatto suoje. 
 </Scene>
-<Scene xml:id="Scene6" setting="">
+<Scene xml:id="Scene6" setting="torreNelBosco">
     <participants>
         <Character ref="orca"></Character>
         <Character ref="commaredellorca"></Character>

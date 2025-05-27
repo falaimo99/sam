@@ -1,864 +1,215 @@
-@prefix cwrc: <https://sparql.cwrc.ca/ontologies/cwrc.html#> .
 @prefix datasam: <https://github.com/falaimo99/sam/data/> .
 @prefix sam: <https://purl.org/samcore#> .
 @prefix wdp: <https://www.wikidata.org/wiki/Property:> .
 @prefix wdt: <https://www.wikidata.org/wiki/> .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio a sam:Story ;
-    wdp:P527 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_CharacterList,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9 .
+datasam:Petrosinella_CuntodeliCunti_Basile a sam:Story ;
+    sam:hasTrope datasam:trope_GirlInTheTower ;
+    wdp:P527 datasam:Petrosinella_CuntodeliCunti_Basile_CharacterList,
+        datasam:Petrosinella_CuntodeliCunti_Basile_Scene1,
+        datasam:Petrosinella_CuntodeliCunti_Basile_Scene2,
+        datasam:Petrosinella_CuntodeliCunti_Basile_Scene3,
+        datasam:Petrosinella_CuntodeliCunti_Basile_Scene4,
+        datasam:Petrosinella_CuntodeliCunti_Basile_Scene5,
+        datasam:Petrosinella_CuntodeliCunti_Basile_Scene6,
+        datasam:Petrosinella_CuntodeliCunti_Basile_Scene7,
+        datasam:Petrosinella_CuntodeliCunti_Basile_Scene8 .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_CharacterList a sam:CharacterList ;
-    wdp:P527 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_oste,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ruffiano,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_secondi_ladri_di_tombe,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicinato,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_1,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_2 .
+datasam:Petrosinella_CuntodeliCunti_Basile_CharacterList a sam:CharacterList ;
+    wdp:P527 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia,
+        datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
+        datasam:Petrosinella_CuntodeliCunti_Basile_animalitrasformati,
+        datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprencipe,
+        datasam:Petrosinella_CuntodeliCunti_Basile_orca,
+        datasam:Petrosinella_CuntodeliCunti_Basile_orcs,
+        datasam:Petrosinella_CuntodeliCunti_Basile_vicina .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Mercato_di_Napoli ;
-    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1_excerpt ;
-    sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_AndreuccioDiPietro,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia .
+datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia_name a wdt:Q82799 ;
+    sam:hasName "Pascadozia" .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ ;
-    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt ;
-    sam:referenceMaterialSource "" .
+datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella_name a wdt:Q82799 ;
+    sam:hasName "Petrosinella" .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text """e già avvicinandosi al
-    giorno, con quello anello in dito andando all’avventura,
-    pervenne alla marina e quindi al suo albergo si abbattè;
-    dove li suoi compagni e l’albergatore trovò tutta la notte
-    stati in sollecitudine de’ fatti suoi. A’quali ciò che avve¬
-    nuto gli era raccontato, parve per lo consiglio dell’oste
-    loro che costui incontanente si dovesse di Napoli parti¬
-    re; la qual cosa egli fece prestamente e a Perugia tornos-
-    si, avendo il suo investito in uno anello, dove per com¬
-    perare cavalli era andato.
-""" .
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene1 a sam:Scene ;
+    sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_giardinoOrca ;
+    sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene1_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
+    wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text """
-
-    
-    
-    
-
-Fu, secondo che io già intesi, in Perugia un giovane il
-cui nome era Andreuccio di Pietro, cozzone di cavalli; il
-quale, avendo inteso che a Napoli era buon mercato di
-cavalli, messisi in borsa cinquecento fiorin d’oro, non
-essendo mai più fuori di casa stato, con altri mercatanti
-là se n’andò: dove giunto una domenica sera in sul ve¬
-spro, dall’oste suo informato la seguente mattina fu in
-sul Mercato, e molti ne vide e assai ne gli piacquero e di
-più e più mercato tenne, né di niuno potendosi accorda¬
-re, per mostrare che per comperar fosse, sì come rozzo e
-poco cauto più volte in presenza di chi andava e di chi
-veniva trasse fuori questa sua borsa de’ fiorini che aveva.
-
-E in questi trattati stando, avendo esso la sua borsa 
-mostrata, avvenne che una giovane ciciliana bellissima, 
-ma disposta per piccol pregio a compiacere a qualunque 
-uomo, senza vederla egli, passò appresso di lui e la sua 
-borsa vide e subito seco disse: - Chi starebbe meglio di 
-me se quegli denari fosser miei? - e passò oltre. 
-
-Era con questa giovane una vecchia similmente cici¬ 
-liana, la quale, come vide Andreuccio, lasciata oltre la 
-giovane andare, affettuosamente corse a abbracciarlo: il 
-che la giovane veggendo, senza dire alcuna cosa, da una
-delle parti la cominciò a attendere. Andreuccio, alla vec¬ 
-chia rivoltosi e conosciutala, le fece gran festa, e promet¬ 
-tendogli essa di venire a lui all’albergo, senza quivi tene¬ 
-re troppo lungo sermone, si partì: e Andreuccio si tornò 
-a mercatare ma niente comperò la mattina. 
-
-
-La giovane, che prima la borsa d’Andreuccio e poi la 
-contezza della sua vecchia con lui aveva veduta, per ten¬ 
-tare se modo alcuno trovar potesse a dovere aver quelli 
-denari, o tutti o parte, cautamente incominciò a doman¬ 
-dare chi colui fosse o donde e che quivi facesse e come il 
-conoscesse. La quale ogni cosa così particularmente de’ 
-fatti d’Andreuccio le disse come avrebbe per poco detto 
-egli stesso, sì come colei che lungamente in Cicilia col 
-padre di lui e poi a Perugia dimorata era, e similmente le 
-contò dove tornasse e perché venuto fosse. 
-""" .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
-    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2_excerpt ;
-    sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text """
-	
-		
-		
-		
-		
-	
-    La giovane, pienamente informata e del parentado di
-    lui e de’ nomi, al suo appetito fornire con una sottil ma¬
-    lizia, sopra questo fondò la sua intenzione, 
-        e a casa tor¬
-        natasi
-    , mise la vecchia in faccenda per tutto il giorno ac¬
-    ciò che a Andreuccio non potesse tornare: e presa una
-    sua fanticella, la quale essa assai bene a così fatti servigi
-    aveva ammaestrata, in sul vespro la mandò all’albergo
-    dove Andreuccio tornava. La qual, quivi venuta, per
-    ventura lui medesimo e solo trovò in su la porta e di lui
-    stesso il domandò. Alla quale dicendole egli che era des¬
-    so, essa, tiratolo da parte, disse:
-    
-    - Messere, una gentil donna di questa terra, quando
-    vi piacesse, vi parleria volentieri.
-    
-    Il quale ve vedendola, tutto postosi mente e parendo¬
-    gli essere un bel fante della persona, s’avvisò questa
-    donna dover di lui essere innamorata, quasi altro bel
-    giovane che egli non si trovasse allora in Napoli, e pre¬
-    stamente rispose che era apparecchiato e domandolla
-    dove e quando questa donna parlargli volesse. A cui la
-    fanticella rispose:
-    
-    - Messere, quando di venir vi piaccia, ella v’attende
-    in casa sua.
-    
-    Andreuccio presto, senza alcuna cosa dir nell’albergo,
-    disse:
-    
-    - Or via mettiti avanti, io ti verrò appresso.
-""" .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
-    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3_excerpt ;
-    sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text """
-	
-		
-		
-		
-	
-    Laonde la fanticella a casa di costei il condusse, la
-    
-    quale dimorava in una contrada chiamata Malpertugio,
-    la quale quanto sia onesta contrada il nome medesimo il
-    dimostra. Ma esso, niente di ciò sappiendo né suspican-
-    do, credendosi in uno onestissimo luogo andare e a una
-    cara donna, liberamente, andata la fanticella avanti, se
-    n’entrò nella sua casa; e salendo su per le scale, avendo
-    la fanticella già sua donna chiamata e detto - Ecco An¬
-    dreuccio, -, la vide in capo della scala farsi a aspettarlo.
-    
-    Ella era ancora assai giovane, di persona grande e con
-    bellissimo viso, vestita e ornata assai orrevolemente; alla
-    quale come Andreuccio fu presso, essa incontrogli da
-    tre gradi discese con le braccia aperte, e avvinghiatogli il
-    collo alquanto stette senza alcuna cosa dire, quasi da so¬
-    perchia tenerezza impedita; poi lagrimando gli basciò la
-    fronte e con voce alquanto rotta disse:
-    
-    - O Andreuccio mio, tu sii il ben venuto!
-    
-    Esso, maravigliandosi di così tenere carezze, tutto
-    stupefatto rispose:
-    
-    - Madonna, voi siate la ben trovata!
-    
-    Ella appresso, per la man presolo, suso nella sua sala
-    il menò e di quella, senza alcuna cosa parlare, con lui
-    nella sua camera se n’entrò, la quale di rose, di fiori
-    d’aranci e d’altri odori tutta oliva, là dove egli un bellis¬
-    simo letto incortinato e molte robe su per le stanghe, se¬
-    condo il costume di là, e altri assai belli e ricchi arnesi vi¬
-    de; per le quali cose, sì come nuovo, fermamente
-    credette lei dovesse essere non men che gran donna. E
-    postisi a sedere insieme sopra una cassa che appiè del
-    suo letto era, così gli cominciò a parlare:
-    
-    - Andreuccio, io sono molto certa che tu ti maravigli
-    
-    e delle carezze le quali io ti fo e delle mie lagrime, sì co¬
-    me colui che non mi conosci e per avventura mai ricor¬
-    dar non m’udisti. Ma tu udirai tosto cosa la quale più ti
-    farà forse maravigliare, sì come è che io sia tua sorella; e
-    dicoti che, poi che idio m’ha fatta tanta grazia che io an¬
-    zi la mia morte ho veduto alcuno de’ miei fratelli, come
-    che io disideri di vedervi tutti, io non morrò a quella ora
-    che io consolata non muoia. E se tu forse questo mai più
-    non udisti, io tei vo’ dire. Pietro, mio padre e tuo, come
-    io credo che tu abbi potuto sapere, dimorò lungamente
-    in Palermo, e per la sua bontà e piacevolezza vi fu e è
-    ancora da quegli che il conobbero amato assai. Ma tra
-    gli altri che molto l’amarono, mia madre, che gentil don¬
-    na fu e allora era vedova, fu quella che più l’amò, tanto
-    che, posta giù la paura del padre e de’ fratelli e il suo
-    onore, in tal guisa con lui si dimesticò, che io ne nacqui
-    e sonne qual tu mi vedi.
-    
-    Poi, sopravenuta cagione a Pietro di partirsi di Paler¬
-    mo e tornare in Perugia, me con la mia madre piccola
-    fanciulla lasciò, né mai, per quello che io sentissi, più né
-    di me né di lei si ricordò: di che io, se mio padre stato
-    non fosse, forte il riprenderei avendo riguardo alla in¬
-    gratitudine di lui verso mia madre mostrata (lasciamo
-    stare allo amore che a me come a sua figliola non nata
-    d’una fante né di vii femina dovea portare), la quale le
-    sue cose e sé parimente, senza sapere altrimenti chi egli
-    si fosse, da fedelissimo amor mossa rimise nelle sue ma¬
-    ni.
-    
-    Ma che è?. Le cose mal fatte e di gran tempo passate
-    sono troppo più agevoli a riprendere che a emendare: la
-    cosa andò pur così. Egli mi lasciò piccola fanciulla in
-    Palermo, dove, cresciuta quasi come io mi sono, mia
-    madre, che ricca donna era, mi diede per moglie a uno
-    da Gergenti, gentile uomo e da bene, il quale per amor
-    di mia madre e di me tornò a stare a Palermo; e quivi,
-    come colui che è molto guelfo cominciò a avere alcuno    
-    trattato col nostro re Carlo. Il quale, sentito dal re Fede¬
-    rigo prima che dare gli si potesse effetto, fu cagione di
-    farci fuggire di Cicilia quando io aspettava essere la
-    maggior cavalieressa che mai in quella isola fosse; don¬
-    de, prese quelle poche cose che prender potemmo (po¬
-    che dico per rispetto alle molte le quali avavamo), la
-    sciate le terre e li palazzi, in questa terra ne rifuggimmo,
-    dove il re Carlo verso di noi trovammo sì grato che, ri¬
-    storatici in parte li danni li quali per lui ricevuti avava¬
-    mo, e possessioni e case ci ha date, e dà continuamente
-    al mio marito, e tuo cognato che è, buona provisione, sì
-    come tu potrai ancor vedere. E in questa maniera son
-    qui, dove io, la buona mercé di Dio e non tua, fratei mio
-    dolce, ti veggio.
-    
-    E così detto, da capo il rabbracciò e ancora tenera¬
-    mente lagrimando gli basciò la fronte.
-    
-    Andreuccio, udendo questa favola così ordinatamen¬
-    te, così compostamente detta da costei, alla quale in niu-
-    no atto moriva la parola tra’ denti né balbettava la lin¬
-    gua, e ricordandosi esser vero che il padre era stato in
-    Palermo e per se medesimo de’ giovani conoscendo i co¬
-    stumi, che volentieri amano nella giovanezza, e veggen-
-    do le tenere lagrime, gli abbracciari e gli onesti basci,
-    ebbe ciò che ella diceva più che per vero: e poscia che
-    ella tacque, le rispose:
-    
-    - Madonna, egli non vi dee parer gran cosa se io mi
-    maraviglio: per ciò che nel vero, o che mio padre, per
-    che che egli sei facesse, di vostra madre e di voi non ra¬
-    gionasse giammai, o che, se egli ne ragionò, a mia notizia
-    venuto non sia, io per me niuna coscienza aveva di voi se
-    non come se non foste; e emmi tanto più caro l’avervi
-    qui mia sorella trovata, quanto io ci sono più solo e me¬
-    no questo sperava. E nel vero io non conosco uomo di sì
-    alto affare al quale voi non doveste esser cara, non che a
-    me che un picciolo mercatante sono. Ma d’una cosa vi
-    priego mi facciate chiaro: come sapeste voi che io qui
-    fossi?»
-    
-    Al quale ella rispose: - Questa mattina mel fè sapere
-    una povera femina la qual molto meco si ritiene, per ciò
-    che con nostro padre, per quello che ella mi dica, lunga¬
-    mente e in Palermo e in Perugia stette, e se non fosse
-    che più onesta cosa mi parea che tu a me venissi in casa
-    tua che io a te nell’altrui, egli ha gran pezza che io a te
-    venuta sarei.
-    
-    Appresso queste parole ella cominciò distintamente a
-    domandare di tutti i suoi parenti nominatamente, alla
-    quale di tutti Andreuccio rispose, per questo ancora più
-    credendo quello che meno di creder gli bisognava.
-""" .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
-    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4_excerpt ;
-    sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text """
-    
-		
-		
-    
-    Essendo stati i ragionamenti lunghi e il caldo grande,
-    ella fece venire greco e confetti e fè dar bere a Andreuc¬
-    cio; il quale dopo questo partir volendosi, per ciò che
-    ora di cena era, in niuna guisa il sostenne, ma sembiante
-    fatto di forte turbarsi abbracciandol disse:
-    
-    - Ahi lassa me, ché assai chiaro conosco come io ti sia
-    poco cara! Che è a pensare che tu sii con una tua sorella
-    mai più da te non veduta, e in casa sua, dove, qui venen¬
-    do, smontato esser dovresti, e vogli di quella uscire per
-    andare a cenare all’albergo? Di vero tu cenerai con esso
-    meco: e perché mio marito non ci sia, di che forte mi
-    grava, io ti saprò bene secondo donna fare un poco
-    d’onore.
-    
-    Alla quale Andreuccio, non sappiendo altro che ri¬
-    spondersi, disse:
-    
-    - Io v’ho cara quanto sorella si dee avere, ma se io
-    non ne vado, io sarò tutta sera aspettato a cena e farò vil¬
-    lania.
-    
-    Ed ella allora disse:
-    
-    - Lodato sia idio, se io non ho in casa per cui manda¬
-    re a dire che tu non sii aspettato! benché tu faresti assai
-    maggior cortesia, e tuo dovere, mandare a dire a’ tuoi
-    compagni che qui venissero a cenare, e poi, se pure an¬
-    dare te ne volessi, ve ne potresti tutti andar di brigata,
-    
-    Andreuccio rispose che de’ suoi compagni non volea
-    quella sera, ma, poi che pure a grado l’era, di lui facesse
-    il piacer suo. Ella allora fè vista di mandare a dire all’al¬
-    bergo che egli non fosse atteso a cena; e poi, dopo molti
-    altri ragionamenti, postisi a cena e splendidamente di
-    più vivande serviti, astutamente quella menò per lunga
-    infino alla notte obscura; ed essendo da tavola levati e
-    Andreuccio partir volendosi, ella disse che ciò in niuna
-    guisa sofferrebbe, per ciò che Napoli non era terra da
-    andarvi per entro di notte, e massimamente un forestie¬
-    re; e che come che egli a cena non fosse atteso aveva
-    mandato a dire, così aveva dello albergo fatto il somi¬
-    gliante.    
-""" .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
-    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5_excerpt ;
-    sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanciullo,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ruffiano,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_1,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_2 .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5_excerpt a wdt:Q1385610 ;
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene1_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """
     
         
-		
-		
-        
-        
-        
     
-    Egli, questo credendo e dilettandogli, da falsa creden¬
-    za ingannato, d’esser con costei, stette. Furono adunque
-    dopo cena i ragionamenti molti e lunghi non senza ca¬
-    gione tenuti; e essendo della notte una parte passata, el¬
-    la, lasciato Andreuccio a dormire nella sua camera con
-    un piccol fanciullo che gli mostrasse se egli volesse nul¬
-    la, con le sue femine in un’altra camera se n’andò.
-    
-    Era il caldo grande: per la qual cosa Andreuccio, veg-
-    gendosi solo rimasto, subitamente si spogliò in farsetto e
-    trassesi i panni di gamba e al capo del letto gli si pose; e
-    richiedendo il naturale uso di dovere diporre il super¬
-    fluo peso del ventre, dove ciò si facesse domandò quel
-    fanciullo, il quale nell’uno de’ canti della camera gli mo¬
-    strò uno uscio e disse:
-    
-    - Andate là entro.
-    
-    Andreuccio dentro sicuramente passato, gli venne
-    per ventura posto il piè sopra una tavola, la quale dalla
-    contraposta parte sconfitta dal travicello sopra il quale
-    era; per la qual cosa capolevando questa tavola con lui
-    insieme se n’andò quindi giuso: e di tanto l’amò idio,
-    che niuno male si fece nella caduta, quantunque alquan-
-    
-    to cadesse da alto, ma tutto della bruttura, della quale il
-    luogo era pieno, s’imbrattò. Il quale luogo, acciò che
-    meglio intendiate e quello che è detto e ciò che segue,
-    come stesse vi mostrerò. Egli era in un chiassetto stretto,
-    come spesso tra due case veggiamo: sopra due travicelli,
-    tra l’una casa e l’altra posti, alcune tavole eran confitte e
-    il luogo da seder posto, delle quali tavole quella che con
-    lui cadde era l’una.
-    
-    Ritrovandosi adunque là giù nel chiassetto Andreuc¬
-    cio, dolente del caso, cominciò a chiamare il fanciullo;
-    ma il fanciullo, come sentito l’ebbe cadere, così corse a
-    dirlo alla donna. La quale, corsa alla sua camera, presta¬
-    mente cercò se i suoi panni v’erano; e trovati i panni e
-    con essi i denari, li quali esso non fidandosi mattamente
-    sempre portava addosso, avendo quello a che ella di Pa¬
-    lermo, sirocchia d’un perugin faccendosi, aveva teso il
-    lacciuolo, più di lui non curandosi prestamente andò a
-    chiuder l’uscio del quale egli era uscito quando cadde.
-    
-    Andreuccio, non rispondendogli il fanciullo, comin¬
-    ciò più forte a chiamare: ma ciò era niente. Per che egli,
-    già sospettando e tardi dello inganno cominciandosi a
-    accorgere salito sopra un muretto che quello chiassolino
-    dalla strada chiudea e nella via disceso, all’uscio della
-    casa, il quale egli molto ben riconobbe, se n’andò, e qui¬
-    vi invano lungamente chiamò e molto il dimenò e per¬
-    cosse. Di che egli piagnendo, come colui che chiara ve-
-    dea la sua disavventura, cominciò a dire:
-    
-    - Oimè lasso, in come piccol tempo ho io perduti cin¬
-    quecento fiorini e una sorella!
-    
-    E dopo molte altre parole, da capo cominciò a battere
-    l’uscio e a gridare; e tanto fece così che molti de’ circun-
-    stanti vicini, desti, non potendo la noia sofferire, si leva¬
-    rono; e una delle servigiali della donna, in vista tutta
-    sonnocchiosa, fattasi alla finestra proverbiosamente dis¬
-    se:
-    
-    - Chi picchia là giù?
+Era na vota na femmena prena, chiammata Pascadozia; la quale, affacciatose a na fenestra, che sboccava a no giardino de n’orca, vedde no bello quatro de petrosine. De lo quale le venne tanto golio, che se senteva ashievolire. Tanto che, non potenno resistere, abistato quanno scette l’orca, ne cogliette na vraucata.""" .
 
-    - Oh! - disse Andreuccio - o non mi conosci tu? Io
-    sono Andreuccio, fratello di madama Fiordaliso.
-    
-    Al quale ella rispose: - Buono uomo, se tu hai troppo
-    bevuto, va dormi e tornerai domattina; io non so che
-    Andreuccio né che ciance son quelle che tu dì; va in
-    buona ora e lasciaci dormir, se ti piace.
-    
-    - Come, - disse Andreuccio - non sai che io mi dico?
-    Certo sì sai; ma se pur son così fatti i parentadi di Cici¬
-    lia, che in sì piccol termine si dimentichino, rendimi al¬
-    meno i panni miei li quali lasciati v’ho, e io m’andrò vo-
-    lentier con Dio.
-    
-    Al quale ella quasi ridendo disse:
-    
-    - Buono uomo, e’ mi par che tu sogni, -, e il dir que¬
-    sto e il tornarsi dentro e chiuder la finestra fu una cosa.
-    Di che Andreuccio, già certissimo de’ suoi danni, quasi
-    per doglia fu presso a convertire in rabbia la sua grande
-    ira e per ingiuria propose di rivolere quello che per pa¬
-    role riaver non potea; per che da capo, presa una gran
-    pietra, con troppi maggior colpi che prima fieramente
-    cominiciò a percuotere la porta. La qual cosa molti de’
-    vicini avanti destisi e levatisi, credendo lui essere alcuno
-    spiacevole il quale queste parole fingesse per noiare
-    quella buona femina, recatosi a noia il picchiare il quale
-    egli faceva, fattisi alle finestre, non altramenti che a un
-    can forestiere tutti quegli della contrada abbaiano ados-
-    so, cominciarono a dire:
-    
-    - Questa è una gran villania a venire a questa ora a ca¬
-    sa le buone femine e dire queste ciance; deh! va con
-    Dio, buono uomo; lasciaci dormir, se ti piace; e se tu hai
-    nulla a far con lei, tornerai domane, e non ci dar questa
-    seccaggine stanotte.
-    
-    Dalle quali parole forse assicurato uno che dentro
-    dalla casa era, ruffiano della buona femina, il quale egli
-    né veduto né sentito avea, si fece alle finestre e con una
-    boce grossa, orribile e fiera disse:
-    
-    - Chi è laggiù?
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene2 a sam:Scene ;
+    sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_giardinoOrca ;
+    sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene2_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
+    wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia,
+        datasam:Petrosinella_CuntodeliCunti_Basile_orca .
 
-    Andreuccio, a quella voce levata la testa, vide uno il
-    quale, per quel poco che comprender potè, mostrava di
-    dovere essere un gran bacalare, con una barba nera e
-    folta al volto, e come se del letto o da alto sonno si levas¬
-    se sbadigliava e stropicciavasi gli occhi: a cui egli, non
-    senza paura, rispose:
-    
-    - Io sono un fratello della donna di là entro.
-    
-    Ma colui non aspettò che Andreuccio finisse la rispo¬
-    sta, anzi più rigido assai che prima disse:
-    
-    - Io non so a che io mi tegno che io non vegno là giù,
-    e deati tante bastonate quante io ti vegga muovere, asino
-    fastidioso e ebriaco che tu dei essere, che questa notte
-    non ci lascerai dormire persona e tornatosi dentro
-    serrò la finestra.
-    
-    Alcuni de’ vicini, che meglio conoscieno la condizion
-    di colui, umilmente parlando a Andreuccio dissono:
-    
-    - Per Dio, buono uomo, vatti con Dio, non volere sta¬
-    notte essere ucciso costì: vattene per lo tuo migliore.
-""" .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6 a sam:Scene ;
-    sam:hasChange datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_andreuccioDiPietro_change ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Napoli ;
-    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_excerpt ;
-    sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_andreuccioDiPietro_change a sam:Change ;
-    sam:changeExcerpt "cattivel" ;
-    sam:descriptor "cattivel" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_excerpt a wdt:Q1385610 ;
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene2_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """
     
         
         
     
-    Laonde Andreuccio, spaventato dalla voce di colui e
-    dalla vista e sospinto da’ conforti di coloro li quali gli
-    pareva che da carità mossi parlassero, doloroso quanto
-    mai alcuno altro e de’ suoi denar disperato, verso quella
-    parte onde il dì aveva la fanticella seguita, 
-        senza sa per
-        dove s’andasse, prese la via per tornarsi all’albergo
-    . E a
-    se medesimo dispiacendo per lo puzzo che a lui di lui
-    veniva, disideroso di volgersi al mare per lavarsi, si torse
-    a man sinistra e su per una via chiamata la Ruga Catala¬
-    na si mise. E verso l’alto della città andando, per ventura
-    davanti si vide due che verso di lui con una lanterna in
-    mano venieno li quali temendo non fosser della famiglia
-    della corte o altri uomini a mal far disposti, per fuggirli,
-    in un casolare, il qual si vide vicino, pianamente rico¬
-    verò. Ma costoro, quasi come a quello proprio luogo in¬
-    viati andassero, in quel medesimo casolare se n’entraro¬
-    no; e quivi l’un di loro, scaricati certi ferramenti che in
-    collo avea, con l’altro insieme gl’incominciò a guardare,
-    varie cose sopra quegli ragionando. E mentre parlavano,
-    disse l’uno:
-    
-    - Che vuol dir questo? Io sento il maggior puzzo che
-    mai mi paresse sentire e questo detto alzata alquanto
-    la lanterna, ebbe veduto il cattivel d’Andreuccio, e stu¬
-    pefatti domandar: - Chi è là?
-    
-    Andreuccio taceva, ma essi avvicinatiglisi con lume il
-    domandarono che quivi così brutto facesse: alli quali
-    Andreuccio ciò che avvenuto gli era narrò interamente.
-    Costoro, imaginando dove ciò gli potesse essere avvenu¬
-    to, dissero fra sè: - Veramente in casa lo scarabone But¬
-    tafuoco fia stato questo -. E a lui rivolti, disse l’uno:
-    
-    - Buono uomo, come che tu abbi perduti i tuoi dena¬
-    ri, tu molto a lodare idio che quel caso ti venne che tu
-    cadesti né potesti poi in casa rientrare: per ciò che, se
-    caduto non fossi, vivi sicuro che, come prima adormen-
-    tato ti fossi, saresti stato amazzato e co’ denari avresti la
-    persona perduta. Ma che giova oggimai di piagnere? Tu
-    ne potresti così riavere un denaio come avere delle stelle
-    del cielo: ucciso ne potrai tu bene essere, se colui sente
-    che tu mai ne facci parola.
-    
-    E detto questo, consigliatisi alquanto, gli dissero:
-    
-    - Vedi, a noi è presa compassion di te: e per ciò, dove
-    tu vogli con noi essere a fare alcuna cosa la quale a fare
-    andiamo, egli ci pare esser molto certi che in parte ti
-    toccherà il valere di troppo più che perduto non hai.
-    
-    Andreuccio, sì come disperato, rispuose ch’era pre¬
-    sto.
-    
-    Era quel dì sepellito uno arcivescovo di Napoli, chia¬
-    mato messer Filippo Minutolo, era stato sepellito con
-    ricchissimi ornamenti e con uno rubino in dito il quale
-    valeva oltre cinquecento fiorin d’oro, il quale costoro
-    volevano andare a spogliare; e così a Andreuccio fecer
-    veduto. Laonde Andreuccio, più cupido che consigliato,
-    con loro si mise in via; e andando verso la chiesa mag¬
-    giore, e Andreuccio putendo forte, disse l’uno:
-    
-    - Non potremmo noi trovar modo che costui si lavas¬
-    se un poco dove che sia, che egli non putisse così fiera¬
-    mente?
-    
-    Disse l’altro:
-    
-    - Sì, noi siam qui presso a un pozzo al quale suole
-    sempre esser la carrucola e un gran secchione; andianne
-    là e laverenlo spacciatamente.
-""" .
+Ma, tornata l’orca a la casa, e volenno fare la sauza, s’addonaje, ca nc’era menata la fauce, e disse: «Me se pozza scatenare lo cuollo, si nce matto sto maneco d’ancino, e non ne lo faccio pentire, azzò se mpara ogne une a magnare a lo tagliere sujo, e no scocchiariare pe le pignate d’autre!» Ma, continovanno la povera prena a rescennere9 all’uorto, nce fu na matina mattuta da l’orca. La quale, tutta arraggiata e nfelata, le disse: «Aggiotence ncappata, latra, mariola! E che ne paghe lo pesone de st’uorto, che viene, co tanta poca descrezione, a zeppoliarene l’erve meje? Affè, ca non te mannarraggio a Roma pe penetenzia!» Pascadozia, negrecata, commenzaje a scusarese, decenno, ca non pe cannarizia10, o lopa11 ch’avesse ncuorpo, l’aveva cecato lo diascance a fare st’arrore; ma ped essere prena, e dubetava, che la facce de la criatura non nascesse semmenata de petrosine; anze, deveva averele grazia, che no l’avesse mannato quarche agliarulo. «Parole vo la zita, — respose l’orca — ; no
+me nce pische co sse chiacchiare! Tu hai scomputo lo staglio de la vita, si non prommiette de daremo la criatura, che farrai, o mascolo o femmena, che se sia». La negra Pascadozia, pe scappare lo pericolo, dove se trovava, ne joraje co na mano ncoppa all’autra; e cossì l’orca la lassaje scapolà.""" .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Napoli ;
-    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7_excerpt ;
-    sam:referenceMaterialSource "" .
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene3 a sam:Scene ;
+    sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco ;
+    sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene3_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
+    wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Orca,
+        datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia,
+        datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text """
-    Giunti a questo pozzo trovarono che la fune v’era ma
-    il secchione n’era stato levato: per che insieme dilibera¬
-    rono di legarlo alla fune e di collarlo nel pozzo, e egli là
-    giù si lavasse e, come lavato fosse, crollasse la fune e essi
-    il tirerebber suso; e così fecero.
-    
-    Avvenne che, avendol costor nel pozzo collato, alcuni
-    della famiglia della signoria, li quali e per lo caldo e per¬
-    ché corsi erano dietro a alcuno avendo sete, a quel poz¬
-    zo venieno a bere: li quali come quegli due videro, in¬
-    contanente cominciarono a fuggire, li famigliari che
-    quivi venivano a bere non avendogli veduti.
-    
-    Essendo già nel fondo del pozzo Andreuccio lavato,
-    dimenò la fune. Costoro assetati, posti giù lor tavolacci e
-    loro armi e lor gonnelle, cominciarono la fune a tirare
-    credendo a quella il secchion pien d’acqua essere appi-
-    cato.
-    
-    Come Andreuccio si vide alla sponda del pozzo vici¬
-    no così, lasciata la fune, con le mani si gittò sopra quella.
-    La qual cosa costoro vedendo, da subita paura presi,
-    senza altro dir lasciaron la fune e cominciarono quanto
-    più poterono a fuggire: di che Andreuccio si maravigliò
-    forte, e se egli non si fosse bene attenuto, egli sarebbe
-    infin nel fondo caduto forse non senza suo gran danno o
-    morte; ma pure uscitone e queste arme trovate, le quali
-    egli sapeva che i suoi compagni non avean portate, an¬
-    cora più s’incominciò a maravigliare. Ma dubitando e
-    non sappiendo che, della sua fortuna dolendosi, senza
-    alcuna cosa toccar quindi diliberò di partirsi: e andava
-    senza saper dove.
-""" .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli ;
-    sam:hasTrope datasam:trope_RobbingTheDead ;
-    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8_excerpt ;
-    sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8_excerpt a wdt:Q1385610 ;
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene3_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """
     
+        
+        
+        
+    
+Ma, venuto lo tiempo de partorire, fece na figliola cossì bella, ch’era na gioja, che, pe avere na bella cimma de petrosino mpietto, la chiammaje Petrosinella. La quale, ogne juorno crescenno no parmo, comme fu de sette anne, la mannaje a la majestra. La quale sempre che jeva pe la strata, e se scontrava coll’orca, le deceva: «Dì a mammata, che s’allecorde de la mprommessa!» E, tanta vote fece sso taluerno, che la scura mamma, non avenno chiù cellevriello de sentire sta museca, le disse na vota: «Si te scuntre co la solita vecchia, e te cercarrà sta mardetta prommessa, e tu le respunne: pigliatella!» Petrosinella, che non sapeva de cola, trovanno l’orca, e facennole la stessa proposta, le respose nocentemente, comme l’aveva ditto la mamma. E l’orca, afferratala pe li capille, se ne la portaje a no vosco, dove non trasevano mai li cavalle de lo sole, pe n’essere affedate a li pascolo de chell’ombre, mettennola drinto a na torre, che fece nascere ped arte, senza porte, nè scale, sulo co no fenestriello. Pe la quale, pe li capille de Petrosinella, ch’erano luonghe luonghe, saglieva e scenneva, comme sóle batto de nave pe le nsarte dell’arvolo.""" .
+
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene4 a sam:Scene ;
+    sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco ;
+    sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene4_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
+    wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
+        datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprencipe .
+
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene4_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """
     
         
         
     
-    Così andando si venne scontrato in que’ due suoi
-    compagni, li quali a trarlo del pozzo venivano; e come il
-    videro, maravigliandosi forte, il domandarono chi del
-    pozzo l’avesse tratto. Andreuccio rispose che non sapea,
-    e loro ordinatamente disse come era avvenuto e quello
-    che trovato aveva fuori del pozzo. Di che costoro, avvi¬
-    satisi come stato era, ridendo gli contarono perché
-    s’eran fuggiti e chi stati eran coloro che su l’avean tirato.
-    E senza più parole fare, essendo già mezzanotte, n’anda¬
-    rono alla chiesa maggiore, e in quella assai leggiermente
-    entrarono e furono all’arca, la quale era di marmo e
-    molto grande; e con lor ferro il coperchio, ch’era gravis¬
-    simo, sollevaron tanto quanto uno uomo vi potesse en¬
-    trare, e puntellaronlo. E fatto questo, cominciò l’uno a
-    dire:
+Ora soccesse, ch’essenno fora de chella torre l’orca, Petrosinella, cacciato la capo fora de chillo pertuso, e spase le trezze a lo sole, pasajelo figlio de no prencipe. Lo quale, vedenno doje bannere d’oro, che chiammavano l’arme ad assentarese a lo rollo d’ammore, e miranno drinto a chelle onne preziose na facce de serena, che ncantava li core, se ncrapicciaje fora de mesura de tanta bellezze. E, mannatole no memmoriale de sospiri, fu decretato, che se l’assentasse la chiazza a la grazia soja, e la mercanzia rescì de manera, cho lo prencepe appo calate de capo a vasate de mano, nocchie a zennariello a leverenzie, rengraziamiente ad afferte, speranze a prommesse, e bone parole a liccasalemme. La quale cosa continuata pe chiù juorne, s’addomestecaro de manera, che vennero ad appontamiento de trovarese nsiemme.""" .
+
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene5 a sam:Scene ;
+    sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco ;
+    sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene5_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
+    wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
+        datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprencipe .
+
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene5_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """
     
-    - Chi entrerà dentro?
+        
+        
     
-    A cui l’altro rispose:
-    
-    - Non io.
-    
-    - Nè io, - disse colui - ma entrivi Andreuccio.
-    
-    - Questo non farò io, - disse Andreuccio. Verso il
-    quale ammenduni costoro rivolti dissero:
-    
-    - Come non v’enterrai? In fè di Dio, se tu non v’entri,
-    noi ti darem tante d’uno di questi pali di ferro sopra la
-    testa, che noi ti farem cader morto.
-    
-    Andreuccio temendo v’entrò, e entrandovi pensò se¬
-    co: - Costoro mi ci fanno entrare per ingannarmi, per
-    ciò che, come io avrò loro ogni cosa dato, mentre che io
-    penerò a uscir dall’arca, essi se ne andranno pe’ fatti lo¬
-    ro e io rimarrò senza cosa alcuna -. E per ciò s’avisò di
-    farsi innanzi tratto la parte sua; e ricordatosi del caro
-    anello che aveva loro udito dire, come fu giù disceso co¬
-    sì di dito il trasse all’arcivescovo e miselo a sè; e poi dato
-    il pasturale e la mitra è guanti e spogliatolo infino alla
-    camiscia, ogni cosa diè loro dicendo che più niente
-    v’avea.
-    
-    Costoro, affermando che esser vi doveva l’anello, gli
-    dissero che cercasse per tutto: ma esso rispondendo che
-    non trovava e sembiante facendo di cercarne, alquanto li
-    tenne ad aspettare. Costoro che d’altra parte eran sì co¬
-    me lui maliziosi,dicendo pur che ben cercasse preso
-    tempo, tirarono via il puntello che il coperchio dell’arca
-    sostenea, e fuggendosi lui dentro dall’arca lasciaron rac¬
-    chiuso.
-    
+La quale cosa doveva essere la notte, quanno la luna joqua a passara muta co le stelle, ch’essa averria dato l’addormio a l’orca, e ne l’averria aisato co li capille. E, cossì restate de commegna, venne l’ora appontata; e lo prencepe se consignaje a la torre. Dove, fatto calare a sisco le trezze de Petrosinella, ed afferratose a doi mano, disse: «Aisa!»; e, tirato ncoppa, schiaffatose pe lo fenestriello drinto la cammara, se fece no pasto de chillo petrosino de la sauza d’ammore. E, nante che lo sole mozzasse li cavalle suoje a sautare pe lo chirchio de lo zodiaco, se ne calaje pe la medesema scala d’oro a fare li fatto suoje. 
 """ .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli ;
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene6 a sam:Scene ;
+    sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_ ;
+    sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene6_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
+    wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
+        datasam:Petrosinella_CuntodeliCunti_Basile_commaredellorca,
+        datasam:Petrosinella_CuntodeliCunti_Basile_orca .
+
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene6_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """
+    
+        
+        
+        
+    
+La quale cosa continuanno spesse vote a fare, se n’addonaje na commare dell’orca; la quale, pigliannose lo mpaccio de lo Russo, voze mettere lo musso a la merda, e disse all’orca, che stesse ncellevriello, ca Petrosinella faceva l’ammore co no cierto giovene, e sospettava, che non fossero passate chiù nante le cose; perchè vedeva lo moschito, e lo trafeco, che se faceva; e dobetava, che, fatto no leva ejo, non fossero sfrattate nante Majo da chella casa. L’orca rengraziaje la commare de lo buono avertemiento, e disse, ca sarria stato penziero sujo de mpedire la strata a Petrosinella, otra che non era possibile, che fosse potuta foire ped averele fatto no ncanto, che, si n’aveva mano tre gliantre, nascose drinto a no trave de la cecina, era opera perza, che potesse sfilarennella. Ma, mentre erano a sti ragionamiente Petrosinella, che steva co l’aurecchie appezzute, ed aveva quarche sospetto de la commare, ntese tutto lo trascurzo.
+""" .
+
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene7 a sam:Scene ;
+    sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_notSpecified ;
+    sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene7_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
+    wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
+        datasam:Petrosinella_CuntodeliCunti_Basile_animalitrasformati,
+        datasam:Petrosinella_CuntodeliCunti_Basile_commaredellorca,
+        datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprencipe,
+        datasam:Petrosinella_CuntodeliCunti_Basile_orca .
+
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene7_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """
+    
+        
+        
+        
+        
+        
+    
+ E, comme la notte spase li vestite nigre, perchè se conservassero da le carole, venuto a lo solito lo prencepe, lo fece saglire ncoppa li trave. E, trovate le gliantre, le quale sapenno comme se l’avevano da adoperare, ped essere stata fatata dall’orca, fatta na scala de fonecella, se ne scesero tutte duje a bascio, e commenzaro a toccare de carcagne verzo la cetate. Ma, essenno viste a lo scire da la commare, commenzaje a strillare, chiammanno l’orca; e tanto fu lo strillatorio, che se scetaje. E, sentenno ca Petrosinella se n’era fojuta, se ne scese pe la medesima scala, ch’era legata a lo fenestriello, e commenzaje a correre dereto li nnamorate. Li quale, comme la veddero venire, chiù de no cavallo scapolo, a la vota lloro, se tennero perdute. Ma, lecordannose Petrosinella de le gliantre, ne jettaje subeto una nterra. Ed eccote sguigliare no cane corzo, cossì terribile, ch’o mamma mia! Lo quale, co tanto de canna aperta, abbajanno, jeze ncontra all’orca pe se ne fare no voccone. Ma chella, ch’era chiù maliziosa de parasacco, puostose mano a la saccocciola, ne cacciaje na panella; e, datola a lo cane, le fece cadere la coda, ed ammosciare la furia. E, tornato a correre dereto chille, che fojevano, Petrosinella, vistola avvecenare, jettaje la seconna gliantra. Ed ecco scire no feroce lione, che, sbattenno la coda nterra, e scotolanno li crine, co dui parme de cannarone spaparanzato, s’era puosto all’ordene de fare scafaccio dell’orca. E l’orca, tornanno arreto, scortecaje n’aseno, che pasceva miezo a no prato; e, puostose la pella ncoppa, corze de nuovo ncontra a chillo lione. Lo quale, credennose che fosse no ciuccio, appe tanta paura, ch’ancora fuje. Pe la quale cosa, sautato sto secunno fuosso, l’orca tornaje a secotare chille povere giuvane, che, sentenno lo scarponejare, e vedenno la nuvola de la porvere, che s’auzava a lo cielo, conjetturaro ca l’orca se ne veneva de nuovo. La quale, avenno sempre sospetto, che no la secotasse lo lione, non se avea levato la pelle dell’aseno. Ed, avonno Petrosinella jettato la terza gallozza, ne scette no lupo. Lo quale, senza dare tiempo all’orca de pigliare nuovo partito, se la norcaje comm’a n’aseno,""" .
+
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene8 a sam:Scene ;
+    sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_notSpecified ;
     sam:hasTrope datasam:trope_HappyEnding ;
-    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9_excerpt ;
-    sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe_secondi .
+    sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene8_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
+    wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprincipe,
+        datasam:Petrosinella_CuntodeliCunti_Basile_petrosinella .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9_excerpt a wdt:Q1385610 ;
+datasam:Petrosinella_CuntodeliCunti_Basile_Scene8_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """
     
     
         
         
     
-    La qual cosa sentendo Andreuccio, qual egli allor di¬
-    venisse ciascun sei può pensare.
-    
-    Egli tentò più volte e col capo e con le spalle se alzare
-    potesse il coperchio, ma invano si faticava: per che da
-    grave dolor vinto, venendo meno cadde sopra il morto
-    corpo dell’arcivescovo; e chi allora veduti gli avesse ma¬
-    lagevolmente avrebbe conosciuto chi più si fosse morto,
-    o l’arcivescovo o egli. Ma poi che in sé fu ritornato, di¬
-    rottissimamente cominciò a piagnere, veggendosi quivi
-    senza dubbio all’un de’ due fini dover pervenire: o in
-    quella arca, non venendovi alcuni più a aprirla, di fame
-    e di puzzo tra’ vermini del morto corpo convenirlo mo¬
-    rire, o vegnendovi alcuni e trovandovi lui dentro, sì co¬
-    me ladro dovere essere appiccato.
-    
-    E in così fatti pensieri e doloroso molto stando, sentì
-    per la chiesa andar genti e parlar molte persone, le quali
-    sì come gli avvisava, quello andavano a fare che esso co’
-    suoi compagni avean già fatto: di che la paura gli crebbe
-    forte. Ma poi che costoro ebbero l’arca aperta e puntel¬
-    lata, in quistion caddero chi vi dovesse entrare, e niuno
-    il voleva fare; pur dopo lunga tendone un prete disse:
-    
-    - Che paura avete voi? credete voi che egli vi manu-
-    chi? Li morti non mangian uomini: io v’entrerò dentro
-    io.
-    
-    E così detto, posto il petto sopra l’orlo dell’arca, volse
-    il capo in fuori e dentro mandò le gambe per doversi
-    giuso calare.
-    
-    Andreuccio, questo vedendo, in piè levatosi prese il
-    prete per l’una delle gambe e fè sembiante di volerlo giù
-    tirare. La qual cosa sentendo il prete mise uno strido
-    grandissimo e presto dell’arca si gittò fuori; della qual
-    cosa tutti gli altri spaventati, lasciata l’arca aperta, non
-    altramente a fuggir cominciarono che se da centomilia
-    diavoli fosser perseguitati.
-    
-    La qual cosa veggendo Andreuccio, lieto oltre a quel¬
-    lo che sperava, subito si gittò fuori e per quella via onde
-    era venuto se ne uscì dalla chiesa;""" .
+e li nammorate, scenno de mpaccio, se ne jettero chiano chiano a lo regno de lo prencepe. Dove, co bona lecenzia de lo patre, se la pigliaje pe mogliere, e provaro, dapò tante tempeste de travaglie:
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_name a wdt:Q82799 ;
-    sam:hasName "Andreuccio di Pietro" .
+          Che n’ora di buon puorto
+          Fa scordare cient’anne de fortuna!
+""" .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_occupation a wdt:Q12737077 ;
-    sam:hasTitle "cozzone di cavalli" .
+datasam:Petrosinella_CuntodeliCunti_Basile_orcs a sam:GroupOfCharacters ;
+    sam:hasTrope datasam:trope_OurOgresAreHungrier .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella_occupation_fanticella a wdt:Q12737077 ;
-    sam:hasTitle "fanticella" ;
-    wdp:P1416 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso .
+datasam:Petrosinella_CuntodeliCunti_Basile_vicina a wdt:Q95074 .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso_name a wdt:Q82799 ;
-    sam:hasName "Madama Fiordaliso" .
+datasam:trope_DamselInDistress a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/DamselInDistress" .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso_occupation_prostituta a wdt:Q12737077 ;
-    sam:hasTitle "prostituta" ;
-    wdp:P1416 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ruffiano .
+datasam:trope_GirlInTheTower a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/GirlInTheTower" .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_oste a wdt:Q95074 ;
-    sam:narratorName "oste" .
+datasam:trope_HappyEnding a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding" .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_secondi_ladri_di_tombe a sam:GroupOfCharacters .
+datasam:trope_KnightInShiningArmor a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/KnightInShiningArmor" .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicinato a sam:GroupOfCharacters .
+datasam:trope_OurOgresAreHungrier a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/OurOgresAreHungrier" .
 
-datasam:trope_DynamicCharacter a sam:PeriodicTableTrope ;
-    sam:tropeURI "http://tvtropes.org/pmwiki/pmwiki.php/Main/DynamicCharacter" .
+datasam:trope_SummonMagic a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/SummonMagic" .
 
-datasam:trope_FemmeFatale sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/FemmeFatale" .
+datasam:trope_VillainAntagonist a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/VillainAntagonist" .
 
-datasam:trope_HappyEnding sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding" .
+datasam:Petrosinella_CuntodeliCunti_Basile_animalitrasformati a sam:GroupOfCharacters ;
+    sam:hasTrope datasam:trope_SummonMagic .
 
-datasam:trope_RobbingTheDead sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead" .
+datasam:Petrosinella_CuntodeliCunti_Basile_giardinoOrca a sam:Setting .
 
-datasam:trope_TheProtagonist a sam:PeriodicTableTrope ;
-    sam:tropeURI "http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist" .
+datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco a sam:Setting .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro a wdt:Q95074 ;
-    sam:hasTrope datasam:trope_DynamicCharacter,
-        datasam:trope_TheProtagonist ;
-    sam:narratorName "Andreuccio da Perugia" ;
-    wdp:P106 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_occupation ;
-    wdp:P21 cwrc:cisMan ;
-    wdp:P2561 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_name .
+datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia a wdt:Q95074 ;
+    wdp:P2561 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia_name .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_1 a wdt:Q95074 .
+datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprencipe a wdt:Q95074 ;
+    sam:hasTrope datasam:trope_KnightInShiningArmor .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_2 a wdt:Q95074 .
+datasam:Petrosinella_CuntodeliCunti_Basile_orca a wdt:Q95074 ;
+    sam:hasTrope datasam:trope_VillainAntagonist .
 
-datasam:trope_TheAntagonist sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/TheAntagonist" .
-
-cwrc:cisMan a cwrc:Gender .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella a wdt:Q95074 ;
-    sam:narratorName "fanticella" ;
-    wdp:P106 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella_occupation_fanticella ;
-    wdp:P21 cwrc:cisWoman .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe a sam:GroupOfCharacters ;
-    sam:hasTrope datasam:trope_TheAntagonist .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ruffiano a wdt:Q95074 ;
-    sam:narratorName "ruffiano" ;
-    wdp:P21 cwrc:cisMan .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia a wdt:Q95074 ;
-    sam:descriptor "[ciciliana]" ;
-    sam:narratorName "Vecchia" ;
-    wdp:P21 cwrc:cisWoman .
-
-cwrc:cisWoman a cwrc:Gender .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso a wdt:Q95074 ;
-    sam:descriptor "[giovane, bellissima]" ;
-    sam:hasTrope datasam:trope_FemmeFatale,
-        datasam:trope_TheAntagonist ;
-    sam:narratorName "[la giovane, ciciliana]" ;
-    wdp:P106 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso_occupation_prostituta ;
-    wdp:P21 cwrc:cisWoman ;
-    wdp:P2561 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso_name .
+datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella a wdt:Q95074 ;
+    sam:hasTrope datasam:trope_DamselInDistress ;
+    wdp:P2561 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella_name .
 
