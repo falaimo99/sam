@@ -5,6 +5,21 @@
 @prefix wdp: <https://www.wikidata.org/wiki/Property:> .
 @prefix wdt: <https://www.wikidata.org/wiki/> .
 
+datasam:Belfagor_Arcidiavolo_Machiavelli a sam:Story ;
+    wdp:P527 datasam:Belfagor_Arcidiavolo_Machiavelli_CharacterList,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene1,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene10,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene11,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene12,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene2,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene3,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene4,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene5,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene6,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene7,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene8,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_scene9 .
+
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio a sam:Story ;
     wdp:P527 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_CharacterList,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1,
@@ -54,6 +69,362 @@ datasam:novellino_II_anonimo a sam:Story ;
         datasam:novellino_II_anonimo_scene4,
         datasam:novellino_II_anonimo_scene5,
         datasam:novellino_II_anonimo_scene6 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_CharacterList a sam:CharacterList ;
+    wdp:P527 datasam:Belfagor_Arcidiavolo_Machiavelli_AmbrogioAmidei,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_BonajutoTebalducci,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_Creditori,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_Cursore,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_Magistrati,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_Onesta,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_Plutone,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_ReCarlo,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_ReLodovicoVII,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_accompagnatoriDellaFigliuoladiLodovico,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_figliuolaDiReLodovicoVII,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_figliuoladiAmbrogioAmidei,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_figliuoladiCarlo,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_fratelliDiOnesta,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliGiudici,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliPrincipi .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene1 a sam:Scene ;
+    sam:hasTrope datasam:trope_Exposition ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene1_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Plutone,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliGiudici,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliPrincipi .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene10 a sam:Scene ;
+    sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_Paris ;
+    sam:hasTrope datasam:trope_BetrayalTropes ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene10_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_ReLodovicoVII,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_figliuolaDiReLodovicoVII .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene10_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """Andato
+    pertanto costui tutto sconsolato a Parigi, mostrò prima al Re, come egli era certa cosa, che per
+    lo addietro aveva guarita qualche indemoniata, ma che non era per questo, ch’egli sapesse, o
+    potesse guarire tutti; perchè se ne trovavano di sì perfida natura, che non temono nè minacci,
+    nè incanti, nè alcuna Religione; ma con tutto questo era per fare suo debito e, non gli
+    riuscendo, ne domandava scusa e perdono. Al quale il Re turbato disse, che se non la guariva,
+    che lo appenderebbe. Sentì per questo Gio. Matteo dolor grande; pure, fatto buon cuore fece
+    venire l’indemoniata, e accostatosi all’orecchio di quella umilmente si raccomandò a Roderigo,
+    ricordandogli il benificio fattogli, e di quanta ingratitudine sarebbe esempio, se lo
+    abbandonasse in tanta necessità. Al quale Roderigo disse: Deh! villan traditore, sì che tu hai
+    ardire di venirmi innanzi? Credi tu poterti vantare d’essere arricchito per le mia mani? Io
+    voglio mostrar a te ed a ciascuno, come io so dare e torre ogni cosa a mia posta; e innanzi che
+    tu ti parta di quì, io ti farò impiccare in ogni modo.""" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene11 a sam:Scene ;
+    sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_piazaDiNostraDama ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene11_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_ReLodovicoVII .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene11_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text "" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene12 a sam:Scene ;
+    sam:hasTrope datasam:trope_HappyEnding ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene12_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_ReLodovicoVII,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_accompagnatoriDellaFigliuoladiLodovico .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene12_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """Fu subito dal
+    Re ordinato tutto; e, venuta la domenica mattina e ripieno il palco di personaggi e la piazza di
+    popolo, celebrata la messa, venne la spiritata condotta in sul palco per le mani di dua vescovi
+    e molti Signori. Quando Roderigo vide tanto popolo insieme e tanto apparato, rimase quasi che
+    stupido, e fra se disse: Che cosa ha pensato di fare questo poltrone di questo villano?
+    Cred’egli sbigottirmi con questa pompa? non sa egli che io sono uso a veder le pompe del cielo,
+    e le furie dello Inferno? Io lo gastigherò in ogni modo. E accostandosegli Gio. Matteo e
+    pregandolo che dovessi uscire, gli disse: Oh! tu hai fatto il bel pensiero! Che credi tu fare
+    con questi tuoi apparati? Credi tu fuggir per questo la potenza mia, e l’ira del Re? Villano,
+    ribaldo, io ti farò impiccare in ogni modo. E così ripregandolo quello, e quell’altro dicendogli
+    villania, non parve a Gio. Matteo di perder più tempo; e fatto il cenno col cappello, tutti
+    quelli, ch’erano a romoreggiar deputati, diedero in quelli suoni, e con romori che andavano al
+    cielo ne vennero verso il palco. Al quale rumore alzò Roderigo gli orecchi, e non sapendo che
+    cosa fosse e stando forte maravigliato, tutto stupido domandò Gio. Matteo: che cosa quella
+    fosse? Al quale Gio. Matteo tutto turbato disse: Oimè! Roderigo mio, quella è la moglie tua, che
+    ti viene a ritrovare. Fu cosa maravigliosa, a pensare quanta alterazione di mente Recassi a
+    Roderigo sentir ricordare il nome della moglie; la qual fu tanta, che non pensando s’egli era
+    possibile o ragionevole, che la fosse dessa, senza replicare altro, tutto spaventato, se ne
+    fuggì, lasciando la fanciulla libera; e volle più tosto tornarsene in Inferno a render ragione
+    delle sua azioni, che di nuovo con tanti fastidj, dispetti e pericoli sottoporsi al giogo
+    matrimoniale. E così Belfagor tornato in Inferno fece fede de’ mali, che conduceva in una casa
+    la moglie; Gio. Matteo, che ne seppe più che ’l diavolo, si ritornò tosto lieto a casa.""" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene1_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """LEggesi
+    nell'antiche memorie delle Fiorentine cose, come già s’intese per relazione d’alcuno santissimo
+    uomo, la cui vita appresso qualunque in quelli tempi viveva era celebrata, che standosi astratto
+    nelle sue orazioni vide, mediante quelle, come andando infinite anime di quelli miseri mortali,
+    che nella disgrazia di Dio morivano, allo Inferno, tutte o la maggior parte si dolevono, non per
+    altro che per aver tolta moglie, essersi a tanta infelicità condotte. Donde che Minos, e
+    Radamanto, insieme con gli altri Infernali Giudici n’avevano maraviglia grandissima; e non
+    potendo credere queste calunnie, che costoro al sesso femmineo davano, esser vere, e crescendo
+    ogni giorno le querele, ed avendo di tutto fatto a Plutone conveniente rapporto, fu deliberato
+    d’aver sopra questo caso con tutti gli Infernali Principi maturo esamine, e pigliarne dipoi quel
+    partito, che fusse giudicato migliore per iscuoprire questa fallacia, e conoscerne in tutto la
+    verità.""" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene2 a sam:Scene ;
+    sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_Hell ;
+    sam:hasTrope datasam:trope_IncitingIncident,
+        datasam:trope_ThePlan ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene2_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_Plutone,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliPrincipi .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene2_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """Chiamatigli adunque a
+    concilio, parlò Plutone in questa sentenza: Ancor che io, dilettissimi miei, per celeste
+    disposizione, e per fatal sorte al tutto irrevocabile possegga questo regno, e che per questo io
+    non possa essere obbligato ad alcuno giudizio, o celeste, o mondano, nondimeno perch’egli è
+    maggiore prudenza di quelli che possono più, sottomettersi alle leggi e più stimare l’altrui
+    giudizio, ho deliberato esser da voi consigliato, come in uno caso, il quale potrebbe seguire
+    con qualche infamia del nostro imperio, io mi debba governare. Perchè dicendo tutte l’anime
+    degli uomini, che vengono nel nostro regno, esserne stato cagione la moglie, e parendoci questo
+    impossibile, dubitiamo, che dando giudizio sopra questa relazione non possiamo essere calunniati
+    come troppo crudeli, e non dando, come manco severi, e poco amatori della giustizia. E perchè
+    l’uno peccato è da uomini leggieri, e l’altro da ingiusti, e volendo fuggire quegli carichi, che
+    dall’uno e dall’altro potrebbono dipendere, e non trovandone il modo, vi abbiamo chiamati,
+    acciocchè consigliandone ci aiutiate, e siate cagione, che questo regno, come per lo passato è
+    vivuto senza infamia, così per l’avvenire viva. Parve a ciascheduno di quegli Principi il caso
+    importantissimo, e di molta considerazione, e concludendo tutti, come egli era necessario
+    scoprirne la verità, erano discrepanti del modo. Perchè a chi pareva che si mandasse uno, a chi
+    più, nel mondo, che sotto forma di uomo conoscesse personalmente questo esser vero. A molti
+    altri pareva potersi fare senza tanto disagio, costringendo varie anime con vari tormenti a
+    scoprirlo. Pure la maggior parte consigliando che si mandasse, s’indirizzarono a questa
+    opinione. E non si trovando alcuno, che volontariamente prendesse questa impresa, deliberarono
+    che la sorte fosse quella, che lo dichiarasse. La quale cadde sopra Belfagor Arcidiavolo, ma per
+    l’addietro, avanti che cadesse dal cielo, Arcangelo; Il quale ancora che mal volentieri
+    pigliasse questo carico, nondimeno costretto dallo imperio di Plutone si dispose a seguire
+    quanto nel concilio s’era determinato, e obbligossi a quelle convenzioni, che fra loro
+    solennemente erano state deliberate; le quali erano, che subito a colui, che fosse a questa
+    commissione deputato, fossero consegnati centomila ducati, co’ quali doveva venire nel mondo, e
+    sotto forma d'uomo prender moglie, e con quella vivere dieci anni; e dopo, fingendo di morire,
+    tornarsene, e per isperienza fare fede a' suoi superiori, quali sieno i carichi e le comodità
+    del matrimonio. Dichiarossi ancora, che durante detto tempo e' fusse sottoposto a tutti gli
+    disagi e a tutti quelli mali, che sono sottoposti gli uomini, e che si tira dietro la povertà,
+    le carceri, la malattia, ed ogni altro infortunio, nel quale gli uomini scorrono, eccetto se con
+    inganno o astuzia se ne liberasse.""" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene3 a sam:Scene ;
+    sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_Firenze ;
+    sam:hasTrope datasam:trope_TimeCompressionMontage ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene3_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_Creditori,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_Onesta,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_fratelliDiOnesta .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene3_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """Presa
+    adunque Belfagor la condizione e i danari ne venne nel mondo,
+    ed ordinato di sue masnade cavalli e compagni entrò onorevolissimamente in Firenze; la qual
+    città innanzi a tutte l’altre elesse per suo domicilio, come quella, che gli pareva più atta a
+    sopportare chi con arte usurarie esercitasse i suoi danari, e fattosi chiamare Roderigo di
+    Castiglia prese una casa a fitto nel Borgo d’Ognissanti. E perchè non si potesse rinvenire le
+    sue condizioni, disse essersi da piccolo partito di Spagna, e itone in Sorìa, ed avere in Aleppe
+    guadagnato tutte le sue facoltà; donde s’era poi partito per venire in Italia a prender donna in
+    luoghi più umani, e alla vita civile e all'animo suo più conformi. Era Roderigo bellissimo uomo,
+    e mostrava una età di trent'anni; ed avendo in pochi giorni dimostro di quante ricchezze
+    abbondasse, e dando esempi di sè d'essere umano e liberale, molti nobili cittadini, che avevano
+    assai figliuole, e pochi danari, se gli offerivano; tra le quali tutte Roderigo scelse una
+    bellissima fanciulla, chiamata Onesta, figliuola d'Amerigo Donati, il quale n’avea tre altre
+    insieme con tre figliuoli maschi, tutti uomini, e quelle erano quasi che da marito. E benchè
+    fusse d’una nobilissima famiglia, e di lui fosse in Firenze tenuto buono conto, nondimanco era,
+    rispetto alla brigata havea et alla nobilità, poverissimo. Fecie Roderigo magnifiche et
+    splendidissime noze, nè lasciò indietro alcuna di quelle cose, che in simili feste si
+    desiderano. Et essendo, per la legge che gli era stata data nello uscire d’inferno, sottoposto a
+    tucte le passioni humane, subito cominciò a piglare piacere degli honori et delle pompe del
+    mondo et havere caro di essere laudato intra gli huomini, il che gli arrecava spesa non piccola.
+    Oltr’a di questo non fu dimorato molto con la sua mona Onesta, che se ne innamorò fuori di
+    misura, nè poteva vivere qualunque volta la vedeva stare trista et havere alcuno dispiacere.
+    Haveva mona Onesta portato in casa di Roderigo, insieme con la nobilità et con la belleza, tanta
+    superbia che non ne hebbe mai tanta Lucifero; et Roderigo, che aveva provata l’una et l’altra,
+    giudicava quella della mogle superiore; ma diventò di lunga maggiore, come prima quella si
+    accorse dello amore che il marito le portava; et parendole poterlo da ogni parte signoreggiare,
+    sanza alcuna piatà o rispetto lo comandava, nè dubitava, quando da lui alcuna cosa gli era
+    negata, con patrope villane et iniuriose morderlo: il che era a Roderigo cagione di inestimabile
+    noia. Pur nondimeno il suocero, i frategli, il parentado, l’obligo del matrimonio et,
+    sopratutto, il grande amore le portava gli faceva havere patienza. Io voglo lasciare ire le
+    grande spese, che, per contentarla, faceva in vestirla di nuove usanze et contentarla di nuove
+    fogge, che continuamente la nostra città per sua naturale consuetudine varia; chè fu
+    necessitato, volendo stare in pace con lei, aiutare al suocero maritare l’altre sue figliuole:
+    dove spese grossa somma di danari. Dopo questo, volendo havere bene con quella, gli convenne
+    mandare uno de’ frategli in Levante con panni, un altro in Ponemte con drappi, all’altro aprire
+    uno battiloro in Firenze: nelle quali cose dispensò la maggior parte delle sue fortune. Oltre a
+    di questo, nei tempi di carnasciali e di San Giovanni, quando tutta la città per antica
+    consuetudine festeggia, e che molti cittadini nobili e ricchi con splendidissimi conviti si
+    honorono, per non essere mona Onesta all’altre donne inferiore, voleva che il suo Roderigo con
+    simili feste tucti gli altri superassi. Le quali cose tucte erano da lui per le sopradette
+    cagioni sopportate; nè gli sarebbono, anchora che gravissime, parute gravi a farle, se da questo
+    ne fussi nata la quiete della casa sua et s’egli havessi potuto pacificamente aspettare i tempi
+    della sua rovina. Ma gl’interveniva l’opposito, perchè con le insopportabili spese, la insolente
+    natura di lei infinite incommodità gli arrecava; et non erano in casa sua nè servi nè serventi
+    che, nonchè molto tempo, ma brevissimi giorni la potessino sopportare; donde ne nascevano a
+    Roderigo disagi gravissimi per non potere tenere servo fidato che havessi amore alle cose sua;
+    et, nonchè altri, quegli diavoli, i quali in persona di famigli haveva condotti seco, più tosto
+    elessono di tornarsene in inferno a stare nel fuoco, che vivere nel mondo sotto lo imperio di
+    quella. Standosi adunque Roderigo in questa tumultuosa et inquieta vita, et havendo per le
+    disordinate spese già consumato quanto mobile si haveva riserbato, cominciò a vivere sopra la
+    speranza dei ritratti, che di Ponente e di Levante aspettava; et havendo anchora buono credito,
+    per non mancare di suo grado, prese a cambio. Et girandogli già molti marchi adosso, fu presto
+    notato da quegli, che in simile exercizio in Mercato si travaglano. Et essendo di già il caso
+    suo tenero, vennero in un sùbito di Levante et di Ponente nuove come l’uno de’ frategli di mona
+    Onesta s’haveva giucato tutto il mobile di Roderigo, et che l’altro, tornando sopra una nave
+    carica di sue mercatantie sanza essersi altrimenti assicurato, era insieme con quelle annegato.
+    Nè fu prima publicata questa cosa che i creditori di Roderigo si ristrinsono insieme; et
+    giudicando che fosse spacciato, nè possendo ancora scoprirsi per non esser venuto il tempo dei
+    pagamenti loro, conclusero che fosse bene osservarlo così destramente, acciochè dal detto al
+    fatto di nascoso non se ne fuggisse.""" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene4 a sam:Scene ;
+    sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_FuoriFirenze ;
+    sam:hasTrope datasam:trope_ChaseScene ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene4_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_Creditori,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_Magistrati .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene4_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """Roderigo
+    dall’altra parte non veggendo al caso suo rimedio e sapendo quanto la legge infernale lo
+    costringeva, pensò di fuggirsi in ogni modo; e montato una mattina a cavallo, abitando propinquo
+    alla porta al Prato, per quella se ne uscì. Nè prima fu veduta la partita sua, che il romore si
+    levò fra i creditori, i quali ricorsi ai magistrati, non solamente con i cursori, ma
+    popularmente si missono a seguirlo. Non era Roderigo, quando se gli lievò drieo il romore,
+    dilungato da la città uno miglo; in modo che, vedendosi a male partito, deliberò, per fuggire
+    più segreo, uscire di strada e a traverso per gli campi cercare sua fortuna. Ma sendo, a fare
+    questo, impedito da le assai fosse, che attraversano il paese, nè potendo per questo ire a
+    cavallo, si mise a fuggire a piè e, lasciata la cavalcatura in su la strada, atraversando di
+    campo in campo, coperto da le vigne e da’ cannei, di che quel paese abonda,""" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene5 a sam:Scene ;
+    sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_casaDiGianmatteodelBricha ;
+    sam:hasTrope datasam:trope_ChaseScene,
+        datasam:trope_DistractionTropes,
+        datasam:trope_GarbageHideout,
+        datasam:trope_ThePromise ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene5_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene5_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """arrivò
+    sopra Pereola a casa Gianmatteo del Bricha, lavoratore di Giovanni del Bene, e
+    a sorte trovò Gianmatteo che arrecava a casa da rodere a i buoi, e se gli raccomandò
+    prometendogli, che se lo salvava dalle mani de’ suoi nimici, i quali, per farlo morire in
+    prigione, lo seguitavano, che lo farebbe ricco e gliene darebbe innanzi alla sua partita tale
+    saggio che gli crederrebbe; e quando questo non facessi, era contento che esso proprio lo
+    ponessi in mano a i suoi aversarii. Era Gio. Matteo, ancorchè contadino, uomo animoso, e
+    giudicando non potere perdere a piglare partito di salvarlo, gliene promisse; e cacciatolo in
+    uno monte di leame, quale haveva davanti a la sua casa, lo ricoperse con cannucce e altre
+    mondigle che per ardere haveva ragunate. Non era Roderigo apena fornito di nascondersi, che i
+    suoi perseguitatori sopradgiunsono e, per ispaventi che facessero a Gio. Matteo, non trassero
+    mai da lui, che l’avesse visto. Talchè passati più innanzi, avendolo invano quel dì e
+    quell’altro cerco, stracchi se ne tornarono a Firenze. Gio.""" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene6 a sam:Scene ;
+    sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_casaDiGianmatteodelBricha ;
+    sam:hasTrope datasam:trope_IGaveMyWord,
+        datasam:trope_TheReveal ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene6_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene6_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """Matteo adunque cessato il
+    rumore, e trattolo del luogo, dov’era, lo richiese della fede data. Al quale, Roderigo disse:
+    Fratel mio, io ho con teco un grande obbligo e lo voglio in ogni modo soddisfare; et perchè tu
+    creda che io possa farlo, ti dirò chi io sono. E quivi gli narrò di suo essere e delle leggi
+    avute all’uscire d’Inferno, e della moglie tolta; e di più gli disse il modo, col quale lo
+    voleva arrichire, che insomma sarebbe questo, che come si sentiva che alcuna donna fusse
+    spiritata, credesse, lui essere quello che gli fosse addosso; nè mai se n’uscirebbe, s’egli non
+    venisse a trarnelo; donde arebbe occasione di farsi a suo modo pagare da’ parenti di quella: e
+    rimasi in questa conclusione sparì via .""" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene7 a sam:Scene ;
+    sam:hasTrope datasam:trope_DemonicPossession ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene7_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_AmbrogioAmidei,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_BonajutoTebalducci,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_figliuoladiAmbrogioAmidei .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene7_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """passarono molti
+    giorni, che si sparse per tutta Firenze, come una figliuola di messer Ambrogio Amidei, la quale
+    aveva maritata a Bonajuto Tebalducci, era indemoniata. Nè mancarono i parenti di farvi di quelli
+    rimedj, che in simili accidenti si fanno, ponendole in capo la testa di S. Zanobi, e il mantello
+    di S. Gio. Gualberto, le quali cose tutte da Roderigo erano uccellate. E per chiarir ciascuno,
+    come il male della fanciulla era uno spirito et non altra fantastica immaginazione, parlava
+    Latino, e disputava delle cose di Filosophia, e scopriva i peccati di molti; tra i quali
+    scoperse quelli d’uno frate che si haveva tenuta una femmina vestita ad uso di Fraticino più di
+    quattro anni nella sua cella; le quali cose facevano maravigliare ciascuno. Viveva pertanto
+    Mess. Ambrogio mal contento, et aveva perduta ogni speranza di guarirla; quando Gio. Matteo
+    venne a trovarlo, e gli promise la salute de la sua figliuola, quando gli voglia donare
+    cinquecento fiorini per comperare un podere a Peretola. Accettò Mess. Ambrogio il partito, dove
+    Gio. Matteo, fatte prima dire certe Messe, e fatte sue ceremonie per abbellire la cosa,
+    s’accostò agli orecchi della fanciulla, e disse: Roderigo, io sono venuto a trovarti perchè tu
+    m’osservi la promessa. Al quale Roderigo rispose: Io sono contento. Ma questo non basta a farti
+    ricco. E però, partito che io sarò di qui, enterrò nella figliuola di Carlo, Re di Napoli, nè
+    mai n’uscirò senza te. Faraiti allora fare una mancia a tuo modo, nè poi mi darai più briga.
+    Detto questo s’uscì d’addosso a colei con piacere ed ammirazione di tutta Firenze.""" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene8 a sam:Scene ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene8_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_ReCarlo,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_figliuoladiCarlo .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene8_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """passò dipoi
+    molto tempo, che per tutta Italia si sparse l’accidente venuto a la figliuola del Re Carlo. Nè
+    trovandosi rimedio dei Frati valevole, avuta il Re notitia di Gio. Matteo, mandò a Firenze per
+    lui, il qual arrivato a Napoli dopo qualche finta cerimonia la guarì. Ma Roderigo prima che
+    partisse, disse: Tu vedi, Gio. Matteo, io t’ho osservate le promesse di averti arricchito; e
+    però, sendo disobbligo, io non ti sono più tenuto di cosa alcuna. Pertanto sarai contento non mi
+    capitare più innanzi; perchè, dove io t’ho fatto bene, ti farei per l’avvenire male.""" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene9 a sam:Scene ;
+    sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_Firenze ;
+    sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene9_excerpt ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
+    wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Cursore,
+        datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_scene9_excerpt a wdt:Q1385610 ;
+    sam:excerpt_text """Tornato adunque a Firenze
+    Gio. Matteo ricchissimo, perchè aveva avuto dal Re meglio che cinquanta mila ducati, pensava di
+    godersi quelle ricchezze pacificamente; non credendo però che Roderigo pensasse di offenderlo.
+    Ma questo suo pensiero fu subito turbato da una novella che venne, come una figliuola di
+    Lodovico VII. Re di Francia era spiritata; La quale nuova alterò tutta la mente di Gio. Matteo,
+    pensando all’autorità di quel Re, e alle patrope che gli aveva Roderigo dette. Non trovando
+    adunque il Re a la sua figliuola rimedio, e intendendo la virtù di Gio. Matteo, mandò prima a
+    richiederlo semplicemente per uno suo cursore; ma allegando quello certe indisposizioni, fu
+    forzato quel Re a richiederne la Signoria, la quale forzò Gio. Matteo a ubbidire.""" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_CharacterList a sam:CharacterList ;
     wdp:P527 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_AndreuccioDiPietro,
@@ -1548,20 +1919,41 @@ datasam:novellino_II_anonimo_scene6_prestoGiovanni_change a sam:Change ;
     rel:knowsByReputation datasam:novellino_II_anonimo_federigoImperadore ;
     wdp:P710 datasam:novellino_II_anonimo_prestoGiovanni .
 
-datasam:trope_ChaseScene a sam:TVTropesTrope ;
-    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/ChaseScene" .
+datasam:trope_BetrayalTropes a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/BetrayalTropes" .
 
 datasam:trope_DamselInDistress a sam:TVTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/DamselInDistress" .
 
+datasam:trope_DemonLordsAndArchdevils a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils" .
+
+datasam:trope_DemonicPossession a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/DemonicPossession" .
+
+datasam:trope_DistractionTropes a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/DistractionTropes" .
+
 datasam:trope_DynamicCharacter a sam:PeriodicTableTrope ;
     sam:tropeURI "http://tvtropes.org/pmwiki/pmwiki.php/Main/DynamicCharacter" .
+
+datasam:trope_Exposition a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/Exposition" .
 
 datasam:trope_FemmeFatale a sam:TVTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/FemmeFatale" .
 
+datasam:trope_GarbageHideout a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/GarbageHideout" .
+
 datasam:trope_GirlInTheTower a sam:TVTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/GirlInTheTower" .
+
+datasam:trope_IGaveMyWord a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/IGaveMyWord" .
+
+datasam:trope_IncitingIncident a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/IncitingIncident" .
 
 datasam:trope_KnightInShiningArmor a sam:PeriodicTableTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/KnightInShiningArmor" .
@@ -1578,7 +1970,41 @@ datasam:trope_SummonMagic a sam:TVTropesTrope ;
 datasam:trope_TheGoodKing a sam:TVTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing" .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_AndreuccioDiPietro a sam:GroupOfCharacters .
+datasam:trope_ThePlan a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/ThePlan" .
+
+datasam:trope_ThePromise a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/ThePromise" .
+
+datasam:trope_TheReveal a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/TheReveal" .
+
+datasam:trope_TimeCompressionMontage a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/TimeCompressionMontage" .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_AmbrogioAmidei a wdt:Q95074 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_BonajutoTebalducci a wdt:Q95074 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_Cursore a wdt:Q95074 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_Magistrati a sam:GroupOfCharacters .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_Onesta a wdt:Q95074 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_ReCarlo a wdt:Q95074 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_accompagnatoriDellaFigliuoladiLodovico a sam:GroupOfCharacters .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_figliuolaDiReLodovicoVII a wdt:Q95074 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_figliuoladiAmbrogioAmidei a wdt:Q95074 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_figliuoladiCarlo a wdt:Q95074 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_fratelliDiOnesta a sam:GroupOfCharacters .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliGiudici a sam:GroupOfCharacters .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro a wdt:Q95074 ;
     sam:hasTrope datasam:trope_DynamicCharacter,
@@ -1588,45 +2014,11 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro a wdt:Q9507
     wdp:P21 cwrc:cisMan ;
     wdp:P2561 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_name .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanciullo a sam:GroupOfCharacters .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe_secondi a sam:GroupOfCharacters .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_1 a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_1 a wdt:Q95074 ;
     wdp:P361 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicinato .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_2 a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_2 a wdt:Q95074 ;
     wdp:P361 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicinato .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Debitore a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Donatello a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Famigli a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_GiovannidiMesserFrancescoRucellai a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Giudice a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmattini a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmannatini a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Parocchiano a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_TommasodePecori a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_compagniDiFilippo a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_fanciullo a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_fratellidiMatteo a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_guardiaDellaPrigione a sam:GroupOfCharacters .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_prete a sam:GroupOfCharacters .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_animalitrasformati a sam:GroupOfCharacters ;
     sam:hasTrope datasam:trope_SummonMagic .
@@ -1639,16 +2031,16 @@ datasam:Petrosinella_CuntodeliCunti_Basile_orcs a sam:GroupOfCharacters ;
 datasam:novellino_II_anonimo_setting2 a sam:Setting ;
     sam:hasPlace datasam:novellino_II_anonimo_atImperadoreFederigo .
 
-datasam:trope_HappyEnding a sam:TVTropesTrope ;
-    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding" .
-
-datasam:trope_TheProtagonist a sam:PeriodicTableTrope ;
-    sam:tropeURI "http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist" .
-
 cwrc:cisMan a cwrc:Gender .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Belfagor_Arcidiavolo_Machiavelli_Creditori a sam:GroupOfCharacters .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_Plutone a wdt:Q95074 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliPrincipi a sam:GroupOfCharacters ;
+    sam:hasTrope datasam:trope_DemonLordsAndArchdevils .
+
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella a wdt:Q95074 ;
     sam:narratorName "fanticella" ;
     wdp:P106 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella_occupation_fanticella ;
     wdp:P21 cwrc:cisWoman .
@@ -1656,43 +2048,46 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella a sam:GroupOfCharac
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe a sam:GroupOfCharacters ;
     sam:hasTrope datasam:trope_TheAntagonist .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ruffiano a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ruffiano a wdt:Q95074 ;
     sam:narratorName "ruffiano" ;
     wdp:P21 cwrc:cisMan ;
     wdp:P361 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicinato .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia a wdt:Q95074 ;
     sam:descriptor "[ciciliana]" ;
     sam:narratorName "Vecchia" ;
     wdp:P21 cwrc:cisWoman .
 
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Prigionieri a sam:GroupOfCharacters .
+datasam:Petrosinella_CuntodeliCunti_Basile_commaredellOrca a wdt:Q95074 .
 
-datasam:Petrosinella_CuntodeliCunti_Basile_commaredellOrca a sam:GroupOfCharacters,
-        wdt:Q95074 .
+datasam:trope_ChaseScene a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/ChaseScene" .
+
+datasam:trope_HappyEnding a sam:TVTropesTrope ;
+    sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding" .
 
 datasam:trope_TheAntagonist a sam:PeriodicTableTrope,
         sam:TVTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/TheAntagonist" .
 
+datasam:trope_TheProtagonist a sam:PeriodicTableTrope,
+        sam:TVTropesTrope ;
+    sam:tropeURI "http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist" .
+
 cwrc:cisWoman a cwrc:Gender .
 
 cwrc:man a cwrc:Gender .
 
+datasam:Belfagor_Arcidiavolo_Machiavelli_ReLodovicoVII a wdt:Q95074 .
+
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicinato a sam:GroupOfCharacters .
 
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Notaio a sam:GroupOfCharacters .
-
-datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia a wdt:Q95074 ;
     wdp:P2561 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia_name .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco a sam:Setting .
 
-datasam:novellino_II_anonimo_lapidario a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:novellino_II_anonimo_lapidario a wdt:Q95074 ;
     sam:narratorName "lapidario" ;
     wdp:P106 datasam:novellino_II_anonimo_lapidario_occupation ;
     wdp:P21 cwrc:man ;
@@ -1701,14 +2096,10 @@ datasam:novellino_II_anonimo_lapidario a sam:GroupOfCharacters,
 datasam:novellino_II_anonimo_setting1 a sam:Setting ;
     sam:hasPlace datasam:novellino_II_anonimo_atPrestoGiovanni .
 
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_fratelliDiMatteo a sam:GroupOfCharacters .
-
-datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprencipe a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprencipe a wdt:Q95074 ;
     sam:hasTrope datasam:trope_KnightInShiningArmor .
 
-datasam:Petrosinella_CuntodeliCunti_Basile_orca a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Petrosinella_CuntodeliCunti_Basile_orca a wdt:Q95074 ;
     sam:hasTrope datasam:trope_TheAntagonist ;
     sam:narratorName "orca" ;
     wdp:P361 datasam:Petrosinella_CuntodeliCunti_Basile_orcs .
@@ -1716,18 +2107,17 @@ datasam:Petrosinella_CuntodeliCunti_Basile_orca a sam:GroupOfCharacters,
 datasam:novellino_II_anonimo_ambasciatori a sam:GroupOfCharacters ;
     wdp:P106 datasam:novellino_II_anonimo_ambasciatori_occupation_ambasciatori .
 
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_FilippodiSerBrunellesco a sam:GroupOfCharacters .
-
-datasam:novellino_II_anonimo_federigoImperadore a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:novellino_II_anonimo_federigoImperadore a wdt:Q95074 ;
     sam:hasTrope datasam:trope_TheGoodKing ;
     sam:narratorName "'mperadore" ;
     wdp:P106 datasam:novellino_II_anonimo_federigoImperadore_occupation ;
     wdp:P21 cwrc:man ;
     wdp:P2561 datasam:novellino_II_anonimo_federigoImperadore_name .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor a wdt:Q95074 ;
+    sam:hasTrope datasam:trope_TheProtagonist .
+
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso a wdt:Q95074 ;
     sam:descriptor "[giovane, bellissima]" ;
     sam:hasTrope datasam:trope_FemmeFatale,
         datasam:trope_TheAntagonist ;
@@ -1736,15 +2126,11 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso a sam:GroupO
     wdp:P21 cwrc:cisWoman ;
     wdp:P2561 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso_name .
 
-datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella a wdt:Q95074 ;
     sam:hasTrope datasam:trope_DamselInDistress ;
     wdp:P2561 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella_name .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro a sam:GroupOfCharacters .
-
-datasam:novellino_II_anonimo_prestoGiovanni a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:novellino_II_anonimo_prestoGiovanni a wdt:Q95074 ;
     sam:descriptor "nobilissimo" ;
     sam:hasTrope datasam:trope_TheProtagonist ;
     sam:narratorName "Presto Giovanni" ;
@@ -1753,5 +2139,5 @@ datasam:novellino_II_anonimo_prestoGiovanni a sam:GroupOfCharacters,
     wdp:P21 cwrc:man ;
     wdp:P2561 datasam:novellino_II_anonimo_prestoGiovanni_name .
 
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini a sam:GroupOfCharacters .
+datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha a wdt:Q95074 .
 

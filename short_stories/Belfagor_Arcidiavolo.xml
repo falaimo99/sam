@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <Story xml:id="Belfagor_Arcidiavolo_Machiavelli"></Story>
+<referenceMaterial
+        uri="https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&amp;oldid=2660796"></referenceMaterial>
     <CharacterList>
         <CharacterGroup xml:id="infernaliGiudici"></CharacterGroup>
         <Character xml:id="Plutone"></Character>
         <CharacterGroup xml:id="infernaliPrincipi">
-            <role url="https://tvtropes.org/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils">
-            </role>
+            <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils">
+            </trope>
         </CharacterGroup>
         <Character xml:id="Belfagor">
-            <role url="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist">
-            </role>
+            <trope uri="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist">
+            </trope>
         </Character>
         <Character xml:id="Onesta"></Character>
         <CharacterGroup xml:id="Creditori"></CharacterGroup>
@@ -42,10 +45,10 @@
         ritornarsi in
         Inferno, che ricongiungersi seco.
 </paraText>
-    <Story
-        xml:id="Belfagor_Arcidiavolo_Machiavelli"></Story>
-    <Scene xml:id="scene1">
-        <Trope url="https://tvtropes.org/pmwiki/pmwiki.php/Main/Exposition"></Trope>
+
+    <Scene
+        xml:id="scene1">
+        <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/Exposition"></Trope>
     <participants>
             <CharacterGroup ref="infernaliGiudici"></CharacterGroup>
             <Character ref="Plutone"></Character>
@@ -65,9 +68,9 @@
     <Scene xml:id="scene2">
         <Setting ref="Hell"></Setting>
     <Trope
-            url="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/IncitingIncident"></Trope>
+            uri="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/IncitingIncident"></Trope>
     <Trope
-            url="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/ThePlan"></Trope>
+            uri="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/ThePlan"></Trope>
     <participants>
             <Character ref="Plutone"></Character>
             <Character ref="infernaliPrincipi"></Character>
@@ -107,7 +110,7 @@
     <Scene xml:id="scene3">
         <Setting ref="Firenze"></Setting>
     <Trope
-            url="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/TimeCompressionMontage"></Trope>
+            uri="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/TimeCompressionMontage"></Trope>
     <participants>
             <Character ref="Belfagor"></Character>
             <Character ref="Onesta"></Character>
@@ -140,7 +143,7 @@
     giudicava quella della mogle superiore; ma diventò di lunga maggiore, come prima quella si
     accorse dello amore che il marito le portava; et parendole poterlo da ogni parte signoreggiare,
     sanza alcuna piatà o rispetto lo comandava, nè dubitava, quando da lui alcuna cosa gli era
-    negata, con parole villane et iniuriose morderlo: il che era a Roderigo cagione di inestimabile
+    negata, con patrope villane et iniuriose morderlo: il che era a Roderigo cagione di inestimabile
     noia. Pur nondimeno il suocero, i frategli, il parentado, l’obligo del matrimonio et,
     sopratutto, il grande amore le portava gli faceva havere patienza. Io voglo lasciare ire le
     grande spese, che, per contentarla, faceva in vestirla di nuove usanze et contentarla di nuove
@@ -176,7 +179,7 @@
     <Scene xml:id="scene4">
         <Setting ref="FuoriFirenze"></Setting>
     <Trope
-            url="https://tvtropes.org/pmwiki/pmwiki.php/Main/ChaseScene"></Trope>
+            uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/ChaseScene"></Trope>
     <participants>
             <Character ref="Belfagor"></Character>
             <CharacterGroup ref="Creditori"></CharacterGroup>
@@ -196,13 +199,13 @@
         xml:id="scene5">
         <Setting ref="casaDiGianmatteodelBricha"></Setting>
     <Trope
-            url="https://tvtropes.org/pmwiki/pmwiki.php/Main/ChaseScene"></Trope>
+            uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/ChaseScene"></Trope>
     <Trope
-            url="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/ThePromise"></Trope>
+            uri="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/ThePromise"></Trope>
     <Trope
-            url="https://tvtropes.org/pmwiki/pmwiki.php/Main/GarbageHideout"></Trope>
+            uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/GarbageHideout"></Trope>
     <Trope
-            url="https://tvtropes.org/pmwiki/pmwiki.php/Main/DistractionTropes"></Trope>
+            uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/DistractionTropes"></Trope>
     <participants>
             <Character ref="Belfagor"></Character>
             <Character ref="GianmatteodelBricha"></Character>
@@ -223,9 +226,9 @@
     <Scene xml:id="scene6">
         <Setting ref="casaDiGianmatteodelBricha"></Setting>
     <Trope
-            ref="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/IGaveMyWord"></Trope>
+            uri="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/IGaveMyWord"></Trope>
     <Trope
-            ref="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheReveal"></Trope>
+            uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheReveal"></Trope>
     <participants>
             <Character ref="GianmatteodelBricha"></Character>
             <Character ref="Belfagor"></Character>
@@ -240,7 +243,7 @@
     rimasi in questa conclusione <transitionWord>sparì via</transitionWord> .</Scene>
     <Scene
         xml:id="scene7">
-        <Trope url="https://tvtropes.org/pmwiki/pmwiki.php/Main/DemonicPossession"></Trope>
+        <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/DemonicPossession"></Trope>
     <participants>
             <Character ref="figliuoladiAmbrogioAmidei"></Character>
             <Character ref="BonajutoTebalducci"></Character>
@@ -288,13 +291,13 @@
     godersi quelle ricchezze pacificamente; non credendo però che Roderigo pensasse di offenderlo.
     Ma questo suo pensiero fu subito turbato da una novella che venne, come una figliuola di
     Lodovico VII. Re di Francia era spiritata; La quale nuova alterò tutta la mente di Gio. Matteo,
-    pensando all’autorità di quel Re, e alle parole che gli aveva Roderigo dette. Non trovando
+    pensando all’autorità di quel Re, e alle patrope che gli aveva Roderigo dette. Non trovando
     adunque il Re a la sua figliuola rimedio, e intendendo la virtù di Gio. Matteo, mandò prima a
     richiederlo semplicemente per uno suo cursore; ma allegando quello certe indisposizioni, fu
     forzato quel Re a richiederne la Signoria, la quale forzò Gio. Matteo a ubbidire.</Scene>
     <Scene
         xml:id="scene10">
-        <Trope url="https://tvtropes.org/pmwiki/pmwiki.php/Main/BetrayalTropes"></Trope>
+        <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/BetrayalTropes"></Trope>
     <Setting
             ref="Paris"></Setting>
     <participants>
@@ -337,7 +340,7 @@
     cemboli, e d’ogni altra qualità romori, i quali, quando io alzerò uno cappello, dieno in quegli
     strumenti, e, sonando, ne venghino verso il palco: le quali cose, insieme con certi altri
     segreti rimedj, credo che faranno partire questo spirito. <Scene xml:id="scene12">
-        <Trope url="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></Trope>
+        <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></Trope>
     <participants>
             <Character ref="ReLodovicoVII"></Character>
             <CharacterGroup ref="accompagnatoriDellaFigliuoladiLodovico"></CharacterGroup>
