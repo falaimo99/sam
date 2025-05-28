@@ -319,7 +319,6 @@
 
     <owl:ObjectProperty rdf:about="https://www.wikidata.org/wiki/Property:P8371">
         <rdfs:domain rdf:resource="https://purl.org/samcore#Scene"/>
-        <rdfs:domain rdf:resource="https://purl.org/samcore#SequenceOfScenes"/>
         <rdfs:domain rdf:resource="https://purl.org/samcore#Story"/>
         <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q96622155"/>
         <rdfs:comment>As described by Wikidata

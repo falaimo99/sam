@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <root>
-
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>Novella II</title>
-				<author>Anonimo</author>
-			</titleStmt>
-			<publicationStmt>
-				<p><!-- Information about the distribution of the resource -->
-				</p>
-			</publicationStmt>
-			<sourceDesc>
-				<p><!-- Information about the source from which the resource derives -->
-				</p>
-			</sourceDesc>
-		</fileDesc>
-	</teiHeader>
-
 	<div type='preface'>
 
 		Novellino - I

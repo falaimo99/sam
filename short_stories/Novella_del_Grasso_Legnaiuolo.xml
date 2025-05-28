@@ -1,123 +1,444 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-<paraText>
-    Filippo di ser Brunellesco dà a vedere al Grasso legnaiuolo, ch’egli sia diventato uno che ha nome Matteo. Egli sel crede: è messo in prigione, dove vari casi gl’ interviene. Poi di quindi tratto, a casa di due frategli è da un prete visitato. Ultimamente se ne va in Ungheria.
+    <paraText>
+        Filippo di ser Brunellesco dà a vedere al Grasso legnaiuolo, ch’egli sia diventato uno che
+        ha nome Matteo. Egli sel crede: è messo in prigione, dove vari casi gl’ interviene. Poi di
+        quindi tratto, a casa di due frategli è da un prete visitato. Ultimamente se ne va in
+        Ungheria.
 </paraText>
-<scene>
+    <Story xml:id="Novella_del_Grasso_Legnaiuolo_anonimo"></Story>
+    <referenceMaterial uri="https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo"></referenceMaterial>
+    <Scene xml:id="Scene1" setting="casadiTommasodePecori">
+        <participants>
+            <Character ref="TommasodePecori"></Character>
+            <Character ref="ManettoAmmannatini"></Character>
+            <Character ref="FilippodiSerBrunellesco"></Character>
+        </participants> Nella città di
+        Firenze, e negli anni di Cristo M.CCCC. IX. come è usanza, trovandosi una domenica sera a
+        cena una brigata di giovani in casa d’un gentiluomo di Firenze, il cui nome fu Tommaso de’
+        Pecori, persona onorevole, e da bene, e sollazzevole, e che volentieri si trovava in
+        brigata; ed avendo cenato, standosi al fuoco, e ragionando di molte cose, come in tali
+        luoghi tra’ compagni avviene, disse un di loro: deh che vuol dire, che sta sera non ci è
+        voluto venir Manetto Ammannatini, e tutti glie l’abbiamo detto, e non abbiamo potuto
+        conducercelo? Il detto Manetto era, ed è ancora une che fa le tarsie, e stava a bottega in
+        su la piazza di san Giovanni, ed era tenuto buonissimo maestro di dette tarsie, e di fare
+        ordigni da tavole di donne; ed era piacevolissima persona, e di natura più tosto bonario,
+        che no, e d’età d’anni xxviii; e perchè egli era compresso e grande, era chiamate il Grasso,
+        e sempre era usato trovarsi con questa brigata di sopra nominata, i quali tutti erano di
+        natura sollazzevole, e che si davano insieme buon tempo. Il quale o per altre faccende, o
+        pur per bizzarria, che spesse volte ne sentiva, o che se ne fosse la cagione, quella sera,
+        essendogli più volte detto, mai volle acconsentir d’andarvi, Il perchè ragionando costoro
+        insieme, e pensando che di ciò fosse cagione, e non sapendo vederla, conchiusono tutti
+        d’accordo, che da altro che da bizzarria non fosse proceduto; e di questo tenendosi un poco
+        scornati, disse quello che cominciato avea le parole: deh perchè non facciamo noi a lui
+        qualche trappola, acciocché non s’avvezzi per sue bizzarrie a lasciarci? A cui uno degli
+        altri rispose: che gli potremo noi fare, se non fargli pagare una cena, o simili zacchere?
+        Era tra questa brigata, che cenato aveano insieme, uno, il quale avea noma Filippo di ser
+        Brunellesco, il quale per la sua virtù, credo che fosse, e sia conosciuto. Costui era molto
+        uso col Grasso, e molto sapea di sua condizione. Il perchè stato alquanto sopra se, eseco
+        medesimo fantasticando, che sottile ingegno avea, cominciò a dire: brigata, se noi vogliamo,
+        e’ mi dà il cuore, che noi faremo al Grasso una bella beffa, tale, che noi n’arremo ancora
+        grandissimo piacere; e quello che mi par da fare, si è, che noi gli diamo a credere, che e’
+        sia di se medesimo trasmutato in un altro, e che non sia più il Grasso, ma sia divenuto un
+        altro uomo. A cui i compagni risposero, questo non esser possibile a fare. A’ quali Filippo,
+        assegnate sue ragioni ed argomenti, come quello che era di sottile ingegno, per quelle
+        mostrò loro questo potersi fare.</Scene>
+    <Scene xml:id="Scene2" setting="bottegadiManettoAmmattini">
 <participants>
-    <Character ref="TommasodePecori"></Character>
-    <Character ref="ManettoAmmannatini"></Character>
-    <Character ref="FilippodiSerBrunellesco"></Character>
-    <Setting ref="casadiTommasodePecori"></Setting>
-</participants>
-Nella città di Firenze, e negli anni di Cristo M.CCCC. IX. come è usanza, trovandosi una domenica sera a cena una brigata di giovani in casa d’un gentiluomo di Firenze, il cui nome fu Tommaso de’ Pecori, persona onorevole, e da bene, e sollazzevole, e che volentieri si trovava in brigata; ed avendo cenato, standosi al fuoco, e ragionando di molte cose, come in tali luoghi tra’ compagni avviene, disse un di loro: deh che vuol dire, che sta sera non ci è voluto venir Manetto Ammannatini, e tutti glie l’abbiamo detto, e non abbiamo potuto conducercelo? Il detto Manetto era, ed è ancora une che fa le tarsie, e stava a bottega in su la piazza di san Giovanni, ed era tenuto buonissimo maestro di dette tarsie, e di fare ordigni da tavole di donne; ed era piacevolissima persona, e di natura più tosto bonario, che no, e d’età d’anni xxviii; e perchè egli era compresso e grande, era chiamate il Grasso, e sempre era usato trovarsi con questa brigata di sopra nominata, i quali tutti erano di natura sollazzevole, e che si davano insieme buon tempo. Il quale o per altre faccende, o pur per bizzarria, che spesse volte ne sentiva, o che se ne fosse la cagione, quella sera, essendogli più volte detto, mai volle acconsentir d’andarvi, Il perchè ragionando costoro insieme, e pensando che di ciò fosse cagione, e non sapendo vederla, conchiusono tutti d’accordo, che da altro che da bizzarria non fosse proceduto; e di questo tenendosi un poco scornati, disse quello che cominciato avea le parole: deh perchè non facciamo noi a lui qualche trappola, acciocché non s’avvezzi per sue bizzarrie a lasciarci? A cui uno degli altri rispose: che gli potremo noi fare, se non fargli pagare una cena, o simili zacchere? Era tra questa brigata, che cenato aveano insieme, uno, il quale avea noma Filippo di ser Brunellesco, il quale per la sua virtù, credo che fosse, e sia conosciuto. Costui era molto uso col Grasso, e molto sapea di sua condizione. Il perchè stato alquanto sopra se, eseco medesimo fantasticando, che sottile ingegno avea, cominciò a dire: brigata, se noi vogliamo, e’ mi dà il cuore, che noi faremo al Grasso una bella beffa, tale, che noi n’arremo ancora grandissimo piacere; e quello che mi par da fare, si è, che noi gli diamo a credere, che e’ sia di se medesimo trasmutato in un altro, e che non sia più il Grasso, ma sia divenuto un altro uomo. A cui i compagni risposero, questo non esser possibile a fare. A’ quali Filippo, assegnate sue ragioni ed argomenti, come quello che era di sottile ingegno, per quelle mostrò loro questo potersi fare.</scene>
-<scene>
-<Setting ref="bottegadiManettoAmmattini"></Setting>
-<participants>
-    <Character ref="fanciullo"></Character>
-    <Character ref="FilippodeSerBrunelleschi"></Character>
-    <Character ref="ManettoAmmattini"></Character>
-</participants>E rimasi insieme d’accordo de’ modi e dell’ordine, che ciascuno tener dovesse in dargli a credere, che fosse uno che avea nome Matteo, ch’era di lor compagnia, il primo cominciamento fu la seguente sera in questa forma, che Filippo di ser Brunellesco più domestico del Grasso, che niuno degli altri, in su l’ora che è usanza di serrar la botteghe degli artefici, sen’andò alla bottega del Grasso, e quivi stato un pezzo ragionando, venne, come era dato l’ordine, un fanciullo molto in fretta, e domandò: usa qui Filippo di ser Brunellesco? e sarebbeci? A cui Filippo fattosi incontro, disse di sì, e che era desso egli, e domandoli quello che andava cercando. A cui il fanciullo rispose: e vi conviene venir testé infino a casa vostra, e là cagione si è, che da due ore in qua è venuto un grande accidente a vostra madre , ed è quasi che morta; sicché venite tosto. Filippo, fatto vista di avere di questo caso gran dolore, disse: Iddio m’aiuti, e dal Grasso prese licenza. Il Grasso, come suo amico, disse: i’ vo’ venir teco se bisognasse fare alcuna cosa; questi sono casi che non si vogliono risparmiare gli amici. Filippo lo ringraziò, e disse: io non voglio per ora tu venghi, ma se nulla bisognerà, te ’l manderò a dire.</scene>
-<scene>
-<Setting ref="bottegadiManettoAmmattini"></Setting>
+            <Character ref="fanciullo"></Character>
+            <Character ref="FilippodiSerBrunellesco"></Character>
+            <Character ref="ManettoAmmattini"></Character>
+        </participants>E rimasi insieme
+        d’accordo de’ modi e dell’ordine, che ciascuno tener dovesse in dargli a credere, che fosse
+        uno che avea nome Matteo, ch’era di lor compagnia, il primo cominciamento fu la seguente
+        sera in questa forma, che Filippo di ser Brunellesco più domestico del Grasso, che niuno
+        degli altri, in su l’ora che è usanza di serrar la botteghe degli artefici, sen’andò alla
+        bottega del Grasso, e quivi stato un pezzo ragionando, venne, come era dato l’ordine, un
+        fanciullo molto in fretta, e domandò: usa qui Filippo di ser Brunellesco? e sarebbeci? A cui
+        Filippo fattosi incontro, disse di sì, e che era desso egli, e domandoli quello che andava
+        cercando. A cui il fanciullo rispose: e vi conviene venir testé infino a casa vostra, e là
+        cagione si è, che da due ore in qua è venuto un grande accidente a vostra madre , ed è quasi
+        che morta; sicché venite tosto. Filippo, fatto vista di avere di questo caso gran dolore,
+        disse: Iddio m’aiuti, e dal Grasso prese licenza. Il Grasso, come suo amico, disse: i’ vo’
+        venir teco se bisognasse fare alcuna cosa; questi sono casi che non si vogliono risparmiare
+        gli amici. Filippo lo ringraziò, e disse: io non voglio per ora tu venghi, ma se nulla
+        bisognerà, te ’l manderò a dire.</Scene>
+    <Scene xml:id="Scene3">
+        <Setting ref="bottegadiManettoAmmattini"></Setting>
 <Setting ref="piazzadiSanGiovanni"></Setting>
 <participants>
-    <Character ref="ManettoAmmattini"></Character>
-    <Character ref="FilippodiSerBrunelleschi"></Character>
-    <Character ref="Donatello"></Character>
-</participants>
-Partito Filippo, e sembiante faccendo d’andare a casa, data una volta, <transitionWord>sen’andò a casa</transitionWord> il Grasso, la quale era dinanzi dalla Chiesa di Santa Reparata; ed aperto l’uscio con un coltellino, come colui che ben sapeva il modo, e n’andò in casa, e serrossi dentro col chiavistello per modo, che persona entrar non vi potesse. Aveva il Grasso madre, la quale di quei dì era andata in Polverosa ad un suo podere per fare bucato, e dovea tornare di dì in dì. Il Grasso, serrato ch’ebbe la bottega, andato parecchie volte su giù in su per la piazza di san Giovanni, come era usato di fare, avendo tuttavia il capo, a Filippo, e compassione della madre, ed essendo un’ora di notte, disse infra se: oggimai Filippo non arà bisogno di me, poiché non ha mandato per me. E deliberato andarsene in casa, ed all’uscio giunto, che saliva due scaglioni, volle aprire, come usato era di fare; e provato più volte, e non potendo, s’avvide l’uscio essere serrato d’entro; il perchè, picchiando, disse:chi è su? apritemi; avvisandosi, che la madre fosse tornata di villa, e avesse serrato l’uscio d’entro per qualche rispetto, o che ella non se ne fosse avveduta. Filippo, che dentro era, fattosi in capo di scala, disse: chi è giù? contrafaccendo la voce del Grasso. A cui il Grasso disse: apritemi. Filippo finse, che chi picchiasse fosse quel Matteo, che voleano dare ad intendere al Grasso, ch’e’ fosse divenuto; e faccendo vista d’essere il Grasso, disse: deh Matteo, vatti con Dio, che io ho briga assai, che dianzi essendo Filippo di ser Brunellesco a bottega mia, gli fu venuto a dire, come la madre da poche ore in qua stava in caso di morte, il perchè io ho la mala sera. E rivoltosi indietro, finse di dire a mona Giovanna ( che così avea nome la madre del Grasso ) fate che io ceni, perocché il vostro è gran vituperio, che è due dì che voi dovevate tornare, e tornate pur testé di notte. E così disse parecchi parole rimbrettose, contrafaccendo tuttavia la voce del Grasso.
-
-Udendo il Grasso così gridare, e parendogli la voce sua, disse: che vol dir questo? e’ mi pare che costui, ch’è su, sia mee dice , che Filippo era alla bottega sua, quando gli fu venuto a dire che la madre stava mate; ed oltre a questo grida con mona Giovanna. Per certo io sono smemorato; e sceso i due scaglioni, e tiratosi indietro per chiamare dalle finestre, vi sopraggiunse come era ordinato, uno che evea nome Donatello, intagliatore di marmi, amico grandissimo del Grasso, e giunto a lui così al barlume, disse: buona sera, Matteo, va’ tu cercando il Grasso? e’ se n’ andò pur testè in casa. E così detto s’ andò con Dio.
-</scene>
-<scene>
-    <Setting ref="piazzadiSanGiovanni"></Setting>
+            <Character ref="ManettoAmmattini"></Character>
+            <Character ref="FilippodiSerBrunellesco"></Character>
+            <Character ref="Donatello"></Character>
+        </participants> Partito Filippo, e
+        sembiante faccendo d’andare a casa, data una volta, <transitionWord>sen’andò a casa</transitionWord>
+        il Grasso, la quale era dinanzi dalla Chiesa di Santa Reparata; ed aperto l’uscio con un
+        coltellino, come colui che ben sapeva il modo, e n’andò in casa, e serrossi dentro col
+        chiavistello per modo, che persona entrar non vi potesse. Aveva il Grasso madre, la quale di
+        quei dì era andata in Polverosa ad un suo podere per fare bucato, e dovea tornare di dì in
+        dì. Il Grasso, serrato ch’ebbe la bottega, andato parecchie volte su giù in su per la piazza
+        di san Giovanni, come era usato di fare, avendo tuttavia il capo, a Filippo, e compassione
+        della madre, ed essendo un’ora di notte, disse infra se: oggimai Filippo non arà bisogno di
+        me, poiché non ha mandato per me. E deliberato andarsene in casa, ed all’uscio giunto, che
+        saliva due scaglioni, volle aprire, come usato era di fare; e provato più volte, e non
+        potendo, s’avvide l’uscio essere serrato d’entro; il perchè, picchiando, disse:chi è su?
+        apritemi; avvisandosi, che la madre fosse tornata di villa, e avesse serrato l’uscio d’entro
+        per qualche rispetto, o che ella non se ne fosse avveduta. Filippo, che dentro era, fattosi
+        in capo di scala, disse: chi è giù? contrafaccendo la voce del Grasso. A cui il Grasso
+        disse: apritemi. Filippo finse, che chi picchiasse fosse quel Matteo, che voleano dare ad
+        intendere al Grasso, ch’e’ fosse divenuto; e faccendo vista d’essere il Grasso, disse: deh
+        Matteo, vatti con Dio, che io ho briga assai, che dianzi essendo Filippo di ser Brunellesco
+        a bottega mia, gli fu venuto a dire, come la madre da poche ore in qua stava in caso di
+        morte, il perchè io ho la mala sera. E rivoltosi indietro, finse di dire a mona Giovanna (
+        che così avea nome la madre del Grasso ) fate che io ceni, perocché il vostro è gran
+        vituperio, che è due dì che voi dovevate tornare, e tornate pur testé di notte. E così disse
+        parecchi parole rimbrettose, contrafaccendo tuttavia la voce del Grasso. Udendo il Grasso
+        così gridare, e parendogli la voce sua, disse: che vol dir questo? e’ mi pare che costui,
+        ch’è su, sia mee dice , che Filippo era alla bottega sua, quando gli fu venuto a dire che la
+        madre stava mate; ed oltre a questo grida con mona Giovanna. Per certo io sono smemorato; e
+        sceso i due scaglioni, e tiratosi indietro per chiamare dalle finestre, vi sopraggiunse come
+        era ordinato, uno che evea nome Donatello, intagliatore di marmi, amico grandissimo del
+        Grasso, e giunto a lui così al barlume, disse: buona sera, Matteo, va’ tu cercando il
+        Grasso? e’ se n’ andò pur testè in casa. E così detto s’ andò con Dio. </Scene>
+    <Scene xml:id="Scene4">
+        <Setting ref="piazzadiSanGiovanni"></Setting>
 <participants>
-    <Character ref="ManettoAmmattini"></Character>
-    <CharacterGroup ref="Famigli"></CharacterGroup>
-    <Character ref="Debitore"></Character>
-</participants>
-Il Grasso, se prima s’era maravigliato, udendo Donatello, che lo chiamò Matteo, smemorò, <transitionWord>e tirossi in su la piazza di san Giovanni</transitionWord> dicendo fra se: io starò tanto qui, che ci passerà qualcuno, che mi conoscerà, e dirà chi io sia. E così stando mezzo fuori di se, giunser quivi, com’era ordinato, quattro famigli di quegli dell’unciale dalla mercatanzia, ed un mwaao, e con loro un che avea ad aver danari da quel Matteo, che ’l Grasso si cominciava quasi a dare ad intendere di essere; ed accostatosi costui al Grasso, si volse al messo e a’ fanti, e disse: menatene qui Matteo; questo è il mio debitore. Vedi ch’io tanto ho seguita la traccia, ch’io t’ho colto. I famigli, e ’l messo lo presono, e cominciarono a menarnelo via. Il Grasso rivoltosi a costui, che ’l faceva pigliare, disse; che ho io a far teco, che tu mi fai pigliare?Di’, che mi lascino; tu, m’ hai colto in iscambio,ch’io non sono chi tu credi, e fai una gran villania a farmi questa vergogna, non avendo a fare nulla teco. Io sono il Grasso legnaiuolo, e non sono Matteo e non soche Matteo tu ti dica; e volle cominciare a dare loro, come quello che era grande, e di buona forzai ma egli presono di subito, le braccia; e il creditore fattesi innanzi, e guatatolo molto bene in viso, disse:Come non hai a farenulla meco? Sì, ch’ io non conosco Matteo mio debitore, e chi è il Grasso legnaiuolo? Io t’ho scritto in sul libro e hotti la sentenzia contra al’arte tua, già fa un anno. Ma tu fai bene, come un cattivo, a dire che tu non sia Matteo; ma ti converrà a fare altro a pagarmi, che contraffarti. Menatenelo pure, e vedremo se tu sarai desso. E cosi bisticciando <transitionWord>il condussono alla Mercatanzia</transitionWord>. E perchè egli era quasi in su l’ora della cena, né per la via, né là non trovaron persona, che gli conoscesse.
-</scene>
-<scene>
+            <Character ref="ManettoAmmattini"></Character>
+            <CharacterGroup ref="Famigli"></CharacterGroup>
+            <Character ref="Debitore"></Character>
+        </participants> Il Grasso, se prima s’era
+        maravigliato, udendo Donatello, che lo chiamò Matteo, smemorò, <transitionWord>e tirossi in
+        su la piazza di san Giovanni</transitionWord> dicendo fra se: io starò tanto qui, che ci
+        passerà qualcuno, che mi conoscerà, e dirà chi io sia. E così stando mezzo fuori di se,
+        giunser quivi, com’era ordinato, quattro famigli di quegli dell’unciale dalla mercatanzia,
+        ed un mwaao, e con loro un che avea ad aver danari da quel Matteo, che ’l Grasso si
+        cominciava quasi a dare ad intendere di essere; ed accostatosi costui al Grasso, si volse al
+        messo e a’ fanti, e disse: menatene qui Matteo; questo è il mio debitore. Vedi ch’io tanto
+        ho seguita la traccia, ch’io t’ho colto. I famigli, e ’l messo lo presono, e cominciarono a
+        menarnelo via. Il Grasso rivoltosi a costui, che ’l faceva pigliare, disse; che ho io a far
+        teco, che tu mi fai pigliare?Di’, che mi lascino; tu, m’ hai colto in iscambio,ch’io non
+        sono chi tu credi, e fai una gran villania a farmi questa vergogna, non avendo a fare nulla
+        teco. Io sono il Grasso legnaiuolo, e non sono Matteo e non soche Matteo tu ti dica; e volle
+        cominciare a dare loro, come quello che era grande, e di buona forzai ma egli presono di
+        subito, le braccia; e il creditore fattesi innanzi, e guatatolo molto bene in viso,
+        disse:Come non hai a farenulla meco? Sì, ch’ io non conosco Matteo mio debitore, e chi è il
+        Grasso legnaiuolo? Io t’ho scritto in sul libro e hotti la sentenzia contra al’arte tua, già
+        fa un anno. Ma tu fai bene, come un cattivo, a dire che tu non sia Matteo; ma ti converrà a
+        fare altro a pagarmi, che contraffarti. Menatenelo pure, e vedremo se tu sarai desso. E cosi
+        bisticciando <transitionWord>il condussono alla Mercatanzia</transitionWord>. E perchè egli
+        era quasi in su l’ora della cena, né per la via, né là non trovaron persona, che gli
+        conoscesse. </Scene>
+    <Scene xml:id="Scene5">
+        <Setting ref="Mercatanzia"></Setting>
+    <Setting ref="prigione"></Setting>
+    <participants>
+            <Character ref="ManettoAmmattini"></Character>
+            <Character ref="Notaio"></Character>
+            <CharacterGroup ref="Prigionieri"></CharacterGroup>
+        </participants> Giunti quivi,
+        il notaio finse di scrivere la cattura in nome di Matteo, e miselo nella prigione, e
+        giugnendo d’entro, gli altri prigioni che v’erano avendo udito il remore, quando ne venne
+        preso, e nominarlo più volte Matteo, sanza conoscerlo, giugnendo alla prigione, tutti
+        dissero: Buona sera, Matteo, che vuol dir questo? Il Grasso udendosi chiamare Matteo da
+        tutti coloro, quasi per certo gli parve esser desso, e risposto al loro saluto, disse: io
+        debbo dare a uno parecchi denari, che miha fatto pigliare, ma io mi spaccerò domattina di
+        buon’ora;carico tutto di confusione. I prigioni dissero: tu vedi, noi siamo per cenare; cena
+        con noi, e poi domattina ti spaccerai; ma ben t’avvisiamo, che qui si sta sempre più che
+        altri non crede. </Scene>
+    <Scene xml:id="Scene6">
+        <Setting ref="prigione"></Setting>
     <Setting ref="Mercatanzia"></Setting>
+    <participants>
+            <Character ref="ManettoAmmattini"></Character>
+            <CharacterGroup ref="Prigionieri"></CharacterGroup>
+            <Character ref="GiovannidiMesserFrancescoRucellai"></Character>
+        </participants>
+        Il Grasso cenò con loro, e cenato ch’ egli ebbeno, uno di loro gli prestò una prodicella di
+        unsuo canile, dicendo: Matteo, statti stasera qui il meglio che tu puoi; poi domattina, te
+        tu n’uscirai, bene fia, se no, manderai per gualche panno a casa tua. Il Grasso il ringraziò
+        ed acconciossi per dormire, ed egli cominciò ad entrare in su questo pensiero, dicendo: che
+        debbo io fare, se del Grasso io sono diventato Matteo, che mi pare essere certo oramai, che
+        così sia, per tanti segni quant’io ho veduti? s’io mando a casa, mia madre, ed il Grasso sia
+        in casa, e’ si faranno beffe di me, e dirassi ch’io sia impazzito; e d’altra parte e’ mi
+        pare pure essere il Grasso. Ed in su questi pensieri raffermando in se stesso d’esser
+        Matteo, ed ora il Grasso, stette infino alla mattina, che quasi mai non dormì; e la mattina
+        levatosi, standosi alla finestrella dell’uscio della prigione, avvisando per certo quivi
+        dovere capitare qualcuno, che il conoscesse; e così stando, nella Mercatanzia entrò un
+        giovine chiamato Giovanni di messer Francesco Rucellai, il quale era di loro compagnia, ed
+        era stato alla cena, e alla piacevole congiura, e molto conoscente delGrasso, al quale il
+        Grasso faceva uno colmo per una nostra donna, e pure il dì dinanzi era stato con lui a
+        bottega un buon pezzo a sollecitarlo, e avévagli promesso di dargli ivi a quattro dì quel
+        colmo compiuto. Costui entrato nella Mercatanzia, mise il capo dentro all’uscio, dove
+        rispondeva la finestra de’ prigioni, ch’era in quei tempi in terreno, alla quale il Grasso
+        era; e veduto Giovanni, cominciò a ghignare, e riguardoso, e Giovanni guardò lui, e come mai
+        veduto non l’avesse, disse: di che ridi, compagno? Il Grasso, parendogli che costui non lo
+        conoscesse, disse: non d’altro no: conoscereste voi uno, che ha nome il Grasso, che sta
+        sulla piazza di San Giovanni colà di dietro, e fa le tarsie? Come? il conosco, disse
+        Giovanni, sì bene, ed è grande mio amico, e tosto voglio andare fino a lui per un poco di
+        mio lavorio mi fa. Disse il Grasso: deh fatemi un piacere, poiché peraltro avet’ a andare a
+        lui, ditegli, egli é preso alla: mercatanzia un tuo amico, e dice che in servigio che gi
+        faccia un poco motto. Dice Giovanni, guardandolo in viso continovamente tenendo con fatica
+        le risa: io lo farò rdfcenrtierifc e partitosi inda a fate atte faccende. </Scene>
+    <Scene xml:id="Scene7">
+        <Setting ref="prigione"></Setting>
+    <participants>
+            <Character ref="ManettoAmmattini"></Character>
+            <Character ref="Giudice"></Character>
+        </participants> Rimaso il Grasso alla
+        finestra della prigionia infra se medesimo diceva: oggimai poss’io essere certo, che io non
+        sono più il Grasso, e sono diventato Matteo,che maledetta sia lamia fortuna; che se io dico
+        questo fatto io sarò tenuto pazzo , e correrannomi drieto i fanciulli; e se io nol dico, ne
+        potrà intervenire cento errori, come fu quello di iersera d’essere preso; sicché in ogni
+        modo io sto male. Ma veggiamo se il Grasso venisse, che s’ei viene, io lo dirò a lui, e
+        vedremo quello che questo vuol dire. Ed aspettato un gran pexzo, che costui venisse, con
+        questa fantasia, non venendo vi tirò dentro per dar luogo a un altro, guardando lo
+        ammattonato, e quando il palco colle mani commesse. Era in quei dì nella detta prigione
+        sostenuto un giudice assai valente uomo, lo quale per onestà al presente si tace; il quale,
+        posto che non conoscesse il Grasso, pure veggendolo così maninconoso, credendo avesse tal
+        maninconia per rispetto del debito, s’ingegnava di confortarlo assai bene, dicendo: deh
+        Matteo, tu stai sì maninconoso, ch’e’ basterebbe se tufossi per perdere la persona; e
+        secondochè tu dì, questo è piccolo debito. Ei non si vuolenellefortune così abbandonarsi.
+        Perchè non mandi tu per qualche tuo amico, o parente, e cerca di pagarlo, o d’ accordarlo in
+        qualche mode, che tu esca di prigione, e non ti dare tanta maninconia? Il Grasso, udendosi
+        confortare così amorevolmente, diliberò di dirgli il caso intervenutogli, e trattolo da un
+        canto della prigione, disse: messere, postochè voi non conosciate me, io conosco ben voi, e
+        so che voi sete valente uomo. Il per che ho diliberato dirvi la cagione, che mi tiene così
+        maninonoso, e non vo’ che voi crediate, che per un piccolo debito istessi in tanta pena; ma
+        io ho altro. E cominciato dal principio del suo caso fino alla fine, gli disse ciò che
+        intervenuto gli era, quasi tuttavia piangendo, e di due cose pregandolo; l’una, che di
+        questo mai con persona non parlasse; l’altra, ch’egli gli desse qualche consiglio, o rimedio
+        in questo caso, aggiugnendo: io so, che voi avete lungamente letto in istudio, e letto di
+        molti autori ed istorie antiche, che hanne scritto molti avvenimenti; trovasti ne voi mai
+        niuno simile a questo? Il valente uomo, udito costui, subito considerato il fatto, immaginò
+        delle due cose esser l’una, cioè, o che costui fosse impazzato, o che ella fosse par beffa,
+        come ella era, e presto rispose, lui averne molti letti, cioè l’esser diventata d’uno un
+        altro, e che questo non era caso nuovo. A cui il Grasso disse: or ditemi, se io sono
+        divenuto Matteo, che è di Matteo? Rispose il giudice: è di necessità, che sia divenuto il
+        Grasso. A cui il Grasso disse: bene; lo vorrei un poco vedere per isbizzarrirmi. </Scene>
+    <Scene xml:id="Scene8">
+        <Setting ref="prigione"></Setting>
+    <participants>
+            <CharacterGroup ref="fratellidiMatteo"></CharacterGroup>
+            <Character ref="Notaio"></Character>
+            <Character ref="guardiaDellaPrigione"></Character>
+            <Character ref="ManettoAmattini"></Character>
+        </participants> E stando in questi
+        ragionamenti era quasi l’ora di vespro quando due frategli di questa Matteo vennero alla
+        Mercatanzia, e domandarono il notaio della cassa, se quivi fosse un loro fratello preso, che
+        ha nome Matteo, e per quanto, egli era preso, impercchegli eran suoi fategli, e volevan,
+        pagare per lui, e trarlo di prigione. Il notaio della cassa, che, tutta la trama sapea,
+        perchè era grande. amico di Tommaso Pecori, disse di sì; e faccendo vista di squadernare il
+        libro, disse; e’ ci è per tanti denari a petizion del tale. Bene, dissono, noi gli vogliamo
+        un poco parlare, poi daremo modo di pagare per lui. ed andati alla prigione, dissono a uno,
+        che era alla finestra della prigione: di’ costà a Matteo, che sono qui de’ suoi frategli,
+        che vengon, per trarlo di prigione, che si faccia un poco qui. Costui fatta la ’mbasciata,
+        il Grassovenne alla grata, e salutogli. A cui il maggiore di questi frategli cominciò a dire
+        in questa forma: Matteo, tu saiquante volte noi t’abbiamo ammonito di questi tuoi modi
+        cattivi, che tenuti hai; e sai che noi t’abbiamo detto: tu ti vai ogni dì indebitando ora
+        con questo, ed ora con quello, e non paghi mai persona, perchè le cattive spese, che tu fai
+        e del giuoco, e dell’altre cose, non ti lasciano mai accostare un soldo; ed ora ti trovi m
+        prigione: e sai come noi siamo agiati a danari, e a potere ogni dì pagare per te, che hai
+        consumate da un tempo in qua un tesoro per tue zacchere, il perchè noi t’avvisiamo, che? se
+        non fosse per nostro onore, o per lo stimolo ci dà tua madre, noi ti lasceremmo marcire un
+        pezzo, acciocché te t’ avvezzassi. Ma per questa volta abbiamo determinato cavartene, e
+        pagar per te, avvisandoti,» che se tu c’incappi mai più, tu ci starai più che tu non vorrai,
+        e bastiti. E per non essere di dì veduti qui, noi verremo stasera in sull’ Avemaria per te,
+        quando ci sarà meno gente, acciocché ogni uomo non abbia a sapere le nostre miserie, e non
+        abbiamo tanta vergogna pe’ fatti tuoi. Il Grasso si voltò loro con buone parole, dicendo:
+        che più certo egli non terrebbe più que’ modi ch’ egli avea tenuti per lo passato, e che si
+        guarderebbe dalle zacchere, e di non recare più loro vergogna a casa, pregandogli per Dio,
+        come fosse l’ora, che venissono per lui. Eglino promisero di farlo e partironsi da lui; ed
+        egli si tirò addietro, e disse al giudice: ella ci è più bella, imperocché sono venuiti qui
+        a me due frategli di Matteo, di quel Matteo, in di cui scambio io sono, » ed hannomi parlato
+        in forma come s’io fossi Matteo, ed ammonitomi molto, e dicono che all’Avemaria verranno per
+        me, e trarrannomi di qui, soggiugnendo: e come e’ mi traggono di qui, dove andrò io? a casa
+        mia non sarà da tornare» imperocché se v’è il Grasso, che dirò io, che io non sia tenuto
+        pazzo? e parmi essere certo, che ’l Grasso v’è; che non vi essendo, mia madre m’avrebbe
+        mandato caendo, là dove vedendoselo innanzi non s’avvede di questo errore. Il giudice con
+        gran fatica teneva le risa, e aveva uno piacere inestimabile; e disse: non v’andare, ma
+        vattene con questi, che dicono esser tuoi frategli, e vedi dove egli ti menano, e quello
+        fanne di te. </Scene>
+    <Scene xml:id="Scene9">
+        <Setting ref="Mercatanzia"></Setting>
     <Setting ref="prigione"></Setting>
+    <Setting
+            ref="casaDeiFratelliDiMatteo"></Setting>
     <participants>
-        <Character ref="ManettoAmmattini"></Character>
-        <Character ref="Notaio"></Character>
-        <CharacterGroup ref="Prigionieri"></CharacterGroup>
-    </participants>
-Giunti quivi, il notaio finse di scrivere la cattura in nome di Matteo, e miselo nella prigione, e giugnendo d’entro, gli altri prigioni che v’erano avendo udito il remore, quando ne venne preso, e nominarlo più volte Matteo, sanza conoscerlo, giugnendo alla prigione, tutti dissero: Buona sera, Matteo, che vuol dir questo? Il Grasso udendosi chiamare Matteo da tutti coloro, quasi per certo gli parve esser desso, e risposto al loro saluto, disse: io debbo dare a uno parecchi denari, che miha fatto pigliare, ma io mi spaccerò domattina di buon’ora;carico tutto di confusione. I prigioni dissero: tu vedi, noi siamo per cenare; cena con noi, e poi domattina ti spaccerai; ma ben t’avvisiamo, che qui si sta sempre più che altri non crede.
-</scene>
-<scene>
-    <Setting ref="prigione"></Setting>
-    <Setting ref="Mercatanzia"></Setting>
+            <CharacterGroup ref="fratelliDiMatteo"></CharacterGroup>
+            <Character ref="Notaio"></Character>
+            <Character ref="ManettoAmmattini"></Character>
+            <Character ref="Parocchiano"></Character>
+        </participants> E stando, in questi
+        ragionamenti, e cominciandosi a far sera, i frategli giunsero, e fatto vista d’avere
+        accordato il creditore e la cassa, ilnotaio si levò da sedere con le chiavi della prigione,
+        ed andato là disse: qual è Matteo? Il Grasso fattosi innanzi, disse: eccomi, messere. Il
+        notaio lo guatò; e disse; questi tuoi fratelli hanno pagato per te il tuo debito, e pertanto
+        tu se’ libero. E aperto l’uscio della prigione, disse: va’ qua. E il Grasso uscito fuori,
+        essendo già’ molto benbuio, si avviò con costoro, i quali stavano di casa da santa Filicita;
+        al cominciare del salire la costa di san Giorgio. E giunti a casa, sen’andarono con costui
+        in una camera terrena, dicendogli: statti qui tantoché fia ora di cena; come non volendolo
+        appresentare alla madre per non le dare malinconia. Ed essendo quivi al fuoco una tavoletta
+        apparecchiata, l’uno di loro rimase al fuoco con lui, e l’altro sen’andò al prete di santa
+        Filicita, ch’era loro parrocchiano, ed era una buona persona, e sì gli disse: messere, io
+        vengo, a voi con fidanza, come deve andare l’uno vicino all’altro. Egli è vero, che noi
+        siamo tre fratelli, tra quali ve n’è uno che ha nome Matteo, il quale ieri per certi suoi
+        debbiti fu preso alla Mercatanzía, ed hassi data tanta malinconia di questa presura, che ci
+        par presso che uscito de’ gangheri e pare solamente na cosa che vagilli, e parendoci in
+        tutte l’altre cose quel Matteo, ch’ e’ si suole, solamente in una manca, e questo è, ch’e’
+        s’ha messo nel capo di esser diventato un altro uomo, che Matteo. Mai udisti la più
+        fantastica cosa?E dice pure essere un certo Grasso legnaiuolo suo noto, perocché sta a
+        bottega dietro a sam Giovanni, e a casa lungo santa Maria del Fiore; e questo in niun modo
+        trarre non gli possiamo del capo. Ilper che noi l’abbiamo tratto di prigione, e condottolo
+        in casa, e messolo in una camera, acciocché fuori non sieno intese queste sue pazzie; che
+        sapete, che chi una volta comincia a dare di questi segui, poi tornando nel miglior
+        sentimento del mondo, sempre è uccellato. E pertanto conchiudendo, noi vogliamo in carità
+        pregarvi, che vi piaccia venire insino a casa e che voi gli parliate, ed ingegnatevi di
+        trargli questa fantasia del capo, e resteremvene sempre obbligati. Il prete era servente
+        persona: il perchè rispose, che molto volentieri; e che s’egli favellasse con lui, egli
+        s’avvedrebbe tosto del fatto, e che gli direbbe tanto, e per modo, che forse gli trarrebbe
+        questo fatto del capo. </Scene>
+    <Scene xml:id="Scene10">
+        <Setting ref="casaDeiFratelliDiMatteo"></Setting>
     <participants>
-        <Character ref="ManettoAmmattini"></Character>
-        <CharacterGroup ref="Prigionieri"></CharacterGroup>
-        <Character ref="GiovannidiMesserFrancescoRucellai"></Character>
-    </participants>
-Il Grasso cenò con loro, e cenato ch’ egli ebbeno, uno di loro gli prestò una prodicella di unsuo canile, dicendo: Matteo, statti stasera qui il meglio che tu puoi; poi domattina, te tu n’uscirai, bene fia, se no, manderai per gualche panno a casa tua. Il Grasso il ringraziò ed acconciossi per dormire, ed egli cominciò ad entrare in su questo pensiero, dicendo: che debbo io fare, se del Grasso io sono diventato Matteo, che mi pare essere certo oramai, che così sia, per tanti segni quant’io ho veduti? s’io mando a casa, mia madre, ed il Grasso sia in casa, e’ si faranno beffe di me, e dirassi ch’io sia impazzito; e d’altra parte e’ mi pare pure essere il Grasso. Ed in su questi pensieri raffermando in se stesso d’esser Matteo, ed ora il Grasso, stette infino alla mattina, che quasi mai non dormì; e la mattina levatosi, standosi alla finestrella dell’uscio della prigione, avvisando per certo quivi dovere capitare qualcuno, che il conoscesse; e così stando, nella Mercatanzia entrò un giovine chiamato Giovanni di messer Francesco Rucellai, il quale era di loro compagnia, ed era stato alla cena, e alla piacevole congiura, e molto conoscente delGrasso, al quale il Grasso faceva uno colmo per una nostra donna, e pure il dì dinanzi era stato con lui a bottega un buon pezzo a sollecitarlo, e avévagli promesso di dargli ivi a quattro dì quel colmo compiuto. Costui entrato nella Mercatanzia, mise il capo dentro all’uscio, dove rispondeva la finestra de’ prigioni, ch’era in quei tempi in terreno, alla quale il Grasso era; e veduto Giovanni, cominciò a ghignare, e riguardoso, e Giovanni guardò lui, e come mai veduto non l’avesse, disse: di che ridi, compagno? Il Grasso, parendogli che costui non lo conoscesse, disse: non d’altro no: conoscereste voi uno, che ha nome il Grasso, che sta sulla piazza di San Giovanni colà di dietro, e fa le tarsie? Come? il conosco, disse Giovanni, sì bene, ed è grande mio amico, e tosto voglio andare fino a lui per un poco di mio lavorio mi fa. Disse il Grasso: deh fatemi un piacere, poiché peraltro avet’ a andare a lui, ditegli, egli é preso alla: mercatanzia un tuo amico, e dice che in servigio che gi faccia un poco motto. Dice Giovanni, guardandolo in viso continovamente tenendo con fatica le risa: io lo farò rdfcenrtierifc e partitosi inda a fate atte faccende.
-</scene>
-<scene>
-    <Setting ref="prigione"></Setting>
+            <Character ref="ManettoAmmattini"></Character>
+            <Character ref="prete"></Character>
+        </participants> Messosi con lui, <transitionWord>n’andò
+        alla casa</transitionWord>, egiunto alla camera, ove era il Grasso, il prete entrò dentro, e
+        vergendolo venire il Grasso che si sedeva con questi suoi pensieri, si levò ritto. A cui il
+        prete disse: buoua sera, Matteo. Il Grasso rispose: buona sera e buon anno; che andate voi
+        cercando? al quale il prete disse: io sono venuto per istarmi un poco teco. E postosi a
+        sedere, disse al Grasso: siedi qui a lato a me, e dirotti quello che io voglio» Il Grasso
+        per ubbidire gli si pose a sedere a lato, a cui il prete disse in questa forma; la cagione,
+        perch’io sono venuto qui, Matteo, si è, ch’io ho sentito cosa, che assai mi dispiace, e
+        questo è, che pare che in questi dì tu fossi preso alla Mercatanzia per tuoi debiti, e
+        secondochè ho sentito, tu te ne hai data, e dai tanta maninconia, che tu se’ stato in su lo
+        ’mpazzare; e intra l’ altre sciocchezze, che io odo, che tu hai fatte e fai, si è, che tu
+        di’, che non se’ più Matteo, et per ogni modo vogli essere un altro, che si chiama il
+        Grasso, ch’ è legnaiuolo. Tu te’ forte da riprendere. che per una piccola avversità tu
+        t’abbi posto tanto dolore al cuore, che pare che tu ne sia uscito di te, e fati uccellare
+        per questa tua pertinacia con poco onore. In vero, Matteo, io non vo’ che tu facci più così,
+        e voglio che per mio amore da quinci innanzi tu mi prometta di levarti da questa fantasia, e
+        attendere a far ifatti tuoi, come fanno le persone da bene, e gli altri uomini, e di questo
+        farai gran piacere a questi tuoi frategli. Se questo si sapesse, che tu fossi uscito di te,
+        tornando poi nel miglior sentimento del mondo, sempre si diria, per cosa che tu facesti, che
+        tu fusti fuor di te, e saresti come uom perduto. Sicchè conchiudendo, disponi di esser uomo
+        e non bestia, e lascia andare questa frascherie. Che Grasso o non Grasso? fa a mio modo, che
+        ti consiglio del bene tuo. E guardavalo in viso dolcemente. Il Grasso udito costui con
+        quanto amore gli dicea questa fatto, e le accomodate parole ch’egli usava, non dubitando
+        punto d’essere Matteo, im quello stante gli rispose, che era disposto a fare quel che
+        potesse di quello che egli gli avea detto, perocchè conoscea, che di tutto gli dicea il bene
+        suo, e promisegli da quel punto innanzi fare ogni forza, che mai più non si darebbe e
+        credere d’essere altri che Matteo, come egli era; ma che da lui voleva una grazia, se
+        possibil fosse, e questa era, che egli vorrebbe parlare con questo Grasso e discredersi. A
+        ciò il prete disse: tutto cotesto è contrario a’ fatti tuoi, ed ancora veggo, che tu hai
+        cotesto nel capo Perchè ti bisogna parlare col Grasso? che hai tua fare con lui? che quanto
+        più ne parli, e a quante più persone tu discoprirai questo fatto, tanto è peggio, e tanto
+        più contro a te. E tanto intorno a ciò gli disse, che egli lo fe’ rimanere contento di non
+        parlargli. E partitosi da lui, disse a’ frategli ciò che egli avea fatto, e detto e quello
+        che egli avea promesso; e prese commiato da loro alla Chiesa si tornò. </Scene>
+    <Scene xml:id="Scene11">
+        <Setting ref="casaDeiFratelliDiMatteo"></Setting>
     <participants>
-        <Character ref="ManettoAmmattini"></Character>
-        <Character ref="Giudice"></Character>
-    </participants>
-Rimaso il Grasso alla finestra della prigionia infra se medesimo diceva: oggimai poss’io essere certo, che io non sono più il Grasso, e sono diventato Matteo,che maledetta sia lamia fortuna; che se io dico questo fatto io sarò tenuto pazzo , e correrannomi drieto i fanciulli; e se io nol dico, ne potrà intervenire cento errori, come fu quello di iersera d’essere preso; sicché in ogni modo io sto male. Ma veggiamo se il Grasso venisse, che s’ei viene, io lo dirò a lui, e vedremo quello che questo vuol dire. Ed aspettato un gran pexzo, che costui venisse, con questa fantasia, non venendo vi tirò dentro per dar luogo a un altro, guardando lo ammattonato, e quando il palco colle mani commesse. Era in quei dì nella detta prigione sostenuto un giudice assai valente uomo, lo quale per onestà al presente si tace; il quale, posto che non conoscesse il Grasso, pure veggendolo così maninconoso, credendo avesse tal maninconia per rispetto del debito, s’ingegnava di confortarlo assai bene, dicendo: deh Matteo, tu stai sì maninconoso, ch’e’ basterebbe se tufossi per perdere la persona; e secondochè tu dì, questo è piccolo debito. Ei non si vuolenellefortune così abbandonarsi. Perchè non mandi tu per qualche tuo amico, o parente, e cerca di pagarlo, o d’ accordarlo in qualche mode, che tu esca di prigione, e non ti dare tanta maninconia? Il Grasso, udendosi confortare così amorevolmente, diliberò di dirgli il caso intervenutogli, e trattolo da un canto della prigione, disse: messere, postochè voi non conosciate me, io conosco ben voi, e so che voi sete valente uomo. Il per che ho diliberato dirvi la cagione, che mi tiene così maninonoso, e non vo’ che voi crediate, che per un piccolo debito istessi in tanta pena; ma io ho altro. E cominciato dal principio del suo caso fino alla fine, gli disse ciò che intervenuto gli era, quasi tuttavia piangendo, e di due cose pregandolo; l’una, che di questo mai con persona non parlasse; l’altra, ch’egli gli desse qualche consiglio, o rimedio in questo caso, aggiugnendo: io so, che voi avete lungamente letto in istudio, e letto di molti autori ed istorie antiche, che hanne scritto molti avvenimenti; trovasti ne voi mai niuno simile a questo? Il valente uomo, udito costui, subito considerato il fatto, immaginò delle due cose esser l’una, cioè, o che costui fosse impazzato, o che ella fosse par beffa, come ella era, e presto rispose, lui averne molti letti, cioè l’esser diventata d’uno un altro, e che questo non era caso nuovo. A cui il Grasso disse: or ditemi, se io sono divenuto Matteo, che è di Matteo? Rispose il giudice: è di necessità, che sia divenuto il Grasso. A cui il Grasso disse: bene; lo vorrei un poco vedere per isbizzarrirmi.
-</scene>
-<scene>
-    <Setting ref="prigione"></Setting>
-    <participants>
-        <CharacterGroup ref="fratellidiMatteo"></CharacterGroup>
-        <Character ref="Notaio"></Character>
-        <Character ref="guardiaDellaPrigione"></Character>
-        <Character ref="ManettoAmattini"></Character>
-    </participants>
-E stando in questi ragionamenti era quasi l’ora di vespro quando due frategli di questa Matteo vennero alla Mercatanzia, e domandarono il notaio della cassa, se quivi fosse un loro fratello preso, che ha nome Matteo, e per quanto, egli era preso, impercchegli eran suoi fategli, e volevan, pagare per lui, e trarlo di prigione. Il notaio della cassa, che, tutta la trama sapea, perchè era grande. amico di Tommaso Pecori, disse di sì; e faccendo vista di squadernare il libro, disse; e’ ci è per tanti denari a petizion del tale. Bene, dissono, noi gli vogliamo un poco parlare, poi daremo modo di pagare per lui. ed andati alla prigione, dissono a uno, che era alla finestra della prigione: di’ costà a Matteo, che sono qui de’ suoi frategli, che vengon, per trarlo di prigione, che si faccia un poco qui. Costui fatta la ’mbasciata, il Grassovenne alla grata, e salutogli. A cui il maggiore di questi frategli cominciò a dire in questa forma: Matteo, tu saiquante volte noi t’abbiamo ammonito di questi tuoi modi cattivi, che tenuti hai; e sai che noi t’abbiamo detto: tu ti vai ogni dì indebitando ora con questo, ed ora con quello, e non paghi mai persona, perchè le cattive spese, che tu fai e del giuoco, e dell’altre cose, non ti lasciano mai accostare un soldo; ed ora ti trovi m prigione: e sai come noi siamo agiati a danari, e a potere ogni dì pagare per te, che hai consumate da un tempo in qua un tesoro per tue zacchere, il perchè noi t’avvisiamo, che? se non fosse per nostro onore, o per lo stimolo ci dà tua madre, noi ti lasceremmo marcire un pezzo, acciocché te t’ avvezzassi. Ma per questa volta abbiamo determinato cavartene, e pagar per te, avvisandoti,» che se tu c’incappi mai più, tu ci starai più che tu non vorrai, e bastiti. E per non essere di dì veduti qui, noi verremo stasera in sull’ Avemaria per te, quando ci sarà meno gente, acciocché ogni uomo non abbia a sapere le nostre miserie, e non abbiamo tanta vergogna pe’ fatti tuoi. Il Grasso si voltò loro con buone parole, dicendo: che più certo egli non terrebbe più que’ modi ch’ egli avea tenuti per lo passato, e che si guarderebbe dalle zacchere, e di non recare più loro vergogna a casa, pregandogli per Dio, come fosse l’ora, che venissono per lui. Eglino promisero di farlo e partironsi da lui; ed egli si tirò addietro, e disse al giudice: ella ci è più bella, imperocché sono venuiti qui a me due frategli di Matteo, di quel Matteo, in di cui scambio io sono, » ed hannomi parlato in forma come s’io fossi Matteo, ed ammonitomi molto, e dicono che all’Avemaria verranno per me, e trarrannomi di qui, soggiugnendo: e come e’ mi traggono di qui, dove andrò io? a casa mia non sarà da tornare» imperocché se v’è il Grasso, che dirò io, che io non sia tenuto pazzo? e parmi essere certo, che ’l Grasso v’è; che non vi essendo, mia madre m’avrebbe mandato caendo, là dove vedendoselo innanzi non s’avvede di questo errore. Il giudice con gran fatica teneva le risa, e aveva uno piacere inestimabile; e disse: non v’andare, ma vattene con questi, che dicono esser tuoi frategli, e vedi dove egli ti menano, e quello fanne di te.
-</scene>
-<scene>
-    <Setting ref="Mercatanzia"></Setting>
-    <Setting ref="prigione"></Setting>
-    <Setting ref="casaDeiFratelliDiMatteo"></Setting>
-    <participants>
-        <CharacterGroup ref="fratelliDiMatteo"></CharacterGroup>
-        <Character ref="Notaio"></Character>
-        <Character ref="ManettoAmmattini"></Character>
-        <Character ref="Parocchiano"></Character>
-    </participants>
-E stando, in questi ragionamenti, e cominciandosi a far sera, i frategli giunsero, e fatto vista d’avere accordato il creditore e la cassa, ilnotaio si levò da sedere con le chiavi della prigione, ed andato là disse: qual è Matteo? Il Grasso fattosi innanzi, disse: eccomi, messere. Il notaio lo guatò; e disse; questi tuoi fratelli hanno pagato per te il tuo debito, e pertanto tu se’ libero. E aperto l’uscio della prigione, disse: va’ qua. E il Grasso uscito fuori, essendo già’ molto benbuio, si avviò con costoro, i quali stavano di casa da santa Filicita; al cominciare del salire la costa di san Giorgio. E giunti a casa, sen’andarono con costui in una camera terrena, dicendogli: statti qui tantoché fia ora di cena; come non volendolo appresentare alla madre per non le dare malinconia. Ed essendo quivi al fuoco una tavoletta apparecchiata, l’uno di loro rimase al fuoco con lui, e l’altro sen’andò al prete di santa Filicita, ch’era loro parrocchiano, ed era una buona persona, e sì gli disse: messere, io vengo, a voi con fidanza, come deve andare l’uno vicino all’altro. Egli è vero, che noi siamo tre fratelli, tra quali ve n’è uno che ha nome Matteo, il quale ieri per certi suoi debbiti fu preso alla Mercatanzía, ed hassi data tanta malinconia di questa presura, che ci par presso che uscito de’ gangheri e pare solamente na cosa che vagilli, e parendoci in tutte l’altre cose quel Matteo, ch’ e’ si suole, solamente in una manca, e questo è, ch’e’ s’ha messo nel capo di esser diventato un altro uomo, che Matteo. Mai udisti la più fantastica cosa?E dice pure essere un certo Grasso legnaiuolo suo noto, perocché sta a bottega dietro a sam Giovanni, e a casa lungo santa Maria del Fiore; e questo in niun modo trarre non gli possiamo del capo. Ilper che noi l’abbiamo tratto di prigione, e condottolo in casa, e messolo in una camera, acciocché fuori non sieno intese queste sue pazzie; che sapete, che chi una volta comincia a dare di questi segui, poi tornando nel miglior sentimento del mondo, sempre è uccellato. E pertanto conchiudendo, noi vogliamo in carità pregarvi, che vi piaccia venire insino a casa e che voi gli parliate, ed ingegnatevi di trargli questa fantasia del capo, e resteremvene sempre obbligati. Il prete era servente persona: il perchè rispose, che molto volentieri; e che s’egli favellasse con lui, egli s’avvedrebbe tosto del fatto, e che gli direbbe tanto, e per modo, che forse gli trarrebbe questo fatto del capo.
-</scene>
-<scene>
-    <Setting ref="casaDeiFratelliDiMatteo"></Setting>
-    <participants>
-        <Character ref="ManettoAmmattini"></Character>
-        <Character ref="prete"></Character>
-    </participants>
-Messosi con lui, <transitionWord>n’andò alla casa</transitionWord>, egiunto alla camera, ove era il Grasso, il prete entrò dentro, e vergendolo venire il Grasso che si sedeva con questi suoi pensieri, si levò ritto. A cui il prete disse: buoua sera, Matteo. Il Grasso rispose: buona sera e buon anno; che andate voi cercando? al quale il prete disse: io sono venuto per istarmi un poco teco. E postosi a sedere, disse al Grasso: siedi qui a lato a me, e dirotti quello che io voglio» Il Grasso per ubbidire gli si pose a sedere a lato, a cui il prete disse in questa forma; la cagione, perch’io sono venuto qui, Matteo, si è, ch’io ho sentito cosa, che assai mi dispiace, e questo è, che pare che in questi dì tu fossi preso alla Mercatanzia per tuoi debiti, e secondochè ho sentito, tu te ne hai data, e dai tanta maninconia, che tu se’ stato in su lo ’mpazzare; e intra l’ altre sciocchezze, che io odo, che tu hai fatte e fai, si è, che tu di’, che non se’ più Matteo, et per ogni modo vogli essere un altro, che si chiama il Grasso, ch’ è legnaiuolo. Tu te’ forte da riprendere. che per una piccola avversità tu t’abbi posto tanto dolore al cuore, che pare che tu ne sia uscito di te, e fati uccellare per questa tua pertinacia con poco onore. In vero, Matteo, io non vo’ che tu facci più così, e voglio che per mio amore da quinci innanzi tu mi prometta di levarti da questa fantasia, e attendere a far ifatti tuoi, come fanno le persone da bene, e gli altri uomini, e di questo farai gran piacere a questi tuoi frategli. Se questo si sapesse, che tu fossi uscito di te, tornando poi nel miglior sentimento del mondo, sempre si diria, per cosa che tu facesti, che tu fusti fuor di te, e saresti come uom perduto. Sicchè conchiudendo, disponi di esser uomo e non bestia, e lascia andare questa frascherie. Che Grasso o non Grasso? fa a mio modo, che ti consiglio del bene tuo. E guardavalo in viso dolcemente. Il Grasso udito costui con quanto amore gli dicea questa fatto, e le accomodate parole ch’egli usava, non dubitando punto d’essere Matteo, im quello stante gli rispose, che era disposto a fare quel che potesse di quello che egli gli avea detto, perocchè conoscea, che di tutto gli dicea il bene suo, e promisegli da quel punto innanzi fare ogni forza, che mai più non si darebbe e credere d’essere altri che Matteo, come egli era; ma che da lui voleva una grazia, se possibil fosse, e questa era, che egli vorrebbe parlare con questo Grasso e discredersi. A ciò il prete disse: tutto cotesto è contrario a’ fatti tuoi, ed ancora veggo, che tu hai cotesto nel capo Perchè ti bisogna parlare col Grasso? che hai tua fare con lui? che quanto più ne parli, e a quante più persone tu discoprirai questo fatto, tanto è peggio, e tanto più contro a te. E tanto intorno a ciò gli disse, che egli lo fe’ rimanere contento di non parlargli. E partitosi da lui, disse a’ frategli ciò che egli avea fatto, e detto e quello che egli avea promesso; e prese commiato da loro alla Chiesa si tornò.
-</scene>
-<scene>
-    <Setting ref="casaDeiFratelliDiMatteo"></Setting>
-    <participants>
-        <CharacterGroup ref="fratelliDiMatteo"></CharacterGroup>
-        <Character ref="FilippodiSerBrunellesco"></Character>
-    </participants>
-Nella stanza, che il prete avea fatta con lui, v’era venuto secretameuto Filippo di ser Brunellesco, e colle maggiori risa del mondo discosto dalla camera si fece ragguagliare di tutto da uno di quei fratelli e dello uscire della prigione, e di quello ch’egli avevano ragionato per la via e dipoi; ed avendo recato in una gnastaduzza un beveraggio, disse all’uno di questi due frategli: Fate che mentre che voi cenate, voi gli diate bere questo o in vino, o in che modo vi pare, che non se n’avvegga. Questo è uno oppio, che il farà sì forte dormire, che mazzicandolo tutto, non sentirebbe per parecchi ore, ed io verrò poi colà dalle cinque ore, e faremo il resto.
-</scene>
-<scene>
-    <participants>
-        <CharacterGroup ref="fratelliDiMatteo"></CharacterGroup>
-        <Character ref="ManettoAmmattini"></Character>
-    </participants>
-I frategli tornati in camera si posero a cena con lui insieme, ed era già passato tre ore, e così cenando gli diedero il beveraggio per modo che ’l Grasso per verun modo non potea tenere gli occhi aperti per lo gran sonno, che gli era venuto. A cui costoro dissero: Matteo, e’ pare, che tu caschi di sonno. Tu dovestipoco dormire stanotte passata. E appuosonsi. A cui il Grasso rispose: io ti prometto, che poich’io nacqui, mai sì gran sonno non abbi, che se io fossi stato un mese sanza dormire, basterebbe; e pertanto, io me ne voglio andare a letto. E cominciatosi a spogliare, appena potè resistere discalzarsi, e d’andarsi al letto, che fu addormentato fortemente» e russava com’un porco»
-</scene>
-<scene>
-    <participants>
-        <Character ref="FilippodiSerBrunellesco"></Character>
-        <CharacterGroup ref="compagniDiFilippo"></CharacterGroup>
-        <CharacterGroup ref="fratelliDiMatteo"></CharacterGroup>
-    </participants>
-All’ora diputata tornò Filippo di ser Brunellesco con sei compagni, ed entrò nella camera dove egli era, e sentendolo forte dormiire, lo presono, e misonlo in una zana con tutti i suoi panni e portaronlo a casa sua, ove non era persona (che per avventura la madre non era ancora tornata di villa) e portarono fino al letto, e misonvelo dentro, e puosono i. panni suoi dove egli era usato di porgli; ma lui che soleva dormire da capo, lo puosono dappiè. E fatto questo, tolsono le chiavi della bottega, le quali erano appiccate ad uno arpione della camera, ed andaronsene alla bottega, ed apertala, entrarono dentro, e tutti i suoi ferramenti, che v’eran da lavorare, tramutaron del luogo ove erane ad un altro; e tutti i ferri delle pialle trassero de’ ceppi, e misero il taglio di sopra, ed il grosso di sotto, e così fecero a tutti i martelli, ed all’asce, e simile tutta la bottega travolsero per modo, che pareva che vi fussono stati i dimonj; e riserrata la bottega, e riportate le chiavi inCamera del Grasso, e l’uscio riserrato, se n’andarono ciascuno a dormire a casa sua. Il Grasso alloppiato del beveraggio dormì fatta quella notte senza mai risentirsi. Ma la mattina in su l’Avemaria di santa Maria del Fiore, avendo fatto il beveraggio tutta l’opera sua, destatosi, essendo già dì, ed arendo riconosciuta la campana, ed aperti gli occhi, e veggendo alcuno spiraglio per la camera, riconobbe se essere a casa sua, e ricordatosi di tutte le cose passate, cominciò ad avere gran maraviglia, e ricordandosi dove la sera si era coricato, e dove si trovava allora, entrò subito in una fantasia d’ambiguità s’egli aveva sognato quello, o se sognava al presente, e parevagli certo vero quando l’una cosa, e quando l’altra; e dopo alcun sospiro corale disse: Iddio m’aiuti. Ed uscito del letto, e vestitosi, tolse le chiavi della bottega, e là andatosene ed apertala, vide tutta la bottega ravvilupppata, e i ferri tutti disordinati, e fuori del luogo loro, di che ancor non ebbe piccola ammirazione: pare vegnendoli rassettando, e mettendoli dove stare soleano, in quello giunsero due fratelli di Matteo; e trovandolo così impacciato, faccendo vista di non conoscerlo, disse l’uno di loro: buon dì, maestro. Il Grasso rivoltosi a loro, e riconosciutili, si cambiò un poco nel viso,e disse: buon dì, e buon anno, che andate voi cercando? Disse l’un di loro: dirottelo. Egli è vero, che noi abbiamo tra noi un nostro fratello, che ha nome Matteo, al quale da parecchi dì in qua per una presura gli fu fatta, per maninconia si è unpoco volto il cervello, e fra l’altre cose chedice, si è, che e’ dice non essere più Matteo, ma essere il maestro di questa bottega eche par che abbia nome el Grasso; di che avendolo molto ammonito, e fattogliele dire pure iersera al prete del nostro popolo, che èuna buona persona, a lui aveva promesso di levarsi questa fantasìa della testa, e cenò della miglior voglia del mondo, ed andossi a dormire innostra presenza. Dipoi stamane, che persona nol sentì, s’uscì di casa, e dove si sia ito non sappiamo; e pertanto noi eravamo venuti qui per vedere se ci era capitato, o se tu ce ne sapessi dir nulla. Il Grasso smemorava mentre costui diceva quelle parole; e rivoltosi loro disse: io non so ciò che voi vi dite, e non so che frasche queste sono. Matteo non è venuto qua, e se disse d’esser me fe’ grande villania, e per lo corpo di me, che se io m’abbocco con lui, io mi debbo sbizzarrire, e sapere s’io son lui, o egli è me. Oh che diavolo è questo da due dì in qua! E detto questo, tutto pien d’ira prese il mantello, e tirato a se l’uscio della bottega, e lasciati costoro, se n’ andò verso santa María del Fiore forte minacciando. Costoro si partirono, ed il Grasso entrato in chiesa, andava di giù in su per la chiesa, che pareva un leone, tanto arrabbiato era in su questo fatto. E così stando, quivi giunse uno, che stato era suo compagno, ed erano stati insieme con maestro Pellegrino delle tarsíe, che stava in Terma, il quale giovane di più anni s’era partito, e ito in Ungheria, e là aveva fatto molto bene i fatti suoi pel mezzo di Filippo Scolari, che si diceva lo Spano nostro cittadino, ch’era allora Capitano generale dello esercito di Gismondo figliuolo di Carlo Re di Buemmia; e questo Spano dava ricapito a tutti i Fiorentini, ch’avessono virtù nessuna o intellettuale o manuale, come quello ch’era un signor molto da bene, ed amava la nazione oltremodo, com’ ella doveva amane lui, e fece a molti del bene. In quello tempo era venuto questo tale a Firenze per sapere se poteva conducere di là niuno maestro dell’arte sua, per molti lavorii, ch’egli avea tolti a fare, e più volte n’aveva ragionato col Grasso, pregandolo ch’egli vi andasse, e mostrandogli che in pochi anni e’ si farebbono ricchi; il quale come il Grasso vide verso se venire, deliberò d’andarsene con esso lui. E fattoglisi incontro gli disse: Tu m’hai molte volte ragionato, se io me ne voglio venire teco in Ungheria, ed io sempre t’ho detto di no; ora per un caso che m’è intervenuto, e per differenze che io ho con mia madre, dilibero di venire in caso tu voglia. Ma se tu hai il capo a ciò, io voglio esser mosso domattina, imperocché, se io soprastessi, la venuta mia sarebbe impedita. Il giovane gli disse: che questo era molto caro, ma che così l’altra mattina non poteva andare per sue faccende, ma che egli andasse quando valesse, e aspettasselo a Bologna, che in pochi dì vi sarebbe. Il Grasso fu contento, e rimasi d’accordo, il Grasso si tornò a bottega, e tolse molti suoi ferri, e sue bazzicature per portare, ed alcuno danaio, che aveva. E fatto questo, sen’andò in Borgo san Lorenzo e tolse un ronzino a rimettere a Bologna, e la mattina vegnente vi montò su bene, e prese il cammino verso quella, e lasciò una lettera, che s’addirizzava alla madre, la quale diceva, ch’ella s’obrjgassi per la dota con chi era rimaso inbottega, e come egli se n’andava in Ungheria. In questo modo si partì il Grasso da Firenze, ed aspettato il compagno a Bologna, se n’andarono in Ungheria, là dove sì ben fecero, che in pochi anni diventarono ricchi, secondo le loro condizioni, per favore del detto Spano, che lofece maestro ingegneri, e chiamavasi maestro Manetto da Firenze e venendo poi il Grasso più volte a Firenze, e da Filippo di ser Brunellesco essendo domandata della sua partita, ordinatamente gli disse questa, novella, e perchè partito s’era di Firenze.
-</scene>
+            <CharacterGroup ref="fratelliDiMatteo"></CharacterGroup>
+            <Character ref="FilippodiSerBrunellesco"></Character>
+        </participants> Nella
+        stanza, che il prete avea fatta con lui, v’era venuto secretameuto Filippo di ser
+        Brunellesco, e colle maggiori risa del mondo discosto dalla camera si fece ragguagliare di
+        tutto da uno di quei fratelli e dello uscire della prigione, e di quello ch’egli avevano
+        ragionato per la via e dipoi; ed avendo recato in una gnastaduzza un beveraggio, disse
+        all’uno di questi due frategli: Fate che mentre che voi cenate, voi gli diate bere questo o
+        in vino, o in che modo vi pare, che non se n’avvegga. Questo è uno oppio, che il farà sì
+        forte dormire, che mazzicandolo tutto, non sentirebbe per parecchi ore, ed io verrò poi colà
+        dalle cinque ore, e faremo il resto. </Scene>
+    <Scene xml:id="Scene12">
+        <participants>
+            <CharacterGroup ref="fratelliDiMatteo"></CharacterGroup>
+            <Character ref="ManettoAmmattini"></Character>
+        </participants> I frategli tornati
+        in camera si posero a cena con lui insieme, ed era già passato tre ore, e così cenando gli
+        diedero il beveraggio per modo che ’l Grasso per verun modo non potea tenere gli occhi
+        aperti per lo gran sonno, che gli era venuto. A cui costoro dissero: Matteo, e’ pare, che tu
+        caschi di sonno. Tu dovestipoco dormire stanotte passata. E appuosonsi. A cui il Grasso
+        rispose: io ti prometto, che poich’io nacqui, mai sì gran sonno non abbi, che se io fossi
+        stato un mese sanza dormire, basterebbe; e pertanto, io me ne voglio andare a letto. E
+        cominciatosi a spogliare, appena potè resistere discalzarsi, e d’andarsi al letto, che fu
+        addormentato fortemente» e russava com’un porco» </Scene>
+    <Scene xml:id="Scene13">
+        <participants>
+            <Character ref="FilippodiSerBrunellesco"></Character>
+            <CharacterGroup ref="compagniDiFilippo"></CharacterGroup>
+            <CharacterGroup ref="fratelliDiMatteo"></CharacterGroup>
+        </participants> All’ora
+        diputata tornò Filippo di ser Brunellesco con sei compagni, ed entrò nella camera dove egli
+        era, e sentendolo forte dormiire, lo presono, e misonlo in una zana con tutti i suoi panni e
+        portaronlo a casa sua, ove non era persona (che per avventura la madre non era ancora
+        tornata di villa) e portarono fino al letto, e misonvelo dentro, e puosono i. panni suoi
+        dove egli era usato di porgli; ma lui che soleva dormire da capo, lo puosono dappiè. E fatto
+        questo, tolsono le chiavi della bottega, le quali erano appiccate ad uno arpione della
+        camera, ed andaronsene alla bottega, ed apertala, entrarono dentro, e tutti i suoi
+        ferramenti, che v’eran da lavorare, tramutaron del luogo ove erane ad un altro; e tutti i
+        ferri delle pialle trassero de’ ceppi, e misero il taglio di sopra, ed il grosso di sotto, e
+        così fecero a tutti i martelli, ed all’asce, e simile tutta la bottega travolsero per modo,
+        che pareva che vi fussono stati i dimonj; e riserrata la bottega, e riportate le chiavi
+        inCamera del Grasso, e l’uscio riserrato, se n’andarono ciascuno a dormire a casa sua. Il
+        Grasso alloppiato del beveraggio dormì fatta quella notte senza mai risentirsi. Ma la
+        mattina in su l’Avemaria di santa Maria del Fiore, avendo fatto il beveraggio tutta l’opera
+        sua, destatosi, essendo già dì, ed arendo riconosciuta la campana, ed aperti gli occhi, e
+        veggendo alcuno spiraglio per la camera, riconobbe se essere a casa sua, e ricordatosi di
+        tutte le cose passate, cominciò ad avere gran maraviglia, e ricordandosi dove la sera si era
+        coricato, e dove si trovava allora, entrò subito in una fantasia d’ambiguità s’egli aveva
+        sognato quello, o se sognava al presente, e parevagli certo vero quando l’una cosa, e quando
+        l’altra; e dopo alcun sospiro corale disse: Iddio m’aiuti. Ed uscito del letto, e vestitosi,
+        tolse le chiavi della bottega, e là andatosene ed apertala, vide tutta la bottega
+        ravvilupppata, e i ferri tutti disordinati, e fuori del luogo loro, di che ancor non ebbe
+        piccola ammirazione: pare vegnendoli rassettando, e mettendoli dove stare soleano, in quello
+        giunsero due fratelli di Matteo; e trovandolo così impacciato, faccendo vista di non
+        conoscerlo, disse l’uno di loro: buon dì, maestro. Il Grasso rivoltosi a loro, e
+        riconosciutili, si cambiò un poco nel viso,e disse: buon dì, e buon anno, che andate voi
+        cercando? Disse l’un di loro: dirottelo. Egli è vero, che noi abbiamo tra noi un nostro
+        fratello, che ha nome Matteo, al quale da parecchi dì in qua per una presura gli fu fatta,
+        per maninconia si è unpoco volto il cervello, e fra l’altre cose chedice, si è, che e’ dice
+        non essere più Matteo, ma essere il maestro di questa bottega eche par che abbia nome el
+        Grasso; di che avendolo molto ammonito, e fattogliele dire pure iersera al prete del nostro
+        popolo, che èuna buona persona, a lui aveva promesso di levarsi questa fantasìa della testa,
+        e cenò della miglior voglia del mondo, ed andossi a dormire innostra presenza. Dipoi
+        stamane, che persona nol sentì, s’uscì di casa, e dove si sia ito non sappiamo; e pertanto
+        noi eravamo venuti qui per vedere se ci era capitato, o se tu ce ne sapessi dir nulla. Il
+        Grasso smemorava mentre costui diceva quelle parole; e rivoltosi loro disse: io non so ciò
+        che voi vi dite, e non so che frasche queste sono. Matteo non è venuto qua, e se disse
+        d’esser me fe’ grande villania, e per lo corpo di me, che se io m’abbocco con lui, io mi
+        debbo sbizzarrire, e sapere s’io son lui, o egli è me. Oh che diavolo è questo da due dì in
+        qua! E detto questo, tutto pien d’ira prese il mantello, e tirato a se l’uscio della
+        bottega, e lasciati costoro, se n’ andò verso santa María del Fiore forte minacciando.
+        Costoro si partirono, ed il Grasso entrato in chiesa, andava di giù in su per la chiesa, che
+        pareva un leone, tanto arrabbiato era in su questo fatto. E così stando, quivi giunse uno,
+        che stato era suo compagno, ed erano stati insieme con maestro Pellegrino delle tarsíe, che
+        stava in Terma, il quale giovane di più anni s’era partito, e ito in Ungheria, e là aveva
+        fatto molto bene i fatti suoi pel mezzo di Filippo Scolari, che si diceva lo Spano nostro
+        cittadino, ch’era allora Capitano generale dello esercito di Gismondo figliuolo di Carlo Re
+        di Buemmia; e questo Spano dava ricapito a tutti i Fiorentini, ch’avessono virtù nessuna o
+        intellettuale o manuale, come quello ch’era un signor molto da bene, ed amava la nazione
+        oltremodo, com’ ella doveva amane lui, e fece a molti del bene. In quello tempo era venuto
+        questo tale a Firenze per sapere se poteva conducere di là niuno maestro dell’arte sua, per
+        molti lavorii, ch’egli avea tolti a fare, e più volte n’aveva ragionato col Grasso,
+        pregandolo ch’egli vi andasse, e mostrandogli che in pochi anni e’ si farebbono ricchi; il
+        quale come il Grasso vide verso se venire, deliberò d’andarsene con esso lui. E fattoglisi
+        incontro gli disse: Tu m’hai molte volte ragionato, se io me ne voglio venire teco in
+        Ungheria, ed io sempre t’ho detto di no; ora per un caso che m’è intervenuto, e per
+        differenze che io ho con mia madre, dilibero di venire in caso tu voglia. Ma se tu hai il
+        capo a ciò, io voglio esser mosso domattina, imperocché, se io soprastessi, la venuta mia
+        sarebbe impedita. Il giovane gli disse: che questo era molto caro, ma che così l’altra
+        mattina non poteva andare per sue faccende, ma che egli andasse quando valesse, e
+        aspettasselo a Bologna, che in pochi dì vi sarebbe. Il Grasso fu contento, e rimasi
+        d’accordo, il Grasso si tornò a bottega, e tolse molti suoi ferri, e sue bazzicature per
+        portare, ed alcuno danaio, che aveva. E fatto questo, sen’andò in Borgo san Lorenzo e tolse
+        un ronzino a rimettere a Bologna, e la mattina vegnente vi montò su bene, e prese il cammino
+        verso quella, e lasciò una lettera, che s’addirizzava alla madre, la quale diceva, ch’ella
+        s’obrjgassi per la dota con chi era rimaso inbottega, e come egli se n’andava in Ungheria.
+        In questo modo si partì il Grasso da Firenze, ed aspettato il compagno a Bologna, se
+        n’andarono in Ungheria, là dove sì ben fecero, che in pochi anni diventarono ricchi, secondo
+        le loro condizioni, per favore del detto Spano, che lofece maestro ingegneri, e chiamavasi
+        maestro Manetto da Firenze e venendo poi il Grasso più volte a Firenze, e da Filippo di ser
+        Brunellesco essendo domandata della sua partita, ordinatamente gli disse questa, novella, e
+        perchè partito s’era di Firenze. </Scene>
 </root>

@@ -9,7 +9,7 @@
         </Character>
         <CharacterGroup xml:id="orcs">
             <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/OurOgresAreHungrier"></trope>
-            <Character xml:id="orca">
+            <Character xml:id="orca" narratorName="orca">
                 <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheAntagonist" isPeriodic="True"></trope>
             </Character>
         </CharacterGroup>
@@ -19,6 +19,7 @@
         <Character xml:id="figliodenoprencipe">
             <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/KnightInShiningArmor" isPeriodic="True"></trope>
         </Character>
+        <Character xml:id="commaredellOrca"></Character>
         <CharacterGroup xml:id="animalitrasformati">
             <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/SummonMagic"></trope>
         </CharacterGroup>
@@ -59,7 +60,7 @@ me nce pische co sse chiacchiare! Tu hai scomputo lo staglio de la vita, si non 
     <participants>
         <Character ref="Petrosinella"></Character>
         <Character ref="Pascadozia"></Character>
-        <Character ref="Orca"></Character>
+        <Character ref="orca"></Character>
     </participants>
 Ma, venuto lo tiempo de partorire, fece na figliola cossì bella, ch’era na gioja, che, pe avere na bella cimma de petrosino mpietto, la chiammaje Petrosinella. La quale, ogne juorno crescenno no parmo, comme fu de sette anne, la mannaje a la majestra. La quale sempre che jeva pe la strata, e se scontrava coll’orca, le deceva: «Dì a mammata, che s’allecorde de la mprommessa!» E, tanta vote fece sso taluerno, che la scura mamma, non avenno chiù cellevriello de sentire sta museca, le disse na vota: «Si te scuntre co la solita vecchia, e te cercarrà sta mardetta prommessa, e tu le respunne: pigliatella!» Petrosinella, che non sapeva de cola, trovanno l’orca, e facennole la stessa proposta, le respose nocentemente, comme l’aveva ditto la mamma. E l’orca, afferratala pe li capille, se ne la portaje a no vosco, dove non trasevano mai li cavalle de lo sole, pe n’essere affedate a li pascolo de chell’ombre, mettennola drinto a na torre, che fece nascere ped arte, senza porte, nè scale, sulo co no fenestriello. Pe la quale, pe li capille de Petrosinella, ch’erano luonghe luonghe, saglieva e scenneva, comme sóle batto de nave pe le nsarte dell’arvolo.</Scene> 
 <Scene xml:id="Scene4" setting="torreNelBosco">
@@ -78,14 +79,15 @@ La quale cosa doveva essere la notte, quanno la luna joqua a passara muta co le 
 <Scene xml:id="Scene6" setting="torreNelBosco">
     <participants>
         <Character ref="orca"></Character>
-        <Character ref="commaredellorca"></Character>
+        <Character ref="commaredellOrca"></Character>
         <Character ref="Petrosinella"></Character>
     </participants>
 La quale cosa <transitionWord>continuanno spesse vote a fare</transitionWord>, se n’addonaje na commare dell’orca; la quale, pigliannose lo mpaccio de lo Russo, voze mettere lo musso a la merda, e disse all’orca, che stesse ncellevriello, ca Petrosinella faceva l’ammore co no cierto giovene, e sospettava, che non fossero passate chiù nante le cose; perchè vedeva lo moschito, e lo trafeco, che se faceva; e dobetava, che, fatto no leva ejo, non fossero sfrattate nante Majo da chella casa. L’orca rengraziaje la commare de lo buono avertemiento, e disse, ca sarria stato penziero sujo de mpedire la strata a Petrosinella, otra che non era possibile, che fosse potuta foire ped averele fatto no ncanto, che, si n’aveva mano tre gliantre, nascose drinto a no trave de la cecina, era opera perza, che potesse sfilarennella. Ma, mentre erano a sti ragionamiente Petrosinella, che steva co l’aurecchie appezzute, ed aveva quarche sospetto de la commare, ntese tutto lo trascurzo.
 </Scene>
 <Scene xml:id="Scene7" setting="notSpecified">
+    <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/ChaseScene"></trope>
     <participants>
-        <Character ref="commaredellorca"></Character>
+        <Character ref="commaredellOrca"></Character>
         <Character ref="Petrosinella"></Character>
         <Character ref="figliodenoprencipe"></Character>
         <Character ref="orca"></Character>
@@ -95,8 +97,8 @@ La quale cosa <transitionWord>continuanno spesse vote a fare</transitionWord>, s
 <Scene xml:id="Scene8" setting="notSpecified">
     <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></trope>
     <participants>
-        <Character ref="petrosinella"></Character>
-        <Character ref="figliodenoprincipe"></Character>
+        <Character ref="Petrosinella"></Character>
+        <Character ref="figliodenoprencipe"></Character>
     </participants>
 e li nammorate, scenno de mpaccio, se ne jettero chiano chiano a lo regno de lo prencepe. Dove, co bona lecenzia de lo patre, se la pigliaje pe mogliere, e provaro, dapò tante tempeste de travaglie:
 
