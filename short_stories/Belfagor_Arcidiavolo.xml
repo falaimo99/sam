@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <Story xml:id="Belfagor_Arcidiavolo_Machiavelli"></Story>
+    <Story xml:id="Belfagor_Arcidiavolo_Machiavelli">
+        <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/MenAreBetterThanWomen"></Trope>
+    </Story>
 <referenceMaterial
         uri="https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&amp;oldid=2660796"></referenceMaterial>
     <CharacterList>
         <CharacterGroup xml:id="infernaliGiudici"></CharacterGroup>
         <Character xml:id="Plutone"></Character>
         <CharacterGroup xml:id="infernaliPrincipi">
-            <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils">
-            </trope>
+            <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils">
+            </Trope>
         </CharacterGroup>
         <Character xml:id="Belfagor">
-            <trope uri="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist">
-            </trope>
+            <Trope uri="http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist">
+            </Trope>
         </Character>
         <Character xml:id="Onesta"></Character>
         <CharacterGroup xml:id="Creditori"></CharacterGroup>
@@ -340,11 +342,15 @@
     cemboli, e d’ogni altra qualità romori, i quali, quando io alzerò uno cappello, dieno in quegli
     strumenti, e, sonando, ne venghino verso il palco: le quali cose, insieme con certi altri
     segreti rimedj, credo che faranno partire questo spirito. <Scene xml:id="scene12">
-        <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></Trope>
+        <setting ref="piazzaDiNostraDama"></setting>
+        <setting ref="Hell"></setting>
+        <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding" participant="GianmatteodelBricha"></Trope>
     <participants>
             <Character ref="ReLodovicoVII"></Character>
             <CharacterGroup ref="accompagnatoriDellaFigliuoladiLodovico"></CharacterGroup>
             <Character ref="GianmatteodelBricha"></Character>
+            <Character ref="GianmatteodelBricha"></Character>
+
         </participants> Fu subito dal
     Re ordinato tutto; e, venuta la domenica mattina e ripieno il palco di personaggi e la piazza di
     popolo, celebrata la messa, venne la spiritata condotta in sul palco per le mani di dua vescovi

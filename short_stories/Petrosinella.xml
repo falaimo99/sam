@@ -2,33 +2,33 @@
 <root>
     <CharacterList>
         <Character xml:id="Petrosinella" name="Petrosinella">
-            <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/DamselInDistress"></trope>
+            <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Laconic/DamselInDistress"></Trope>
         </Character>
         <Character xml:id="Pascadozia" name="Pascadozia">
             <relationship rel="Petrosinella" uri="http://purl.org/vocab/relationship/parentOf"></relationship>
         </Character>
         <CharacterGroup xml:id="orcs">
-            <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/OurOgresAreHungrier"></trope>
+            <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/OurOgresAreHungrier"></Trope>
             <Character xml:id="orca" narratorName="orca">
-                <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheAntagonist" isPeriodic="True"></trope>
+                <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/TheAntagonist" isPeriodic="True"></Trope>
             </Character>
         </CharacterGroup>
         <Character xml:id="vicina">
             <relationship uri="http://purl.org/vocab/relationship/friendOf" rel="orca"></relationship>
         </Character>
         <Character xml:id="figliodenoprencipe">
-            <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/KnightInShiningArmor" isPeriodic="True"></trope>
+            <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/KnightInShiningArmor" isPeriodic="True"></Trope>
         </Character>
         <Character xml:id="commaredellOrca"></Character>
         <CharacterGroup xml:id="animalitrasformati">
-            <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/SummonMagic"></trope>
+            <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/SummonMagic"></Trope>
         </CharacterGroup>
         
     </CharacterList>
 <Setting xml:id="giardinoOrca">Giardino dell'orca</Setting>
 <Setting xml:id="torreNelBosco">Torre nel Bosco</Setting>
 <Story xml:id="Petrosinella_CuntodeliCunti_Basile">
-    <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/GirlInTheTower"></trope>
+    <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/GirlInTheTower"></Trope>
 </Story>
 <referenceMaterial uri="https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I"></referenceMaterial>
 <title>PETROSINELLA</title>
@@ -85,7 +85,7 @@ La quale cosa doveva essere la notte, quanno la luna joqua a passara muta co le 
 La quale cosa <transitionWord>continuanno spesse vote a fare</transitionWord>, se n’addonaje na commare dell’orca; la quale, pigliannose lo mpaccio de lo Russo, voze mettere lo musso a la merda, e disse all’orca, che stesse ncellevriello, ca Petrosinella faceva l’ammore co no cierto giovene, e sospettava, che non fossero passate chiù nante le cose; perchè vedeva lo moschito, e lo trafeco, che se faceva; e dobetava, che, fatto no leva ejo, non fossero sfrattate nante Majo da chella casa. L’orca rengraziaje la commare de lo buono avertemiento, e disse, ca sarria stato penziero sujo de mpedire la strata a Petrosinella, otra che non era possibile, che fosse potuta foire ped averele fatto no ncanto, che, si n’aveva mano tre gliantre, nascose drinto a no trave de la cecina, era opera perza, che potesse sfilarennella. Ma, mentre erano a sti ragionamiente Petrosinella, che steva co l’aurecchie appezzute, ed aveva quarche sospetto de la commare, ntese tutto lo trascurzo.
 </Scene>
 <Scene xml:id="Scene7" setting="notSpecified">
-    <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/ChaseScene"></trope>
+    <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/ChaseScene"></Trope>
     <participants>
         <Character ref="commaredellOrca"></Character>
         <Character ref="Petrosinella"></Character>
@@ -95,7 +95,7 @@ La quale cosa <transitionWord>continuanno spesse vote a fare</transitionWord>, s
     </participants>
  E, comme la notte spase li vestite nigre, perchè se conservassero da le carole, venuto a lo solito lo prencepe, lo fece saglire ncoppa li trave. E, trovate le gliantre, le quale sapenno comme se l’avevano da adoperare, ped essere stata fatata dall’orca, fatta na scala de fonecella, se ne scesero tutte duje a bascio, e commenzaro a toccare de carcagne verzo la cetate. Ma, essenno viste a lo scire da la commare, commenzaje a strillare, chiammanno l’orca; e tanto fu lo strillatorio, che se scetaje. E, sentenno ca Petrosinella se n’era fojuta, se ne scese pe la medesima scala, ch’era legata a lo fenestriello, e commenzaje a correre dereto li nnamorate. Li quale, comme la veddero venire, chiù de no cavallo scapolo, a la vota lloro, se tennero perdute. Ma, lecordannose Petrosinella de le gliantre, ne jettaje subeto una nterra. Ed eccote sguigliare no cane corzo, cossì terribile, ch’o mamma mia! Lo quale, co tanto de canna aperta, abbajanno, jeze ncontra all’orca pe se ne fare no voccone. Ma chella, ch’era chiù maliziosa de parasacco, puostose mano a la saccocciola, ne cacciaje na panella; e, datola a lo cane, le fece cadere la coda, ed ammosciare la furia. E, tornato a correre dereto chille, che fojevano, Petrosinella, vistola avvecenare, jettaje la seconna gliantra. Ed ecco scire no feroce lione, che, sbattenno la coda nterra, e scotolanno li crine, co dui parme de cannarone spaparanzato, s’era puosto all’ordene de fare scafaccio dell’orca. E l’orca, tornanno arreto, scortecaje n’aseno, che pasceva miezo a no prato; e, puostose la pella ncoppa, corze de nuovo ncontra a chillo lione. Lo quale, credennose che fosse no ciuccio, appe tanta paura, ch’ancora fuje. Pe la quale cosa, sautato sto secunno fuosso, l’orca tornaje a secotare chille povere giuvane, che, sentenno lo scarponejare, e vedenno la nuvola de la porvere, che s’auzava a lo cielo, conjetturaro ca l’orca se ne veneva de nuovo. La quale, avenno sempre sospetto, che no la secotasse lo lione, non se avea levato la pelle dell’aseno. Ed, avonno Petrosinella jettato la terza gallozza, ne scette no lupo. Lo quale, senza dare tiempo all’orca de pigliare nuovo partito, se la norcaje comm’a n’aseno,</Scene>
 <Scene xml:id="Scene8" setting="notSpecified">
-    <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></trope>
+    <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></Trope>
     <participants>
         <Character ref="Petrosinella"></Character>
         <Character ref="figliodenoprencipe"></Character>

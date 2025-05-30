@@ -6,13 +6,30 @@
         quindi tratto, a casa di due frategli è da un prete visitato. Ultimamente se ne va in
         Ungheria.
 </paraText>
-    <Story xml:id="Novella_del_Grasso_Legnaiuolo_anonimo"></Story>
+    <Story xml:id="Novella_del_Grasso_Legnaiuolo_anonimo">
+        <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/PrankGoneTooFar"></trope>
+    </Story>
     <referenceMaterial uri="https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo"></referenceMaterial>
+    <CharacterList>
+        <Character xml:id="ManettoAmmattini" descriptor="Il Grasso" name="Manetto Ammattini">
+            <name by="jokeMembers" name="Matteo"></name>
+        </Character>
+        <CharacterGroup xml:id="jokeMembers">
+            <Character xml:id="FilippodiSerBrunellesco" sameAs="https://www.wikidata.org/wiki/Q174330" name="Filippo di Ser Brunellesco" occupation="architect">
+                <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/ThePrankster"></trope>
+                <relationship ref="ManettoAmmattini" uri="http://purl.org/vocab/relationship/friendOf"></relationship>
+            </Character>
+            <CharacterGroup xml:id="membriDellaBrigata"></CharacterGroup>
+            <Character xml:id="TommasodePecori" descriptor="gentiluomo di firenze"></Character>
+        </CharacterGroup>
+
+
+    </CharacterList>
     <Scene xml:id="Scene1" setting="casadiTommasodePecori">
         <participants>
             <Character ref="TommasodePecori"></Character>
-            <Character ref="ManettoAmmannatini"></Character>
             <Character ref="FilippodiSerBrunellesco"></Character>
+            <CharacterGroup ref="membriDellaBrigata"></CharacterGroup>
         </participants> Nella città di
         Firenze, e negli anni di Cristo M.CCCC. IX. come è usanza, trovandosi una domenica sera a
         cena una brigata di giovani in casa d’un gentiluomo di Firenze, il cui nome fu Tommaso de’
@@ -218,10 +235,10 @@
     <Scene xml:id="Scene8">
         <Setting ref="prigione"></Setting>
     <participants>
-            <CharacterGroup ref="fratellidiMatteo"></CharacterGroup>
+            <CharacterGroup ref="fratelliDiMatteo"></CharacterGroup>
             <Character ref="Notaio"></Character>
             <Character ref="guardiaDellaPrigione"></Character>
-            <Character ref="ManettoAmattini"></Character>
+            <Character ref="ManettoAmmattini"></Character>
         </participants> E stando in questi
         ragionamenti era quasi l’ora di vespro quando due frategli di questa Matteo vennero alla
         Mercatanzia, e domandarono il notaio della cassa, se quivi fosse un loro fratello preso, che
@@ -364,6 +381,7 @@
         cominciatosi a spogliare, appena potè resistere discalzarsi, e d’andarsi al letto, che fu
         addormentato fortemente» e russava com’un porco» </Scene>
     <Scene xml:id="Scene13">
+        <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></trope>
         <participants>
             <Character ref="FilippodiSerBrunellesco"></Character>
             <CharacterGroup ref="compagniDiFilippo"></CharacterGroup>
