@@ -11,5 +11,5 @@ if __name__ == "__main__":
         modules.functions.extract_story(g, root)
 
     v = g.serialize()
-    with open("script_dataset.ttl", "w") as f:
+    with open("./dataset.ttl", "w") as f:
         f.write(v)

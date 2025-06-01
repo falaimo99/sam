@@ -131,19 +131,21 @@ def set_characters(g, root):
     return g
 
 
-def set_trope(g, trope, scope, scope_URI):
+def set_trope(g, trope, domain, domain_URI):
     uri = trope.attrib["uri"]
     uri_parsed = urlparse(uri)
     if str(uri_parsed.hostname) == "tvtropes.org":
         trope_URI = URIRef(
             globals["base_data_URI"] + "trope_" + uri_parsed.path.split("/")[-1]
         )
-        g.add((scope_URI, sam.hasTrope, trope_URI))
+        g.add((domain_URI, sam.hasTrope, trope_URI))
         g.add((trope_URI, sam.tropeURI, Literal(uri)))
-    if "isPeriodic" in trope.attrib:
-        g.add((trope_URI, RDF.type, sam.PeriodicTableTrope))
-    else:
-        g.add((trope_URI, RDF.type, sam.TVTropesTrope))
+        g.add((trope_URI, RDF.type, sam.TvTropesTrope))
+    try:
+        if trope.attrib["isPeriodic"] == "True":
+            g.add((trope_URI, RDF.type, sam.PeriodicTableTrope))
+    except:
+        print(f"{trope_URI} is not a PeriodicTableTrope")
     
     if "participant" in trope.attrib:
         g.add((trope_URI, wdp.P710, URIRef(f"{utils_URI['story']}_{trope.attrib['participant']}")))
@@ -153,14 +155,6 @@ def set_trope(g, trope, scope, scope_URI):
                 g.add((trope_URI, wdp.P710, f"{utils_URI['story']}_{trope.attrib['ref']}"))
     except:
         print(f"{trope_URI} hasn't children")
-    
-
-
-#     print(
-#         f"""{scope.attrib[globals['xml_id']]
-# } contains an invalid URI from tvtropes.org"""
-#     )
-
 
 def set_scenes(g, scene, scene_URI, root):
     if options["uniqueManifestation"] == True:
@@ -206,7 +200,7 @@ def set_scenes(g, scene, scene_URI, root):
             change_URI = URIRef(f"{scene_URI}_{participant}_change")
             if child.text:
                 g.add((change_URI, sam.changeExcerpt, Literal(child.text)))
-            g.add((change_URI, RDF.type, sam.Change))
+            g.add((change_URI, RDF.type, wdt.Q1150070))
             g.add((scene_URI, sam.hasChange, change_URI))
             g.add((change_URI, wdp.P710, URIRef(f"{utils_URI["story"]}_{participant}")))
             character_properties(g, child, change_URI)
@@ -342,7 +336,7 @@ def character_properties(g, character, character_URI):
 
 
 def setting_properties(g, setting, setting_URI):
-    g.add((setting_URI, RDF.type, sam.Setting))
+    g.add((setting_URI, RDF.type, wdt.Q617332))
 
     # children elements analyzer
     for child in setting.iterchildren():

@@ -431,9 +431,8 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene9_excerpt a wdt:Q1385610 ;
     forzato quel Re a richiederne la Signoria, la quale forzò Gio. Matteo a ubbidire.""" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_CharacterList a sam:CharacterList ;
-    wdp:P527 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_AndreuccioDiPietro,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
-        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
+    wdp:P527 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
+        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_famigliari,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanciullo,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe,
@@ -451,7 +450,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Mercato_di_Napoli ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1_excerpt ;
     sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_AndreuccioDiPietro,
+    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia .
 
@@ -519,7 +518,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2_excerpt ;
     sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
+    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia .
@@ -562,7 +561,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3_excerpt ;
     sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
+    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso .
 
@@ -702,7 +701,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4_excerpt ;
     sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
+    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4_excerpt a wdt:Q1385610 ;
@@ -754,7 +753,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5_excerpt ;
     sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
+    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanciullo,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ruffiano,
@@ -902,10 +901,10 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Napoli ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_excerpt ;
     sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
+    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_andreuccioDiPietro_change a sam:Change ;
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_andreuccioDiPietro_change a wdt:Q1150070 ;
     sam:changeExcerpt "cattivel" ;
     sam:descriptor "cattivel" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro .
@@ -988,7 +987,10 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_excerpt a wdt:Q1385610 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Napoli ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7_excerpt ;
-    sam:referenceMaterialSource "" .
+    sam:referenceMaterialSource "" ;
+    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
+        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_famigliari,
+        datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """Giunti a questo pozzo trovarono che la fune v’era ma
@@ -1029,7 +1031,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8 a sam:Scene ;
     sam:hasTrope datasam:trope_RobbingTheDead ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8_excerpt ;
     sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
+    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8_excerpt a wdt:Q1385610 ;
@@ -1090,7 +1092,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9 a sam:Scene ;
     sam:hasTrope datasam:trope_HappyEnding ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9_excerpt ;
     sam:referenceMaterialSource "" ;
-    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccio_di_pietro,
+    wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe_secondi .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9_excerpt a wdt:Q1385610 ;
@@ -1873,7 +1875,7 @@ datasam:novellino_II_anonimo_scene3_excerpt a wdt:Q1385610 ;
 		molto savio in parola, ma non in fatto, acciocche non avea domandato della virtù di così
 		care pietre.""" .
 
-datasam:novellino_II_anonimo_scene3_prestoGiovanni_change a sam:Change ;
+datasam:novellino_II_anonimo_scene3_prestoGiovanni_change a wdt:Q1150070 ;
     sam:changeExcerpt """
 			""" ;
     rel:antagonistOf datasam:novellino_II_anonimo_federigoImperadore ;
@@ -1930,82 +1932,84 @@ datasam:novellino_II_anonimo_scene6_excerpt a wdt:Q1385610 ;
 		tornò al suo signore Presto Giovanni, e presentolli le pietre con grande
 		allegrezza.""" .
 
-datasam:novellino_II_anonimo_scene6_prestoGiovanni_change a sam:Change ;
+datasam:novellino_II_anonimo_scene6_prestoGiovanni_change a wdt:Q1150070 ;
     sam:changeExcerpt """
 			""" ;
     rel:knowsByReputation datasam:novellino_II_anonimo_federigoImperadore ;
     wdp:P710 datasam:novellino_II_anonimo_prestoGiovanni .
 
-datasam:trope_BetrayalTropes a sam:TVTropesTrope ;
+datasam:trope_BetrayalTropes a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/BetrayalTropes" .
 
-datasam:trope_DamselInDistress a sam:TVTropesTrope ;
+datasam:trope_DamselInDistress a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/DamselInDistress" .
 
-datasam:trope_DemonLordsAndArchdevils a sam:TVTropesTrope ;
+datasam:trope_DemonLordsAndArchdevils a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/DemonLordsAndArchdevils" .
 
-datasam:trope_DemonicPossession a sam:TVTropesTrope ;
+datasam:trope_DemonicPossession a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/DemonicPossession" .
 
-datasam:trope_DistractionTropes a sam:TVTropesTrope ;
+datasam:trope_DistractionTropes a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/DistractionTropes" .
 
-datasam:trope_DynamicCharacter a sam:PeriodicTableTrope ;
+datasam:trope_DynamicCharacter a sam:PeriodicTableTrope,
+        sam:TvTropesTrope ;
     sam:tropeURI "http://tvtropes.org/pmwiki/pmwiki.php/Main/DynamicCharacter" .
 
-datasam:trope_Exposition a sam:TVTropesTrope ;
+datasam:trope_Exposition a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/Exposition" .
 
-datasam:trope_FemmeFatale a sam:TVTropesTrope ;
+datasam:trope_FemmeFatale a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/FemmeFatale" .
 
-datasam:trope_GarbageHideout a sam:TVTropesTrope ;
+datasam:trope_GarbageHideout a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/GarbageHideout" .
 
-datasam:trope_GirlInTheTower a sam:TVTropesTrope ;
+datasam:trope_GirlInTheTower a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/GirlInTheTower" .
 
-datasam:trope_IGaveMyWord a sam:TVTropesTrope ;
+datasam:trope_IGaveMyWord a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/IGaveMyWord" .
 
-datasam:trope_IncitingIncident a sam:TVTropesTrope ;
+datasam:trope_IncitingIncident a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/IncitingIncident" .
 
-datasam:trope_KnightInShiningArmor a sam:PeriodicTableTrope ;
+datasam:trope_KnightInShiningArmor a sam:PeriodicTableTrope,
+        sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/KnightInShiningArmor" .
 
-datasam:trope_MenAreBetterThanWomen a sam:TVTropesTrope ;
+datasam:trope_MenAreBetterThanWomen a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/MenAreBetterThanWomen" .
 
-datasam:trope_OurOgresAreHungrier a sam:TVTropesTrope ;
+datasam:trope_OurOgresAreHungrier a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/OurOgresAreHungrier" .
 
-datasam:trope_PrankGoneTooFar a sam:TVTropesTrope ;
+datasam:trope_PrankGoneTooFar a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/PrankGoneTooFar" .
 
-datasam:trope_RobbingTheDead a sam:TVTropesTrope ;
+datasam:trope_RobbingTheDead a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead" .
 
-datasam:trope_SummonMagic a sam:TVTropesTrope ;
+datasam:trope_SummonMagic a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/SummonMagic" .
 
-datasam:trope_TheGoodKing a sam:TVTropesTrope ;
+datasam:trope_TheGoodKing a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/TheGoodKing" .
 
-datasam:trope_ThePlan a sam:TVTropesTrope ;
+datasam:trope_ThePlan a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/ThePlan" .
 
-datasam:trope_ThePrankster a sam:TVTropesTrope ;
+datasam:trope_ThePrankster a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/ThePrankster" .
 
-datasam:trope_ThePromise a sam:TVTropesTrope ;
+datasam:trope_ThePromise a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/ThePromise" .
 
-datasam:trope_TheReveal a sam:TVTropesTrope ;
+datasam:trope_TheReveal a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/TheReveal" .
 
-datasam:trope_TimeCompressionMontage a sam:TVTropesTrope ;
+datasam:trope_TimeCompressionMontage a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/TimeCompressionMontage" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_AmbrogioAmidei a wdt:Q95074 .
@@ -2032,14 +2036,6 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_fratelliDiOnesta a sam:GroupOfCharacter
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliGiudici a sam:GroupOfCharacters .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro a wdt:Q95074 ;
-    sam:hasTrope datasam:trope_DynamicCharacter,
-        datasam:trope_TheProtagonist ;
-    sam:narratorName "Andreuccio da Perugia" ;
-    wdp:P106 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_occupation ;
-    wdp:P21 cwrc:cisMan ;
-    wdp:P2561 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_name .
-
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_1 a wdt:Q95074 ;
     wdp:P361 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicinato .
 
@@ -2053,12 +2049,12 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_TommasodePecori a wdt:Q95074 ;
 datasam:Petrosinella_CuntodeliCunti_Basile_animalitrasformati a sam:GroupOfCharacters ;
     sam:hasTrope datasam:trope_SummonMagic .
 
-datasam:Petrosinella_CuntodeliCunti_Basile_giardinoOrca a sam:Setting .
+datasam:Petrosinella_CuntodeliCunti_Basile_giardinoOrca a wdt:Q617332 .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_orcs a sam:GroupOfCharacters ;
     sam:hasTrope datasam:trope_OurOgresAreHungrier .
 
-datasam:novellino_II_anonimo_setting2 a sam:Setting ;
+datasam:novellino_II_anonimo_setting2 a wdt:Q617332 ;
     sam:hasPlace datasam:novellino_II_anonimo_atImperadoreFederigo .
 
 cwrc:cisMan a cwrc:Gender .
@@ -2075,9 +2071,6 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella a wdt:Q95074 ;
     wdp:P106 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella_occupation_fanticella ;
     wdp:P21 cwrc:cisWoman .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe a sam:GroupOfCharacters ;
-    sam:hasTrope datasam:trope_TheAntagonist .
-
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ruffiano a wdt:Q95074 ;
     sam:narratorName "ruffiano" ;
     wdp:P21 cwrc:cisMan ;
@@ -2090,15 +2083,15 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia a wdt:Q95074 ;
 
 datasam:Petrosinella_CuntodeliCunti_Basile_commaredellOrca a wdt:Q95074 .
 
-datasam:trope_ChaseScene a sam:TVTropesTrope ;
+datasam:trope_ChaseScene a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/ChaseScene" .
 
 datasam:trope_TheAntagonist a sam:PeriodicTableTrope,
-        sam:TVTropesTrope ;
+        sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/TheAntagonist" .
 
 datasam:trope_TheProtagonist a sam:PeriodicTableTrope,
-        sam:TVTropesTrope ;
+        sam:TvTropesTrope ;
     sam:tropeURI "http://tvtropes.org/pmwiki/pmwiki.php/Main/TheProtagonist" .
 
 cwrc:cisWoman a cwrc:Gender .
@@ -2107,6 +2100,9 @@ cwrc:man a cwrc:Gender .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_ReLodovicoVII a wdt:Q95074 .
 
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe a sam:GroupOfCharacters ;
+    sam:hasTrope datasam:trope_TheAntagonist .
+
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicinato a sam:GroupOfCharacters .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_jokeMembers a sam:GroupOfCharacters .
@@ -2114,7 +2110,7 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_jokeMembers a sam:GroupOfCharacter
 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia a wdt:Q95074 ;
     wdp:P2561 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia_name .
 
-datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco a sam:Setting .
+datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco a wdt:Q617332 .
 
 datasam:novellino_II_anonimo_lapidario a wdt:Q95074 ;
     sam:narratorName "lapidario" ;
@@ -2122,10 +2118,10 @@ datasam:novellino_II_anonimo_lapidario a wdt:Q95074 ;
     wdp:P21 cwrc:man ;
     wdp:P2561 datasam:novellino_II_anonimo_lapidario_name .
 
-datasam:novellino_II_anonimo_setting1 a sam:Setting ;
+datasam:novellino_II_anonimo_setting1 a wdt:Q617332 ;
     sam:hasPlace datasam:novellino_II_anonimo_atPrestoGiovanni .
 
-datasam:trope_HappyEnding a sam:TVTropesTrope ;
+datasam:trope_HappyEnding a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha .
 
@@ -2179,6 +2175,14 @@ datasam:novellino_II_anonimo_prestoGiovanni a wdt:Q95074 ;
     wdp:P2561 datasam:novellino_II_anonimo_prestoGiovanni_name .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha a wdt:Q95074 .
+
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro a wdt:Q95074 ;
+    sam:hasTrope datasam:trope_DynamicCharacter,
+        datasam:trope_TheProtagonist ;
+    sam:narratorName "Andreuccio da Perugia" ;
+    wdp:P106 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_occupation ;
+    wdp:P21 cwrc:cisMan ;
+    wdp:P2561 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_name .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini a wdt:Q95074 ;
     sam:descriptor "Il Grasso" ;

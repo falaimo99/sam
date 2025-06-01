@@ -68,7 +68,7 @@
 
 <Scene xml:id="Scene1" setting="Mercato_di_Napoli" >
 <participants>
-    <Character ref="AndreuccioDiPietro"></Character>
+    <Character ref="andreuccioDiPietro"></Character>
     <Character ref="madama_Fiordaliso"></Character>
     <Character ref="vecchia"></Character>
 </participants>
@@ -120,7 +120,7 @@ contò dove tornasse e perché venuto fosse.
 		<Character ref="madama_Fiordaliso"></Character>
 		<Character ref="vecchia"></Character>
 		<Character ref="fanticella"></Character>
-		<Character ref="andreuccio_di_pietro"></Character>
+		<Character ref="andreuccioDiPietro"></Character>
 	</participants>
     La giovane, pienamente informata e del parentado di
     lui e de’ nomi, al suo appetito fornire con una sottil ma¬
@@ -159,7 +159,7 @@ contò dove tornasse e perché venuto fosse.
 <Scene xml:id="Scene3" setting="casa_fiordaliso">
 	<participants>
 		<Character ref="fanticella"></Character>
-		<Character ref="andreuccio_di_pietro"></Character>
+		<Character ref="andreuccioDiPietro"></Character>
 		<Character ref="madama_Fiordaliso"></Character>
 	</participants>
     Laonde la fanticella a casa di costei il condusse, la
@@ -296,7 +296,7 @@ contò dove tornasse e perché venuto fosse.
 
 <Scene xml:id="Scene4" setting="casa_fiordaliso">
     <participants>
-		<Character ref="andreuccio_di_pietro"></Character>
+		<Character ref="andreuccioDiPietro"></Character>
 		<Character ref="madama_Fiordaliso"></Character>
     </participants>
     Essendo stati i ragionamenti lunghi e il caldo grande,
@@ -347,7 +347,7 @@ contò dove tornasse e perché venuto fosse.
 <Scene xml:id="Scene5" setting="casa_fiordaliso">
     <participants>
         <Character ref="fanciullo"></Character>
-		<Character ref="andreuccio_di_pietro"></Character>
+		<Character ref="andreuccioDiPietro"></Character>
 		<Character ref="madama_Fiordaliso"></Character>
         <Character ref="vicino_1"></Character>
         <Character ref="vicino_2"></Character>
@@ -491,7 +491,7 @@ contò dove tornasse e perché venuto fosse.
 
 <Scene xml:id="Scene6" setting="Napoli">
     <participants>
-        <Character ref="andreuccio_di_pietro"></Character>
+        <Character ref="andreuccioDiPietro"></Character>
         <CharacterGroup ref="ladri_di_tombe"></CharacterGroup>
     </participants>
     Laonde Andreuccio, spaventato dalla voce di colui e
@@ -570,6 +570,11 @@ contò dove tornasse e perché venuto fosse.
 </Scene>
 
 <Scene xml:id="Scene7" setting="Napoli">
+    <participants>
+        <Character ref="andreuccioDiPietro"></Character>
+        <Character ref="ladri_di_tombe"></Character>
+        <Character ref="famigliari"></Character>
+    </participants>
     Giunti a questo pozzo trovarono che la fune v’era ma
     il secchione n’era stato levato: per che insieme dilibera¬
     rono di legarlo alla fune e di collarlo nel pozzo, e egli là
@@ -609,7 +614,7 @@ setting="cattedrale_maggiore_Napoli"
 >
     <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead"></trope>
     <participants>
-        <Character ref="andreuccio_di_pietro"></Character>
+        <Character ref="andreuccioDiPietro"></Character>
         <CharacterGroup ref="ladri_di_tombe"></CharacterGroup>
     </participants>
     Così andando si venne scontrato in que’ due suoi
@@ -669,7 +674,7 @@ setting="cattedrale_maggiore_Napoli"
 <Scene xml:id="Scene9" setting="cattedrale_maggiore_Napoli">
     <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></trope>
     <participants>
-        <Character ref="andreuccio_di_pietro"></Character>
+        <Character ref="andreuccioDiPietro"></Character>
         <CharacterGroup ref="ladri_di_tombe_secondi"></CharacterGroup>
     </participants>
     La qual cosa sentendo Andreuccio, qual egli allor di¬
