@@ -7,9 +7,9 @@ from modules.options import options
 
 # this set up global variables for some useful URIs
 globals = {
-    "xml_id":"{http://www.w3.org/XML/1998/namespace}id",
+    "xml_id": "{http://www.w3.org/XML/1998/namespace}id",
     "base_data_URI": "https://github.com/falaimo99/sam/data/",
-    }
+}
 
 # Namespace used by SAM
 # for testing and readability purposes
@@ -21,14 +21,17 @@ wdp = Namespace("https://www.wikidata.org/wiki/Property:")
 cwrc = Namespace("https://sparql.cwrc.ca/ontologies/cwrc.html#")
 rel = Namespace("https://vocab.org/relationship/#")
 
+
 # Simple extraction of the tree from the xml file
 def extract_tree(path):
     tree = etree.parse(path)
-    root = tree.getroot()  
+    root = tree.getroot()
     return root
+
 
 # utils dictionary that get filled as the blocks connect themselves
 utils_URI = {"story": "", "CharacterList": "", "referenceMaterial": ""}
+
 
 # Function to set up the story element and the mandatory related items
 # CharacterList and GroupOfScenes/Scenes
@@ -72,6 +75,7 @@ def extract_story(g, root):
 
     return g
 
+
 # This function finds all the characters add them to the CharacterList
 #  and adds all the relevant information to the graph
 def set_characters(g, root):
@@ -82,18 +86,18 @@ def set_characters(g, root):
             character_URI = URIRef(
                 utils_URI["story"] + "_" + character.attrib[globals["xml_id"]]
             )
-            g.add((utils_URI["CharacterList"], wdp.P527, character_URI))
-            g.add((character_URI, RDF.type, wdt.Q95074))
+            # g.add((utils_URI["CharacterList"], wdp.P527, character_URI))
+            # g.add((character_URI, RDF.type, wdt.Q95074))
             character_properties(g, character, character_URI)
 
         for group_of_characters in character_list.findall("CharacterGroup"):
             group_of_characters_URI = URIRef(
                 utils_URI["story"] + "_" + group_of_characters.attrib[globals["xml_id"]]
             )
-            if group_of_characters.tag.lower() == "organisation":
-                g.add((group_of_characters_URI, RDF.type, wdt.Q43229))
-            else:
-                g.add((group_of_characters_URI, RDF.type, sam.GroupOfCharacters))
+            # if group_of_characters.tag.lower() == "organisation":
+            #     g.add((group_of_characters_URI, RDF.type, wdt.Q43229))
+            # elif group_of_characters.tag.lower == "charactergroup" or "group_of_characters":
+            #     g.add((group_of_characters_URI, RDF.type, sam.GroupOfCharacters))
             g.add((utils_URI["CharacterList"], wdp.P527, group_of_characters_URI))
             character_properties(g, group_of_characters, group_of_characters_URI)
 
@@ -111,23 +115,25 @@ def set_characters(g, root):
                     g.add((character_URI, RDF.type, wdt.Q95074))
                     g.add((character_URI, wdp.P361, group_of_characters_URI))
                     character_properties(g, child, character_URI)
-                if child.tag.lower() == "charactergroup" or "groupofcharacters":
-                    if group_of_characters.tag.lower() == "organisation":
-                        g.add((group_of_characters_URI, RDF.type, wdt.Q43229))
-                    else:
-                        g.add(
-                            (group_of_characters_URI, RDF.type, sam.GroupOfCharacters)
-                        )
-                        g.add(
-                            (
-                                utils_URI["CharacterList"],
-                                wdp.P527,
-                                group_of_characters_URI,
-                            )
-                        )
-                        character_properties(
-                            g, group_of_characters, group_of_characters_URI
-                        )
+
+                # Currently not supporting nested character groups
+                # if child.tag.lower() == "charactergroup" or "groupofcharacters":
+                    # if group_of_characters.tag.lower() == "organisation":
+                    #     g.add((group_of_characters_URI, RDF.type, wdt.Q43229))
+                    # elif group_of_characters.tag.lower() == "charactergroup" or "groupofcharacters":
+                    #     g.add(
+                    #         (group_of_characters_URI, RDF.type, sam.GroupOfCharacters)
+                    #     )
+                    # g.add(
+                    #     (
+                    #         utils_URI["CharacterList"],
+                    #         wdp.P527,
+                    #         group_of_characters_URI,
+                    #     )
+                    # )
+                    # character_properties(
+                    #     g, group_of_characters, group_of_characters_URI
+                    # )
     return g
 
 
@@ -146,15 +152,24 @@ def set_trope(g, trope, domain, domain_URI):
             g.add((trope_URI, RDF.type, sam.PeriodicTableTrope))
     except:
         print(f"{trope_URI} is not a PeriodicTableTrope")
-    
+
     if "participant" in trope.attrib:
-        g.add((trope_URI, wdp.P710, URIRef(f"{utils_URI['story']}_{trope.attrib['participant']}")))
+        g.add(
+            (
+                trope_URI,
+                wdp.P710,
+                URIRef(f"{utils_URI['story']}_{trope.attrib['participant']}"),
+            )
+        )
     try:
         for child in trope.iterchildren():
             if child.tag == "Character":
-                g.add((trope_URI, wdp.P710, f"{utils_URI['story']}_{trope.attrib['ref']}"))
+                g.add(
+                    (trope_URI, wdp.P710, f"{utils_URI['story']}_{trope.attrib['ref']}")
+                )
     except:
         print(f"{trope_URI} hasn't children")
+
 
 def set_scenes(g, scene, scene_URI, root):
     if options["uniqueManifestation"] == True:
@@ -187,7 +202,7 @@ def set_scenes(g, scene, scene_URI, root):
                 g.add((utils_URI["CharacterList"], wdp.P527, character_URI))
                 # if character.tag.lower() == "charactergroup" or "groupofcharacters":
                 #     g.add((character_URI, RDF.type, sam.GroupOfCharacters))
-                # if character.tag.lower() == "character":
+                # elif character.tag.lower() == "character":
                 #     g.add((character_URI, RDF.type, wdt.Q95074))
                 character_properties(g, character, character_URI)
 
@@ -217,6 +232,14 @@ def set_scenes(g, scene, scene_URI, root):
 
 # Ancillary function that attaches the properties to the characters
 def character_properties(g, character, character_URI):
+    # set_class
+    if character.tag.lower() == "character":
+        print(f"{character.tag.lower()} is a character")
+        g.add((character_URI, RDF.type, wdt.Q95074))
+    elif character.tag.lower() == "groupofcharacters" or "charactergroup":
+        print(f"{character.tag.lower()} is a goc")
+        g.add((character_URI, RDF.type, sam.GroupOfCharacters))
+
     # attributes analyzer. Some attributes are a shorthand for the literal part
     # of a character class
     if "name" in character.attrib:
@@ -288,7 +311,7 @@ def character_properties(g, character, character_URI):
                     and url_parsed.path == "/relationship/"
                 ):
                     ref = URIRef(utils_URI["story"] + "_" + child.attrib["ref"])
-                    g.add((character_URI, URIRef(uri), URIRef(ref)))
+                    g.add((character_URI, URIRef(uri), ref))
             except:
                 print(
                     f"""{character.attrib[globals['xml_id']]
@@ -342,7 +365,7 @@ def setting_properties(g, setting, setting_URI):
     for child in setting.iterchildren():
         if child.tag.lower() == "trope":
             set_trope(g, child, setting, setting_URI)
-            
+
         if child.tag.lower() == "place":
             place_URI = URIRef(
                 utils_URI["story"] + f"_{child.attrib[globals['xml_id']]}"
