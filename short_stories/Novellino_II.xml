@@ -39,9 +39,8 @@
 				uri="https://vocab.org/relationship/#knowsByReputation"></relationship>
 		</Character>
 
-		<Character xml:id='lapidario' name='lapidario'
-			gender='https://sparql.cwrc.ca/ontologies/cwrc.html#man' narratorName='lapidario'
-			occupation='lapidario' for='prestoGiovanni'>
+		<Character xml:id='lapidario' gender='https://sparql.cwrc.ca/ontologies/cwrc.html#man' narratorName='lapidario'>
+			<occupation title="lapidario" for="prestoGiovanni"></occupation>
 		</Character>
 
 		<CharacterGroup xml:id='ambasciatori'>

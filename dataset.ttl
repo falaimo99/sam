@@ -98,9 +98,9 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_CharacterList a sam:CharacterList ;
         datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliPrincipi .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene1 a sam:Scene ;
+    sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_hell ;
     sam:hasTrope datasam:trope_Exposition ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene1_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Plutone,
         datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliGiudici,
         datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliPrincipi .
@@ -109,7 +109,6 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene10 a sam:Scene ;
     sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_Paris ;
     sam:hasTrope datasam:trope_BetrayalTropes ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene10_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
         datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha,
         datasam:Belfagor_Arcidiavolo_Machiavelli_ReLodovicoVII,
@@ -128,24 +127,24 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene10_excerpt a wdt:Q1385610 ;
     abbandonasse in tanta necessità. Al quale Roderigo disse: Deh! villan traditore, sì che tu hai
     ardire di venirmi innanzi? Credi tu poterti vantare d’essere arricchito per le mia mani? Io
     voglio mostrar a te ed a ciascuno, come io so dare e torre ogni cosa a mia posta; e innanzi che
-    tu ti parta di quì, io ti farò impiccare in ogni modo.""" .
+    tu ti parta di quì, io ti farò impiccare in ogni modo.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene11 a sam:Scene ;
     sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_piazaDiNostraDama ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene11_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha,
         datasam:Belfagor_Arcidiavolo_Machiavelli_ReLodovicoVII .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene11_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text "" .
+    sam:excerpt_text "" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene12 a sam:Scene ;
     sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_Hell,
         datasam:Belfagor_Arcidiavolo_Machiavelli_piazzaDiNostraDama ;
     sam:hasTrope datasam:trope_HappyEnding ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene12_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha,
         datasam:Belfagor_Arcidiavolo_Machiavelli_ReLodovicoVII,
         datasam:Belfagor_Arcidiavolo_Machiavelli_accompagnatoriDellaFigliuoladiLodovico .
@@ -172,7 +171,8 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene12_excerpt a wdt:Q1385610 ;
     fuggì, lasciando la fanciulla libera; e volle più tosto tornarsene in Inferno a render ragione
     delle sua azioni, che di nuovo con tanti fastidj, dispetti e pericoli sottoporsi al giogo
     matrimoniale. E così Belfagor tornato in Inferno fece fede de’ mali, che conduceva in una casa
-    la moglie; Gio. Matteo, che ne seppe più che ’l diavolo, si ritornò tosto lieto a casa.""" .
+    la moglie; Gio. Matteo, che ne seppe più che ’l diavolo, si ritornò tosto lieto a casa.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene1_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """LEggesi
@@ -186,14 +186,14 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene1_excerpt a wdt:Q1385610 ;
     ogni giorno le querele, ed avendo di tutto fatto a Plutone conveniente rapporto, fu deliberato
     d’aver sopra questo caso con tutti gli Infernali Principi maturo esamine, e pigliarne dipoi quel
     partito, che fusse giudicato migliore per iscuoprire questa fallacia, e conoscerne in tutto la
-    verità.""" .
+    verità.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene2 a sam:Scene ;
     sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_Hell ;
     sam:hasTrope datasam:trope_IncitingIncident,
         datasam:trope_ThePlan ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene2_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
         datasam:Belfagor_Arcidiavolo_Machiavelli_Plutone,
         datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliPrincipi .
@@ -230,13 +230,13 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene2_excerpt a wdt:Q1385610 ;
     del matrimonio. Dichiarossi ancora, che durante detto tempo e' fusse sottoposto a tutti gli
     disagi e a tutti quelli mali, che sono sottoposti gli uomini, e che si tira dietro la povertà,
     le carceri, la malattia, ed ogni altro infortunio, nel quale gli uomini scorrono, eccetto se con
-    inganno o astuzia se ne liberasse.""" .
+    inganno o astuzia se ne liberasse.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene3 a sam:Scene ;
     sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_Firenze ;
     sam:hasTrope datasam:trope_TimeCompressionMontage ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene3_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
         datasam:Belfagor_Arcidiavolo_Machiavelli_Creditori,
         datasam:Belfagor_Arcidiavolo_Machiavelli_Onesta,
@@ -302,13 +302,13 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene3_excerpt a wdt:Q1385610 ;
     Nè fu prima publicata questa cosa che i creditori di Roderigo si ristrinsono insieme; et
     giudicando che fosse spacciato, nè possendo ancora scoprirsi per non esser venuto il tempo dei
     pagamenti loro, conclusero che fosse bene osservarlo così destramente, acciochè dal detto al
-    fatto di nascoso non se ne fuggisse.""" .
+    fatto di nascoso non se ne fuggisse.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene4 a sam:Scene ;
     sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_FuoriFirenze ;
     sam:hasTrope datasam:trope_ChaseScene ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene4_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
         datasam:Belfagor_Arcidiavolo_Machiavelli_Creditori,
         datasam:Belfagor_Arcidiavolo_Machiavelli_Magistrati .
@@ -324,7 +324,8 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene4_excerpt a wdt:Q1385610 ;
     più segreo, uscire di strada e a traverso per gli campi cercare sua fortuna. Ma sendo, a fare
     questo, impedito da le assai fosse, che attraversano il paese, nè potendo per questo ire a
     cavallo, si mise a fuggire a piè e, lasciata la cavalcatura in su la strada, atraversando di
-    campo in campo, coperto da le vigne e da’ cannei, di che quel paese abonda,""" .
+    campo in campo, coperto da le vigne e da’ cannei, di che quel paese abonda,""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene5 a sam:Scene ;
     sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_casaDiGianmatteodelBricha ;
@@ -333,7 +334,6 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene5 a sam:Scene ;
         datasam:trope_GarbageHideout,
         datasam:trope_ThePromise ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene5_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
         datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha .
 
@@ -350,14 +350,14 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene5_excerpt a wdt:Q1385610 ;
     mondigle che per ardere haveva ragunate. Non era Roderigo apena fornito di nascondersi, che i
     suoi perseguitatori sopradgiunsono e, per ispaventi che facessero a Gio. Matteo, non trassero
     mai da lui, che l’avesse visto. Talchè passati più innanzi, avendolo invano quel dì e
-    quell’altro cerco, stracchi se ne tornarono a Firenze. Gio.""" .
+    quell’altro cerco, stracchi se ne tornarono a Firenze. Gio.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene6 a sam:Scene ;
     sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_casaDiGianmatteodelBricha ;
     sam:hasTrope datasam:trope_IGaveMyWord,
         datasam:trope_TheReveal ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene6_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Belfagor,
         datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha .
 
@@ -370,12 +370,12 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene6_excerpt a wdt:Q1385610 ;
     voleva arrichire, che insomma sarebbe questo, che come si sentiva che alcuna donna fusse
     spiritata, credesse, lui essere quello che gli fosse addosso; nè mai se n’uscirebbe, s’egli non
     venisse a trarnelo; donde arebbe occasione di farsi a suo modo pagare da’ parenti di quella: e
-    rimasi in questa conclusione sparì via .""" .
+    rimasi in questa conclusione sparì via .""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene7 a sam:Scene ;
     sam:hasTrope datasam:trope_DemonicPossession ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene7_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_AmbrogioAmidei,
         datasam:Belfagor_Arcidiavolo_Machiavelli_BonajutoTebalducci,
         datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha,
@@ -399,11 +399,11 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene7_excerpt a wdt:Q1385610 ;
     m’osservi la promessa. Al quale Roderigo rispose: Io sono contento. Ma questo non basta a farti
     ricco. E però, partito che io sarò di qui, enterrò nella figliuola di Carlo, Re di Napoli, nè
     mai n’uscirò senza te. Faraiti allora fare una mancia a tuo modo, nè poi mi darai più briga.
-    Detto questo s’uscì d’addosso a colei con piacere ed ammirazione di tutta Firenze.""" .
+    Detto questo s’uscì d’addosso a colei con piacere ed ammirazione di tutta Firenze.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene8 a sam:Scene ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene8_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha,
         datasam:Belfagor_Arcidiavolo_Machiavelli_ReCarlo,
         datasam:Belfagor_Arcidiavolo_Machiavelli_figliuoladiCarlo .
@@ -415,12 +415,12 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene8_excerpt a wdt:Q1385610 ;
     lui, il qual arrivato a Napoli dopo qualche finta cerimonia la guarì. Ma Roderigo prima che
     partisse, disse: Tu vedi, Gio. Matteo, io t’ho osservate le promesse di averti arricchito; e
     però, sendo disobbligo, io non ti sono più tenuto di cosa alcuna. Pertanto sarai contento non mi
-    capitare più innanzi; perchè, dove io t’ho fatto bene, ti farei per l’avvenire male.""" .
+    capitare più innanzi; perchè, dove io t’ho fatto bene, ti farei per l’avvenire male.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene9 a sam:Scene ;
     sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_Firenze ;
     sam:referenceMaterial datasam:Belfagor_Arcidiavolo_Machiavelli_scene9_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_Cursore,
         datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha .
 
@@ -433,7 +433,8 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_scene9_excerpt a wdt:Q1385610 ;
     pensando all’autorità di quel Re, e alle patrope che gli aveva Roderigo dette. Non trovando
     adunque il Re a la sua figliuola rimedio, e intendendo la virtù di Gio. Matteo, mandò prima a
     richiederlo semplicemente per uno suo cursore; ma allegando quello certe indisposizioni, fu
-    forzato quel Re a richiederne la Signoria, la quale forzò Gio. Matteo a ubbidire.""" .
+    forzato quel Re a richiederne la Signoria, la quale forzò Gio. Matteo a ubbidire.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Favola_di_Belfagor_arcidiavolo&oldid=2660796" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_CharacterList a sam:CharacterList ;
     wdp:P527 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
@@ -453,15 +454,13 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_CharacterList a sam:CharacterL
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Mercato_di_Napoli ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1_excerpt ;
-    sam:referenceMaterialSource "" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ ;
-    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt ;
-    sam:referenceMaterialSource "" .
+    sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """e già avvicinandosi al
@@ -473,7 +472,8 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt a wdt:Q1385610
     loro che costui incontanente si dovesse di Napoli parti¬
     re; la qual cosa egli fece prestamente e a Perugia tornos-
     si, avendo il suo investito in uno anello, dove per com¬
-    perare cavalli era andato.""" .
+    perare cavalli era andato.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """Fu, secondo che io già intesi, in Perugia un giovane il
@@ -516,12 +516,12 @@ conoscesse. La quale ogni cosa così particularmente de’
 fatti d’Andreuccio le disse come avrebbe per poco detto 
 egli stesso, sì come colei che lungamente in Cicilia col 
 padre di lui e poi a Perugia dimorata era, e similmente le 
-contò dove tornasse e perché venuto fosse.""" .
+contò dove tornasse e perché venuto fosse.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2_excerpt ;
-    sam:referenceMaterialSource "" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
@@ -559,12 +559,12 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2_excerpt a wdt:Q1385610 
     Andreuccio presto, senza alcuna cosa dir nell’albergo,
     disse:
     
-    - Or via mettiti avanti, io ti verrò appresso.""" .
+    - Or via mettiti avanti, io ti verrò appresso.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3_excerpt ;
-    sam:referenceMaterialSource "" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso .
@@ -699,12 +699,12 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3_excerpt a wdt:Q1385610 
     Appresso queste parole ella cominciò distintamente a
     domandare di tutti i suoi parenti nominatamente, alla
     quale di tutti Andreuccio rispose, per questo ancora più
-    credendo quello che meno di creder gli bisognava.""" .
+    credendo quello che meno di creder gli bisognava.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4_excerpt ;
-    sam:referenceMaterialSource "" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso .
 
@@ -751,12 +751,12 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4_excerpt a wdt:Q1385610 
     andarvi per entro di notte, e massimamente un forestie¬
     re; e che come che egli a cena non fosse atteso aveva
     mandato a dire, così aveva dello albergo fatto il somi¬
-    gliante.""" .
+    gliante.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5_excerpt ;
-    sam:referenceMaterialSource "" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanciullo,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
@@ -898,13 +898,13 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5_excerpt a wdt:Q1385610 
     di colui, umilmente parlando a Andreuccio dissono:
     
     - Per Dio, buono uomo, vatti con Dio, non volere sta¬
-    notte essere ucciso costì: vattene per lo tuo migliore.""" .
+    notte essere ucciso costì: vattene per lo tuo migliore.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6 a sam:Scene ;
     sam:hasChange datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_andreuccioDiPietro_change ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Napoli ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_excerpt ;
-    sam:referenceMaterialSource "" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe .
 
@@ -987,12 +987,12 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_excerpt a wdt:Q1385610 
     
     - Sì, noi siam qui presso a un pozzo al quale suole
     sempre esser la carrucola e un gran secchione; andianne
-    là e laverenlo spacciatamente.""" .
+    là e laverenlo spacciatamente.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Napoli ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7_excerpt ;
-    sam:referenceMaterialSource "" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_famigliari,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe .
@@ -1029,13 +1029,13 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7_excerpt a wdt:Q1385610 
     cora più s’incominciò a maravigliare. Ma dubitando e
     non sappiendo che, della sua fortuna dolendosi, senza
     alcuna cosa toccar quindi diliberò di partirsi: e andava
-    senza saper dove.""" .
+    senza saper dove.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli ;
     sam:hasTrope datasam:trope_RobbingTheDead ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8_excerpt ;
-    sam:referenceMaterialSource "" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe .
 
@@ -1090,13 +1090,13 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8_excerpt a wdt:Q1385610 
     me lui maliziosi,dicendo pur che ben cercasse preso
     tempo, tirarono via il puntello che il coperchio dell’arca
     sostenea, e fuggendosi lui dentro dall’arca lasciaron rac¬
-    chiuso.""" .
+    chiuso.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli ;
     sam:hasTrope datasam:trope_HappyEnding ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9_excerpt ;
-    sam:referenceMaterialSource "" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe_secondi .
 
@@ -1143,7 +1143,8 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9_excerpt a wdt:Q1385610 
     
     La qual cosa veggendo Andreuccio, lieto oltre a quel¬
     lo che sperava, subito si gittò fuori e per quella via onde
-    era venuto se ne uscì dalla chiesa;""" .
+    era venuto se ne uscì dalla chiesa;""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_name a wdt:Q82799 ;
     sam:hasName "Andreuccio di Pietro" .
@@ -1200,7 +1201,6 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini_name_Matteo a wdt
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene1 a sam:Scene ;
     sam:hasSetting datasam:Novella_del_Grasso_Legnaiuolo_anonimo_casadiTommasodePecori ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene1_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_FilippodiSerBrunellesco,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_TommasodePecori,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_membriDellaBrigata .
@@ -1208,7 +1208,6 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene1 a sam:Scene ;
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene10 a sam:Scene ;
     sam:hasSetting datasam:Novella_del_Grasso_Legnaiuolo_anonimo_casaDeiFratelliDiMatteo ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene10_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_prete .
 
@@ -1246,12 +1245,12 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene10_excerpt a wdt:Q1385610 ;
         più ne parli, e a quante più persone tu discoprirai questo fatto, tanto è peggio, e tanto
         più contro a te. E tanto intorno a ciò gli disse, che egli lo fe’ rimanere contento di non
         parlargli. E partitosi da lui, disse a’ frategli ciò che egli avea fatto, e detto e quello
-        che egli avea promesso; e prese commiato da loro alla Chiesa si tornò.""" .
+        che egli avea promesso; e prese commiato da loro alla Chiesa si tornò.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene11 a sam:Scene ;
     sam:hasSetting datasam:Novella_del_Grasso_Legnaiuolo_anonimo_casaDeiFratelliDiMatteo ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene11_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_FilippodiSerBrunellesco,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_fratelliDiMatteo .
 
@@ -1264,11 +1263,11 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene11_excerpt a wdt:Q1385610 ;
         all’uno di questi due frategli: Fate che mentre che voi cenate, voi gli diate bere questo o
         in vino, o in che modo vi pare, che non se n’avvegga. Questo è uno oppio, che il farà sì
         forte dormire, che mazzicandolo tutto, non sentirebbe per parecchi ore, ed io verrò poi colà
-        dalle cinque ore, e faremo il resto.""" .
+        dalle cinque ore, e faremo il resto.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene12 a sam:Scene ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene12_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_fratelliDiMatteo .
 
@@ -1281,12 +1280,12 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene12_excerpt a wdt:Q1385610 ;
         rispose: io ti prometto, che poich’io nacqui, mai sì gran sonno non abbi, che se io fossi
         stato un mese sanza dormire, basterebbe; e pertanto, io me ne voglio andare a letto. E
         cominciatosi a spogliare, appena potè resistere discalzarsi, e d’andarsi al letto, che fu
-        addormentato fortemente» e russava com’un porco»""" .
+        addormentato fortemente» e russava com’un porco»""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene13 a sam:Scene ;
     sam:hasTrope datasam:trope_HappyEnding ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene13_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_FilippodiSerBrunellesco,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_compagniDiFilippo,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_fratelliDiMatteo .
@@ -1364,7 +1363,8 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene13_excerpt a wdt:Q1385610 ;
         le loro condizioni, per favore del detto Spano, che lofece maestro ingegneri, e chiamavasi
         maestro Manetto da Firenze e venendo poi il Grasso più volte a Firenze, e da Filippo di ser
         Brunellesco essendo domandata della sua partita, ordinatamente gli disse questa, novella, e
-        perchè partito s’era di Firenze.""" .
+        perchè partito s’era di Firenze.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene1_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """Nella città di
@@ -1396,12 +1396,12 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene1_excerpt a wdt:Q1385610 ;
         sia di se medesimo trasmutato in un altro, e che non sia più il Grasso, ma sia divenuto un
         altro uomo. A cui i compagni risposero, questo non esser possibile a fare. A’ quali Filippo,
         assegnate sue ragioni ed argomenti, come quello che era di sottile ingegno, per quelle
-        mostrò loro questo potersi fare.""" .
+        mostrò loro questo potersi fare.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene2 a sam:Scene ;
     sam:hasSetting datasam:Novella_del_Grasso_Legnaiuolo_anonimo_bottegadiManettoAmmattini ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene2_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_FilippodiSerBrunellesco,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_fanciullo .
@@ -1421,13 +1421,13 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene2_excerpt a wdt:Q1385610 ;
         disse: Iddio m’aiuti, e dal Grasso prese licenza. Il Grasso, come suo amico, disse: i’ vo’
         venir teco se bisognasse fare alcuna cosa; questi sono casi che non si vogliono risparmiare
         gli amici. Filippo lo ringraziò, e disse: io non voglio per ora tu venghi, ma se nulla
-        bisognerà, te ’l manderò a dire.""" .
+        bisognerà, te ’l manderò a dire.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene3 a sam:Scene ;
     sam:hasSetting datasam:Novella_del_Grasso_Legnaiuolo_anonimo_bottegadiManettoAmmattini,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_piazzadiSanGiovanni ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene3_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Donatello,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_FilippodiSerBrunellesco,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini .
@@ -1462,12 +1462,12 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene3_excerpt a wdt:Q1385610 ;
         sceso i due scaglioni, e tiratosi indietro per chiamare dalle finestre, vi sopraggiunse come
         era ordinato, uno che evea nome Donatello, intagliatore di marmi, amico grandissimo del
         Grasso, e giunto a lui così al barlume, disse: buona sera, Matteo, va’ tu cercando il
-        Grasso? e’ se n’ andò pur testè in casa. E così detto s’ andò con Dio.""" .
+        Grasso? e’ se n’ andò pur testè in casa. E così detto s’ andò con Dio.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene4 a sam:Scene ;
     sam:hasSetting datasam:Novella_del_Grasso_Legnaiuolo_anonimo_piazzadiSanGiovanni ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene4_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Debitore,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Famigli,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini .
@@ -1494,13 +1494,13 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene4_excerpt a wdt:Q1385610 ;
         fare altro a pagarmi, che contraffarti. Menatenelo pure, e vedremo se tu sarai desso. E cosi
         bisticciando il condussono alla Mercatanzia. E perchè egli
         era quasi in su l’ora della cena, né per la via, né là non trovaron persona, che gli
-        conoscesse.""" .
+        conoscesse.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene5 a sam:Scene ;
     sam:hasSetting datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Mercatanzia,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_prigione ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene5_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Notaio,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Prigionieri .
@@ -1515,13 +1515,13 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene5_excerpt a wdt:Q1385610 ;
         debbo dare a uno parecchi denari, che miha fatto pigliare, ma io mi spaccerò domattina di
         buon’ora;carico tutto di confusione. I prigioni dissero: tu vedi, noi siamo per cenare; cena
         con noi, e poi domattina ti spaccerai; ma ben t’avvisiamo, che qui si sta sempre più che
-        altri non crede.""" .
+        altri non crede.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene6 a sam:Scene ;
     sam:hasSetting datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Mercatanzia,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_prigione ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene6_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_GiovannidiMesserFrancescoRucellai,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Prigionieri .
@@ -1552,12 +1552,12 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene6_excerpt a wdt:Q1385610 ;
         mio lavorio mi fa. Disse il Grasso: deh fatemi un piacere, poiché peraltro avet’ a andare a
         lui, ditegli, egli é preso alla: mercatanzia un tuo amico, e dice che in servigio che gi
         faccia un poco motto. Dice Giovanni, guardandolo in viso continovamente tenendo con fatica
-        le risa: io lo farò rdfcenrtierifc e partitosi inda a fate atte faccende.""" .
+        le risa: io lo farò rdfcenrtierifc e partitosi inda a fate atte faccende.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene7 a sam:Scene ;
     sam:hasSetting datasam:Novella_del_Grasso_Legnaiuolo_anonimo_prigione ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene7_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Giudice,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini .
 
@@ -1592,12 +1592,12 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene7_excerpt a wdt:Q1385610 ;
         come ella era, e presto rispose, lui averne molti letti, cioè l’esser diventata d’uno un
         altro, e che questo non era caso nuovo. A cui il Grasso disse: or ditemi, se io sono
         divenuto Matteo, che è di Matteo? Rispose il giudice: è di necessità, che sia divenuto il
-        Grasso. A cui il Grasso disse: bene; lo vorrei un poco vedere per isbizzarrirmi.""" .
+        Grasso. A cui il Grasso disse: bene; lo vorrei un poco vedere per isbizzarrirmi.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene8 a sam:Scene ;
     sam:hasSetting datasam:Novella_del_Grasso_Legnaiuolo_anonimo_prigione ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene8_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Notaio,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_fratelliDiMatteo,
@@ -1639,14 +1639,14 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene8_excerpt a wdt:Q1385610 ;
         mandato caendo, là dove vedendoselo innanzi non s’avvede di questo errore. Il giudice con
         gran fatica teneva le risa, e aveva uno piacere inestimabile; e disse: non v’andare, ma
         vattene con questi, che dicono esser tuoi frategli, e vedi dove egli ti menano, e quello
-        fanne di te.""" .
+        fanne di te.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene9 a sam:Scene ;
     sam:hasSetting datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Mercatanzia,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_casaDeiFratelliDiMatteo,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_prigione ;
     sam:referenceMaterial datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene9_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" ;
     wdp:P710 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Notaio,
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Parocchiano,
@@ -1681,7 +1681,8 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene9_excerpt a wdt:Q1385610 ;
         trargli questa fantasia del capo, e resteremvene sempre obbligati. Il prete era servente
         persona: il perchè rispose, che molto volentieri; e che s’egli favellasse con lui, egli
         s’avvedrebbe tosto del fatto, e che gli direbbe tanto, e per modo, che forse gli trarrebbe
-        questo fatto del capo.""" .
+        questo fatto del capo.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_CharacterList a sam:CharacterList ;
     wdp:P527 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia,
@@ -1701,70 +1702,69 @@ datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella_name a wdt:Q82799 ;
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene1 a sam:Scene ;
     sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_giardinoOrca ;
     sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene1_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
     wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene1_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text "Era na vota na femmena prena, chiammata Pascadozia; la quale, affacciatose a na fenestra, che sboccava a no giardino de n’orca, vedde no bello quatro de petrosine. De lo quale le venne tanto golio, che se senteva ashievolire. Tanto che, non potenno resistere, abistato quanno scette l’orca, ne cogliette na vraucata." .
+    sam:excerpt_text "Era na vota na femmena prena, chiammata Pascadozia; la quale, affacciatose a na fenestra, che sboccava a no giardino de n’orca, vedde no bello quatro de petrosine. De lo quale le venne tanto golio, che se senteva ashievolire. Tanto che, non potenno resistere, abistato quanno scette l’orca, ne cogliette na vraucata." ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene2 a sam:Scene ;
     sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_giardinoOrca ;
     sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene2_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
     wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia,
         datasam:Petrosinella_CuntodeliCunti_Basile_orca .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene2_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """Ma, tornata l’orca a la casa, e volenno fare la sauza, s’addonaje, ca nc’era menata la fauce, e disse: «Me se pozza scatenare lo cuollo, si nce matto sto maneco d’ancino, e non ne lo faccio pentire, azzò se mpara ogne une a magnare a lo tagliere sujo, e no scocchiariare pe le pignate d’autre!» Ma, continovanno la povera prena a rescennere9 all’uorto, nce fu na matina mattuta da l’orca. La quale, tutta arraggiata e nfelata, le disse: «Aggiotence ncappata, latra, mariola! E che ne paghe lo pesone de st’uorto, che viene, co tanta poca descrezione, a zeppoliarene l’erve meje? Affè, ca non te mannarraggio a Roma pe penetenzia!» Pascadozia, negrecata, commenzaje a scusarese, decenno, ca non pe cannarizia10, o lopa11 ch’avesse ncuorpo, l’aveva cecato lo diascance a fare st’arrore; ma ped essere prena, e dubetava, che la facce de la criatura non nascesse semmenata de petrosine; anze, deveva averele grazia, che no l’avesse mannato quarche agliarulo. «Parole vo la zita, — respose l’orca — ; no
-me nce pische co sse chiacchiare! Tu hai scomputo lo staglio de la vita, si non prommiette de daremo la criatura, che farrai, o mascolo o femmena, che se sia». La negra Pascadozia, pe scappare lo pericolo, dove se trovava, ne joraje co na mano ncoppa all’autra; e cossì l’orca la lassaje scapolà.""" .
+me nce pische co sse chiacchiare! Tu hai scomputo lo staglio de la vita, si non prommiette de daremo la criatura, che farrai, o mascolo o femmena, che se sia». La negra Pascadozia, pe scappare lo pericolo, dove se trovava, ne joraje co na mano ncoppa all’autra; e cossì l’orca la lassaje scapolà.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene3 a sam:Scene ;
     sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco ;
     sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene3_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
     wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia,
         datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
         datasam:Petrosinella_CuntodeliCunti_Basile_orca .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene3_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text "Ma, venuto lo tiempo de partorire, fece na figliola cossì bella, ch’era na gioja, che, pe avere na bella cimma de petrosino mpietto, la chiammaje Petrosinella. La quale, ogne juorno crescenno no parmo, comme fu de sette anne, la mannaje a la majestra. La quale sempre che jeva pe la strata, e se scontrava coll’orca, le deceva: «Dì a mammata, che s’allecorde de la mprommessa!» E, tanta vote fece sso taluerno, che la scura mamma, non avenno chiù cellevriello de sentire sta museca, le disse na vota: «Si te scuntre co la solita vecchia, e te cercarrà sta mardetta prommessa, e tu le respunne: pigliatella!» Petrosinella, che non sapeva de cola, trovanno l’orca, e facennole la stessa proposta, le respose nocentemente, comme l’aveva ditto la mamma. E l’orca, afferratala pe li capille, se ne la portaje a no vosco, dove non trasevano mai li cavalle de lo sole, pe n’essere affedate a li pascolo de chell’ombre, mettennola drinto a na torre, che fece nascere ped arte, senza porte, nè scale, sulo co no fenestriello. Pe la quale, pe li capille de Petrosinella, ch’erano luonghe luonghe, saglieva e scenneva, comme sóle batto de nave pe le nsarte dell’arvolo." .
+    sam:excerpt_text "Ma, venuto lo tiempo de partorire, fece na figliola cossì bella, ch’era na gioja, che, pe avere na bella cimma de petrosino mpietto, la chiammaje Petrosinella. La quale, ogne juorno crescenno no parmo, comme fu de sette anne, la mannaje a la majestra. La quale sempre che jeva pe la strata, e se scontrava coll’orca, le deceva: «Dì a mammata, che s’allecorde de la mprommessa!» E, tanta vote fece sso taluerno, che la scura mamma, non avenno chiù cellevriello de sentire sta museca, le disse na vota: «Si te scuntre co la solita vecchia, e te cercarrà sta mardetta prommessa, e tu le respunne: pigliatella!» Petrosinella, che non sapeva de cola, trovanno l’orca, e facennole la stessa proposta, le respose nocentemente, comme l’aveva ditto la mamma. E l’orca, afferratala pe li capille, se ne la portaje a no vosco, dove non trasevano mai li cavalle de lo sole, pe n’essere affedate a li pascolo de chell’ombre, mettennola drinto a na torre, che fece nascere ped arte, senza porte, nè scale, sulo co no fenestriello. Pe la quale, pe li capille de Petrosinella, ch’erano luonghe luonghe, saglieva e scenneva, comme sóle batto de nave pe le nsarte dell’arvolo." ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene4 a sam:Scene ;
     sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco ;
     sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene4_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
     wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
         datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprencipe .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene4_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text "Ora soccesse, ch’essenno fora de chella torre l’orca, Petrosinella, cacciato la capo fora de chillo pertuso, e spase le trezze a lo sole, pasajelo figlio de no prencipe. Lo quale, vedenno doje bannere d’oro, che chiammavano l’arme ad assentarese a lo rollo d’ammore, e miranno drinto a chelle onne preziose na facce de serena, che ncantava li core, se ncrapicciaje fora de mesura de tanta bellezze. E, mannatole no memmoriale de sospiri, fu decretato, che se l’assentasse la chiazza a la grazia soja, e la mercanzia rescì de manera, cho lo prencepe appo calate de capo a vasate de mano, nocchie a zennariello a leverenzie, rengraziamiente ad afferte, speranze a prommesse, e bone parole a liccasalemme. La quale cosa continuata pe chiù juorne, s’addomestecaro de manera, che vennero ad appontamiento de trovarese nsiemme." .
+    sam:excerpt_text "Ora soccesse, ch’essenno fora de chella torre l’orca, Petrosinella, cacciato la capo fora de chillo pertuso, e spase le trezze a lo sole, pasajelo figlio de no prencipe. Lo quale, vedenno doje bannere d’oro, che chiammavano l’arme ad assentarese a lo rollo d’ammore, e miranno drinto a chelle onne preziose na facce de serena, che ncantava li core, se ncrapicciaje fora de mesura de tanta bellezze. E, mannatole no memmoriale de sospiri, fu decretato, che se l’assentasse la chiazza a la grazia soja, e la mercanzia rescì de manera, cho lo prencepe appo calate de capo a vasate de mano, nocchie a zennariello a leverenzie, rengraziamiente ad afferte, speranze a prommesse, e bone parole a liccasalemme. La quale cosa continuata pe chiù juorne, s’addomestecaro de manera, che vennero ad appontamiento de trovarese nsiemme." ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene5 a sam:Scene ;
     sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco ;
     sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene5_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
     wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
         datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprencipe .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene5_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text "La quale cosa doveva essere la notte, quanno la luna joqua a passara muta co le stelle, ch’essa averria dato l’addormio a l’orca, e ne l’averria aisato co li capille. E, cossì restate de commegna, venne l’ora appontata; e lo prencepe se consignaje a la torre. Dove, fatto calare a sisco le trezze de Petrosinella, ed afferratose a doi mano, disse: «Aisa!»; e, tirato ncoppa, schiaffatose pe lo fenestriello drinto la cammara, se fece no pasto de chillo petrosino de la sauza d’ammore. E, nante che lo sole mozzasse li cavalle suoje a sautare pe lo chirchio de lo zodiaco, se ne calaje pe la medesema scala d’oro a fare li fatto suoje." .
+    sam:excerpt_text "La quale cosa doveva essere la notte, quanno la luna joqua a passara muta co le stelle, ch’essa averria dato l’addormio a l’orca, e ne l’averria aisato co li capille. E, cossì restate de commegna, venne l’ora appontata; e lo prencepe se consignaje a la torre. Dove, fatto calare a sisco le trezze de Petrosinella, ed afferratose a doi mano, disse: «Aisa!»; e, tirato ncoppa, schiaffatose pe lo fenestriello drinto la cammara, se fece no pasto de chillo petrosino de la sauza d’ammore. E, nante che lo sole mozzasse li cavalle suoje a sautare pe lo chirchio de lo zodiaco, se ne calaje pe la medesema scala d’oro a fare li fatto suoje." ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene6 a sam:Scene ;
     sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco ;
     sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene6_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
     wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
         datasam:Petrosinella_CuntodeliCunti_Basile_commaredellOrca,
         datasam:Petrosinella_CuntodeliCunti_Basile_orca .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene6_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text "La quale cosa continuanno spesse vote a fare, se n’addonaje na commare dell’orca; la quale, pigliannose lo mpaccio de lo Russo, voze mettere lo musso a la merda, e disse all’orca, che stesse ncellevriello, ca Petrosinella faceva l’ammore co no cierto giovene, e sospettava, che non fossero passate chiù nante le cose; perchè vedeva lo moschito, e lo trafeco, che se faceva; e dobetava, che, fatto no leva ejo, non fossero sfrattate nante Majo da chella casa. L’orca rengraziaje la commare de lo buono avertemiento, e disse, ca sarria stato penziero sujo de mpedire la strata a Petrosinella, otra che non era possibile, che fosse potuta foire ped averele fatto no ncanto, che, si n’aveva mano tre gliantre, nascose drinto a no trave de la cecina, era opera perza, che potesse sfilarennella. Ma, mentre erano a sti ragionamiente Petrosinella, che steva co l’aurecchie appezzute, ed aveva quarche sospetto de la commare, ntese tutto lo trascurzo." .
+    sam:excerpt_text "La quale cosa continuanno spesse vote a fare, se n’addonaje na commare dell’orca; la quale, pigliannose lo mpaccio de lo Russo, voze mettere lo musso a la merda, e disse all’orca, che stesse ncellevriello, ca Petrosinella faceva l’ammore co no cierto giovene, e sospettava, che non fossero passate chiù nante le cose; perchè vedeva lo moschito, e lo trafeco, che se faceva; e dobetava, che, fatto no leva ejo, non fossero sfrattate nante Majo da chella casa. L’orca rengraziaje la commare de lo buono avertemiento, e disse, ca sarria stato penziero sujo de mpedire la strata a Petrosinella, otra che non era possibile, che fosse potuta foire ped averele fatto no ncanto, che, si n’aveva mano tre gliantre, nascose drinto a no trave de la cecina, era opera perza, che potesse sfilarennella. Ma, mentre erano a sti ragionamiente Petrosinella, che steva co l’aurecchie appezzute, ed aveva quarche sospetto de la commare, ntese tutto lo trascurzo." ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene7 a sam:Scene ;
     sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_notSpecified ;
     sam:hasTrope datasam:trope_ChaseScene ;
     sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene7_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
     wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
         datasam:Petrosinella_CuntodeliCunti_Basile_animalitrasformati,
         datasam:Petrosinella_CuntodeliCunti_Basile_commaredellOrca,
@@ -1772,13 +1772,13 @@ datasam:Petrosinella_CuntodeliCunti_Basile_Scene7 a sam:Scene ;
         datasam:Petrosinella_CuntodeliCunti_Basile_orca .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene7_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text "E, comme la notte spase li vestite nigre, perchè se conservassero da le carole, venuto a lo solito lo prencepe, lo fece saglire ncoppa li trave. E, trovate le gliantre, le quale sapenno comme se l’avevano da adoperare, ped essere stata fatata dall’orca, fatta na scala de fonecella, se ne scesero tutte duje a bascio, e commenzaro a toccare de carcagne verzo la cetate. Ma, essenno viste a lo scire da la commare, commenzaje a strillare, chiammanno l’orca; e tanto fu lo strillatorio, che se scetaje. E, sentenno ca Petrosinella se n’era fojuta, se ne scese pe la medesima scala, ch’era legata a lo fenestriello, e commenzaje a correre dereto li nnamorate. Li quale, comme la veddero venire, chiù de no cavallo scapolo, a la vota lloro, se tennero perdute. Ma, lecordannose Petrosinella de le gliantre, ne jettaje subeto una nterra. Ed eccote sguigliare no cane corzo, cossì terribile, ch’o mamma mia! Lo quale, co tanto de canna aperta, abbajanno, jeze ncontra all’orca pe se ne fare no voccone. Ma chella, ch’era chiù maliziosa de parasacco, puostose mano a la saccocciola, ne cacciaje na panella; e, datola a lo cane, le fece cadere la coda, ed ammosciare la furia. E, tornato a correre dereto chille, che fojevano, Petrosinella, vistola avvecenare, jettaje la seconna gliantra. Ed ecco scire no feroce lione, che, sbattenno la coda nterra, e scotolanno li crine, co dui parme de cannarone spaparanzato, s’era puosto all’ordene de fare scafaccio dell’orca. E l’orca, tornanno arreto, scortecaje n’aseno, che pasceva miezo a no prato; e, puostose la pella ncoppa, corze de nuovo ncontra a chillo lione. Lo quale, credennose che fosse no ciuccio, appe tanta paura, ch’ancora fuje. Pe la quale cosa, sautato sto secunno fuosso, l’orca tornaje a secotare chille povere giuvane, che, sentenno lo scarponejare, e vedenno la nuvola de la porvere, che s’auzava a lo cielo, conjetturaro ca l’orca se ne veneva de nuovo. La quale, avenno sempre sospetto, che no la secotasse lo lione, non se avea levato la pelle dell’aseno. Ed, avonno Petrosinella jettato la terza gallozza, ne scette no lupo. Lo quale, senza dare tiempo all’orca de pigliare nuovo partito, se la norcaje comm’a n’aseno," .
+    sam:excerpt_text "E, comme la notte spase li vestite nigre, perchè se conservassero da le carole, venuto a lo solito lo prencepe, lo fece saglire ncoppa li trave. E, trovate le gliantre, le quale sapenno comme se l’avevano da adoperare, ped essere stata fatata dall’orca, fatta na scala de fonecella, se ne scesero tutte duje a bascio, e commenzaro a toccare de carcagne verzo la cetate. Ma, essenno viste a lo scire da la commare, commenzaje a strillare, chiammanno l’orca; e tanto fu lo strillatorio, che se scetaje. E, sentenno ca Petrosinella se n’era fojuta, se ne scese pe la medesima scala, ch’era legata a lo fenestriello, e commenzaje a correre dereto li nnamorate. Li quale, comme la veddero venire, chiù de no cavallo scapolo, a la vota lloro, se tennero perdute. Ma, lecordannose Petrosinella de le gliantre, ne jettaje subeto una nterra. Ed eccote sguigliare no cane corzo, cossì terribile, ch’o mamma mia! Lo quale, co tanto de canna aperta, abbajanno, jeze ncontra all’orca pe se ne fare no voccone. Ma chella, ch’era chiù maliziosa de parasacco, puostose mano a la saccocciola, ne cacciaje na panella; e, datola a lo cane, le fece cadere la coda, ed ammosciare la furia. E, tornato a correre dereto chille, che fojevano, Petrosinella, vistola avvecenare, jettaje la seconna gliantra. Ed ecco scire no feroce lione, che, sbattenno la coda nterra, e scotolanno li crine, co dui parme de cannarone spaparanzato, s’era puosto all’ordene de fare scafaccio dell’orca. E l’orca, tornanno arreto, scortecaje n’aseno, che pasceva miezo a no prato; e, puostose la pella ncoppa, corze de nuovo ncontra a chillo lione. Lo quale, credennose che fosse no ciuccio, appe tanta paura, ch’ancora fuje. Pe la quale cosa, sautato sto secunno fuosso, l’orca tornaje a secotare chille povere giuvane, che, sentenno lo scarponejare, e vedenno la nuvola de la porvere, che s’auzava a lo cielo, conjetturaro ca l’orca se ne veneva de nuovo. La quale, avenno sempre sospetto, che no la secotasse lo lione, non se avea levato la pelle dell’aseno. Ed, avonno Petrosinella jettato la terza gallozza, ne scette no lupo. Lo quale, senza dare tiempo all’orca de pigliare nuovo partito, se la norcaje comm’a n’aseno," ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene8 a sam:Scene ;
     sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_notSpecified ;
     sam:hasTrope datasam:trope_HappyEnding ;
     sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene8_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" ;
     wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
         datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprencipe .
 
@@ -1786,7 +1786,8 @@ datasam:Petrosinella_CuntodeliCunti_Basile_Scene8_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """e li nammorate, scenno de mpaccio, se ne jettero chiano chiano a lo regno de lo prencepe. Dove, co bona lecenzia de lo patre, se la pigliaje pe mogliere, e provaro, dapò tante tempeste de travaglie:
 
           Che n’ora di buon puorto
-          Fa scordare cient’anne de fortuna!""" .
+          Fa scordare cient’anne de fortuna!""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" .
 
 datasam:novellino_II_anonimo_CharacterList a sam:CharacterList ;
     wdp:P527 datasam:novellino_II_anonimo_ambasciatori,
@@ -1810,11 +1811,9 @@ datasam:novellino_II_anonimo_federigoImperadore_name a wdt:Q82799 ;
 datasam:novellino_II_anonimo_federigoImperadore_occupation a wdt:Q12737077 ;
     sam:hasTitle "imperadore" .
 
-datasam:novellino_II_anonimo_lapidario_name a wdt:Q82799 ;
-    sam:hasName "lapidario" .
-
-datasam:novellino_II_anonimo_lapidario_occupation a wdt:Q12737077 ;
-    sam:hasTitle "lapidario" .
+datasam:novellino_II_anonimo_lapidario_occupation_lapidario a wdt:Q12737077 ;
+    sam:hasTitle "lapidario" ;
+    wdp:P1416 datasam:novellino_II_anonimo_prestoGiovanni .
 
 datasam:novellino_II_anonimo_prestoGiovanni_name a wdt:Q82799 ;
     sam:hasName "Presto Giovanni" .
@@ -1825,7 +1824,6 @@ datasam:novellino_II_anonimo_prestoGiovanni_occupation a wdt:Q12737077 ;
 datasam:novellino_II_anonimo_scene1 a sam:Scene ;
     sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
     sam:referenceMaterial datasam:novellino_II_anonimo_scene1_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
         datasam:novellino_II_anonimo_prestoGiovanni .
 
@@ -1839,12 +1837,12 @@ datasam:novellino_II_anonimo_scene1_excerpt a wdt:Q1385610 ;
 		nobilissime, e disse loro: donatele allo ’mperadore, e diteli dalla parte mia, che vi dica
 		quale è la migliore cosa del mondo; e le sue parole e risposte serberete, et avviserete3 la
 		corte sua e costumi di quella, e quello che inverrete,4 raccontarete a me sanza niuna
-		mancanza.""" .
+		mancanza.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" .
 
 datasam:novellino_II_anonimo_scene2 a sam:Scene ;
     sam:hasSetting datasam:novellino_II_anonimo_setting2 ;
     sam:referenceMaterial datasam:novellino_II_anonimo_scene2_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
         datasam:novellino_II_anonimo_federigoImperadore .
 
@@ -1856,13 +1854,13 @@ datasam:novellino_II_anonimo_scene2_excerpt a wdt:Q1385610 ;
 		fecele riporre, e lodolle molto di grande bellezza. Li ambasciadori fecero la domanda loro,
 		e videro li costumi e la corte. Poi dopo pochi giorni addomandaro conmiato. Lo ’mperadore
 		diede loro risposta, e disse: ditemi5 al signor vostro, che la miglior cosa di questo mondo
-		si è misura.""" .
+		si è misura.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" .
 
 datasam:novellino_II_anonimo_scene3 a sam:Scene ;
     sam:hasChange datasam:novellino_II_anonimo_scene3_prestoGiovanni_change ;
     sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
     sam:referenceMaterial datasam:novellino_II_anonimo_scene3_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
         datasam:novellino_II_anonimo_prestoGiovanni .
 
@@ -1872,7 +1870,8 @@ datasam:novellino_II_anonimo_scene3_excerpt a wdt:Q1385610 ;
 		corte dello ’mperadore ornata di bellissimi costumi, e ’l modo de’ suoi cavalieri. Il Presto
 		Giovanni, udendo ciò che raccontaro li suoi ambasciadori, lodò lo ’mperadore, e disse ch’era
 		molto savio in parola, ma non in fatto, acciocche non avea domandato della virtù di così
-		care pietre.""" .
+		care pietre.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" .
 
 datasam:novellino_II_anonimo_scene3_prestoGiovanni_change a sam:GroupOfCharacters,
         wdt:Q1150070 ;
@@ -1884,7 +1883,6 @@ datasam:novellino_II_anonimo_scene3_prestoGiovanni_change a sam:GroupOfCharacter
 datasam:novellino_II_anonimo_scene4 a sam:Scene ;
     sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
     sam:referenceMaterial datasam:novellino_II_anonimo_scene4_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_ambasciatori,
         datasam:novellino_II_anonimo_lapidario,
         datasam:novellino_II_anonimo_prestoGiovanni .
@@ -1896,12 +1894,12 @@ datasam:novellino_II_anonimo_scene4_excerpt a wdt:Q1385610 ;
 		le pietre ch’avea donate allo ’mperadore avevano perduta loro virtude7, dappoi che non erano
 		per lo ’mperadore conosciute, tolse uno suo carissimo lapidario, e mandollo celatamente alla
 		corte dello ’mperadore, e disse: al postutto metti lo ’ngegno tuo, che tu quelle pietre mi
-		rechi; per niun tesoro rimanga.""" .
+		rechi; per niun tesoro rimanga.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" .
 
 datasam:novellino_II_anonimo_scene5 a sam:Scene ;
     sam:hasSetting datasam:novellino_II_anonimo_setting2 ;
     sam:referenceMaterial datasam:novellino_II_anonimo_scene5_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_federigoImperadore,
         datasam:novellino_II_anonimo_lapidario .
 
@@ -1917,20 +1915,21 @@ datasam:novellino_II_anonimo_scene5_excerpt a wdt:Q1385610 ;
 		messere, vale la migliore città che voi avete. Poi prese l’altra, e disse: questa, messere,
 		vale la migliore provincia che voi avete. E poi prese la terza, e disse: messere, questa
 		vale più che tutto lo ’mperio; e strinse il pugno con le soprascritte pietre. La vertude
-		dell’una il celò, che nol potero vedere, e discese giù per le gradora,""" .
+		dell’una il celò, che nol potero vedere, e discese giù per le gradora,""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" .
 
 datasam:novellino_II_anonimo_scene6 a sam:Scene ;
     sam:hasChange datasam:novellino_II_anonimo_scene6_prestoGiovanni_change ;
     sam:hasSetting datasam:novellino_II_anonimo_setting1 ;
     sam:referenceMaterial datasam:novellino_II_anonimo_scene6_excerpt ;
-    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" ;
     wdp:P710 datasam:novellino_II_anonimo_lapidario,
         datasam:novellino_II_anonimo_prestoGiovanni .
 
 datasam:novellino_II_anonimo_scene6_excerpt a wdt:Q1385610 ;
     sam:excerpt_text """e
 		tornò al suo signore Presto Giovanni, e presentolli le pietre con grande
-		allegrezza.""" .
+		allegrezza.""" ;
+    sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" .
 
 datasam:novellino_II_anonimo_scene6_prestoGiovanni_change a sam:GroupOfCharacters,
         wdt:Q1150070 ;
@@ -2013,6 +2012,10 @@ datasam:trope_TheReveal a sam:TvTropesTrope ;
 datasam:trope_TimeCompressionMontage a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Laconic/TimeCompressionMontage" .
 
+cwrc:Man a cwrc:Gender .
+
+cwrc:cisMan a cwrc:Gender .
+
 datasam:Belfagor_Arcidiavolo_Machiavelli_AmbrogioAmidei a wdt:Q95074 .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_BonajutoTebalducci a wdt:Q95074 .
@@ -2086,8 +2089,6 @@ datasam:Petrosinella_CuntodeliCunti_Basile_orcs a sam:GroupOfCharacters ;
 datasam:novellino_II_anonimo_setting2 a wdt:Q617332 ;
     sam:hasPlace datasam:novellino_II_anonimo_atImperadoreFederigo .
 
-cwrc:cisMan a cwrc:Gender .
-
 datasam:Belfagor_Arcidiavolo_Machiavelli_Creditori a sam:GroupOfCharacters .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_Plutone a wdt:Q95074 .
@@ -2149,9 +2150,8 @@ datasam:Petrosinella_CuntodeliCunti_Basile_torreNelBosco a wdt:Q617332 .
 
 datasam:novellino_II_anonimo_lapidario a wdt:Q95074 ;
     sam:narratorName "lapidario" ;
-    wdp:P106 datasam:novellino_II_anonimo_lapidario_occupation ;
-    wdp:P21 cwrc:man ;
-    wdp:P2561 datasam:novellino_II_anonimo_lapidario_name .
+    wdp:P106 datasam:novellino_II_anonimo_lapidario_occupation_lapidario ;
+    wdp:P21 cwrc:man .
 
 datasam:novellino_II_anonimo_setting1 a wdt:Q617332 ;
     sam:hasPlace datasam:novellino_II_anonimo_atPrestoGiovanni .
@@ -2218,7 +2218,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro a wdt:Q9507
         datasam:trope_TheProtagonist ;
     sam:narratorName "Andreuccio da Perugia" ;
     wdp:P106 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_occupation ;
-    wdp:P21 cwrc:cisMan ;
+    wdp:P21 cwrc:Man ;
     wdp:P2561 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_name .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini a wdt:Q95074 ;

@@ -49,7 +49,7 @@
 </paraText>
 
     <Scene
-        xml:id="scene1">
+        xml:id="scene1" setting="hell">
         <Trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/Exposition"></Trope>
     <participants>
             <CharacterGroup ref="infernaliGiudici"></CharacterGroup>

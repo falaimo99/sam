@@ -180,7 +180,7 @@ def set_scenes(g, scene, scene_URI, root):
         g.add((excerpt_URI, sam.excerpt_text, Literal(scene.xpath("string()").strip())))
         g.add(
             (
-                scene_URI,
+                excerpt_URI,
                 sam.referenceMaterialSource,
                 Literal(reference_material.attrib["uri"]),
             )
