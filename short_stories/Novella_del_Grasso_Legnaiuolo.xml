@@ -82,7 +82,9 @@
         bisognerà, te ’l manderò a dire.</Scene>
     <Scene xml:id="Scene3">
         <Setting ref="bottegadiManettoAmmattini"></Setting>
-<Setting ref="piazzadiSanGiovanni"></Setting>
+        <Setting ref="piazzadiSanGiovanni">
+            <place uri="https://geohack.toolforge.org/geohack.php?params=43.772955555556_N_11.254755555556_E_globe:earth&amp;language=en">Piazza San Giovanni, Firenze</place>
+        </Setting>
 <participants>
             <Character ref="ManettoAmmattini"></Character>
             <Character ref="FilippodiSerBrunellesco"></Character>

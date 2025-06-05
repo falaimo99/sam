@@ -190,6 +190,7 @@ def set_scenes(g, scene, scene_URI, root):
         try:
             setting_URI = URIRef(utils_URI["story"] + f"_{scene.attrib['setting']}")
             g.add((scene_URI, sam.hasSetting, setting_URI))
+            g.add((setting_URI, RDF.type, wdt.Q617332))
         except:
             print(f"{scene_URI} lacks setting")
 
@@ -215,7 +216,6 @@ def set_scenes(g, scene, scene_URI, root):
             change_URI = URIRef(f"{scene_URI}_{participant}_change")
             if child.text:
                 g.add((change_URI, sam.changeExcerpt, Literal(child.text)))
-            g.add((change_URI, RDF.type, wdt.Q1150070))
             g.add((scene_URI, sam.hasChange, change_URI))
             g.add((change_URI, wdp.P710, URIRef(f"{utils_URI["story"]}_{participant}")))
             character_properties(g, child, change_URI)
@@ -226,6 +226,7 @@ def set_scenes(g, scene, scene_URI, root):
         if child.tag.lower() == "setting":
             setting_URI = URIRef(utils_URI["story"] + f"_{child.attrib['ref']}")
             g.add((scene_URI, sam.hasSetting, setting_URI))
+            setting_properties(g, child, setting_URI)
 
     return g
 
@@ -234,10 +235,11 @@ def set_scenes(g, scene, scene_URI, root):
 def character_properties(g, character, character_URI):
     # set_class
     if character.tag.lower() == "character":
-        print(f"{character.tag.lower()} is a character")
         g.add((character_URI, RDF.type, wdt.Q95074))
-    elif character.tag.lower() == "groupofcharacters" or "charactergroup":
-        print(f"{character.tag.lower()} is a goc")
+    if character.tag.lower() == "change":
+        g.add((character_URI, RDF.type, wdt.Q1150070))
+    if character.tag.lower() == "groupofcharacters" or  character.tag.lower == "charactergroup":
+        print(f"{character.tag.lower()} is a goc {character_URI}")
         g.add((character_URI, RDF.type, sam.GroupOfCharacters))
 
     # attributes analyzer. Some attributes are a shorthand for the literal part
@@ -368,7 +370,7 @@ def setting_properties(g, setting, setting_URI):
 
         if child.tag.lower() == "place":
             place_URI = URIRef(
-                utils_URI["story"] + f"_{child.attrib[globals['xml_id']]}"
+                f"{setting_URI}_place"
             )
             g.add((setting_URI, sam.hasPlace, place_URI))
             g.add((place_URI, RDF.type, wdt.Q17334923))

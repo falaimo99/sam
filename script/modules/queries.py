@@ -203,3 +203,22 @@ scene_queries = {
     "query_8": "",
     "query_9": "",
 }
+
+trope_suggested = {
+    "suggested_query1": "",
+    "suggested_query2": "datasam:trope_KnightInShiningArmor",
+}
+
+trope_queries = {
+    "query_1": """
+    SELECT ?definition WHERE{
+        sam:Trope rdfs:label ?definition .
+    }
+    """,
+    "query_2": """
+    SELECT ?trope ?trope_source WHERE{
+        BIND(uri(% s) AS ?trope)
+        % s sam:tropeURI ?trope_source
+    }
+"""% (trope_suggested['suggested_query2'], trope_suggested['suggested_query2']),
+}

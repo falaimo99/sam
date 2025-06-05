@@ -7,3 +7,5 @@ options = {
     "uniqueManifestation": True,
     "xml_path": os.path.abspath("../sam/short_stories/")
 }
+
+print(os.path.isfile(options['xml_path']))

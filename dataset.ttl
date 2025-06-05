@@ -97,6 +97,16 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_CharacterList a sam:CharacterList ;
         datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliGiudici,
         datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliPrincipi .
 
+datasam:Belfagor_Arcidiavolo_Machiavelli_FuoriFirenze a wdt:Q617332 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_Paris a wdt:Q617332 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_hell a wdt:Q617332 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_piazaDiNostraDama a wdt:Q617332 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_piazzaDiNostraDama a wdt:Q617332 .
+
 datasam:Belfagor_Arcidiavolo_Machiavelli_scene1 a sam:Scene ;
     sam:hasSetting datasam:Belfagor_Arcidiavolo_Machiavelli_hell ;
     sam:hasTrope datasam:trope_Exposition ;
@@ -451,6 +461,8 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_CharacterList a sam:CharacterL
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_1,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_2 .
 
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Mercato_di_Napoli a wdt:Q617332 .
+
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1 a sam:Scene ;
     sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Mercato_di_Napoli ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1_excerpt ;
@@ -459,7 +471,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1 a sam:Scene ;
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ ;
+    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_notSpecified ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt a wdt:Q1385610 ;
@@ -908,8 +920,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6 a sam:Scene ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_andreuccioDiPietro_change a sam:GroupOfCharacters,
-        wdt:Q1150070 ;
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_andreuccioDiPietro_change a wdt:Q1150070 ;
     sam:changeExcerpt "cattivel" ;
     sam:descriptor "cattivel" ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro .
@@ -1163,7 +1174,7 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso_occupation_p
     sam:hasTitle "prostituta" ;
     wdp:P1416 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ruffiano .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_secondi_ladri_di_tombe a sam:GroupOfCharacters .
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_notSpecified a wdt:Q617332 .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_CharacterList a sam:CharacterList ;
     wdp:P527 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Debitore,
@@ -1433,7 +1444,13 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene3 a sam:Scene ;
         datasam:Novella_del_Grasso_Legnaiuolo_anonimo_ManettoAmmattini .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene3_excerpt a wdt:Q1385610 ;
-    sam:excerpt_text """Partito Filippo, e
+    sam:excerpt_text """Piazza San Giovanni, Firenze
+        
+
+            
+            
+            
+         Partito Filippo, e
         sembiante faccendo d’andare a casa, data una volta, sen’andò a casa
         il Grasso, la quale era dinanzi dalla Chiesa di Santa Reparata; ed aperto l’uscio con un
         coltellino, come colui che ben sapeva il modo, e n’andò in casa, e serrossi dentro col
@@ -1684,6 +1701,12 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Scene9_excerpt a wdt:Q1385610 ;
         questo fatto del capo.""" ;
     sam:referenceMaterialSource "https://it.wikisource.org/wiki/Novella_del_Grasso_legnajuolo" .
 
+datasam:Novella_del_Grasso_Legnaiuolo_anonimo_casadiTommasodePecori a wdt:Q617332 .
+
+datasam:Novella_del_Grasso_Legnaiuolo_anonimo_piazzadiSanGiovanni_place a wdt:Q17334923 ;
+    sam:placeDescriptor "Piazza San Giovanni, Firenze" ;
+    wdp:P625 <https://geohack.toolforge.org/geohack.php?params=43.772955555556_N_11.254755555556_E_globe:earth&language=en> .
+
 datasam:Petrosinella_CuntodeliCunti_Basile_CharacterList a sam:CharacterList ;
     wdp:P527 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia,
         datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
@@ -1799,12 +1822,6 @@ datasam:novellino_II_anonimo_ambasciatori_occupation_ambasciatori a wdt:Q1273707
     sam:hasTitle "ambasciatori" ;
     wdp:P1416 datasam:novellino_II_anonimo_prestoGiovanni .
 
-datasam:novellino_II_anonimo_atImperadoreFederigo a wdt:Q17334923 ;
-    sam:placeDescriptor "at imperadore Federigo" .
-
-datasam:novellino_II_anonimo_atPrestoGiovanni a wdt:Q17334923 ;
-    sam:placeDescriptor "At Presto Giovanni" .
-
 datasam:novellino_II_anonimo_federigoImperadore_name a wdt:Q82799 ;
     sam:hasName "Federigo" .
 
@@ -1873,8 +1890,7 @@ datasam:novellino_II_anonimo_scene3_excerpt a wdt:Q1385610 ;
 		care pietre.""" ;
     sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" .
 
-datasam:novellino_II_anonimo_scene3_prestoGiovanni_change a sam:GroupOfCharacters,
-        wdt:Q1150070 ;
+datasam:novellino_II_anonimo_scene3_prestoGiovanni_change a wdt:Q1150070 ;
     sam:changeExcerpt """
 			""" ;
     rel:antagonistOf datasam:novellino_II_anonimo_federigoImperadore ;
@@ -1931,12 +1947,17 @@ datasam:novellino_II_anonimo_scene6_excerpt a wdt:Q1385610 ;
 		allegrezza.""" ;
     sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Novellino/I" .
 
-datasam:novellino_II_anonimo_scene6_prestoGiovanni_change a sam:GroupOfCharacters,
-        wdt:Q1150070 ;
+datasam:novellino_II_anonimo_scene6_prestoGiovanni_change a wdt:Q1150070 ;
     sam:changeExcerpt """
 			""" ;
     rel:knowsByReputation datasam:novellino_II_anonimo_federigoImperadore ;
     wdp:P710 datasam:novellino_II_anonimo_prestoGiovanni .
+
+datasam:novellino_II_anonimo_setting1_place a wdt:Q17334923 ;
+    sam:placeDescriptor "At Presto Giovanni" .
+
+datasam:novellino_II_anonimo_setting2_place a wdt:Q17334923 ;
+    sam:placeDescriptor "at imperadore Federigo" .
 
 datasam:trope_BetrayalTropes a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/BetrayalTropes" .
@@ -2022,13 +2043,15 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_BonajutoTebalducci a wdt:Q95074 .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_Cursore a wdt:Q95074 .
 
-datasam:Belfagor_Arcidiavolo_Machiavelli_Magistrati a sam:GroupOfCharacters .
+datasam:Belfagor_Arcidiavolo_Machiavelli_Firenze a wdt:Q617332 .
+
+datasam:Belfagor_Arcidiavolo_Machiavelli_Hell a wdt:Q617332 .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_Onesta a wdt:Q95074 .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_ReCarlo a wdt:Q95074 .
 
-datasam:Belfagor_Arcidiavolo_Machiavelli_accompagnatoriDellaFigliuoladiLodovico a sam:GroupOfCharacters .
+datasam:Belfagor_Arcidiavolo_Machiavelli_casaDiGianmatteodelBricha a wdt:Q617332 .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_figliuolaDiReLodovicoVII a wdt:Q95074 .
 
@@ -2036,15 +2059,13 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_figliuoladiAmbrogioAmidei a wdt:Q95074 
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_figliuoladiCarlo a wdt:Q95074 .
 
-datasam:Belfagor_Arcidiavolo_Machiavelli_fratelliDiOnesta a sam:GroupOfCharacters .
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Napoli a wdt:Q617332 .
 
-datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliGiudici a sam:GroupOfCharacters .
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli a wdt:Q617332 .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_famigliari a wdt:Q95074 .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanciullo a wdt:Q95074 .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe_secondi a sam:GroupOfCharacters .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_1 a wdt:Q95074 ;
     wdp:P361 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicinato .
@@ -2056,8 +2077,6 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Debitore a wdt:Q95074 .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Donatello a wdt:Q95074 .
 
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Famigli a sam:GroupOfCharacters .
-
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_GiovannidiMesserFrancescoRucellai a wdt:Q95074 .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Giudice a wdt:Q95074 .
@@ -2068,33 +2087,31 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_TommasodePecori a wdt:Q95074 ;
     sam:descriptor "gentiluomo di firenze" ;
     wdp:P361 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_jokeMembers .
 
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_compagniDiFilippo a sam:GroupOfCharacters .
+datasam:Novella_del_Grasso_Legnaiuolo_anonimo_bottegadiManettoAmmattini a wdt:Q617332 .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_fanciullo a wdt:Q95074 .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_guardiaDellaPrigione a wdt:Q95074 .
 
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_membriDellaBrigata a sam:GroupOfCharacters .
+datasam:Novella_del_Grasso_Legnaiuolo_anonimo_piazzadiSanGiovanni a wdt:Q617332 ;
+    sam:hasPlace datasam:Novella_del_Grasso_Legnaiuolo_anonimo_piazzadiSanGiovanni_place .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_prete a wdt:Q95074 .
 
-datasam:Petrosinella_CuntodeliCunti_Basile_animalitrasformati a sam:GroupOfCharacters ;
-    sam:hasTrope datasam:trope_SummonMagic .
+datasam:Petrosinella_CuntodeliCunti_Basile_animalitrasformati sam:hasTrope datasam:trope_SummonMagic .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_giardinoOrca a wdt:Q617332 .
 
-datasam:Petrosinella_CuntodeliCunti_Basile_orcs a sam:GroupOfCharacters ;
-    sam:hasTrope datasam:trope_OurOgresAreHungrier .
+datasam:Petrosinella_CuntodeliCunti_Basile_notSpecified a wdt:Q617332 .
+
+datasam:Petrosinella_CuntodeliCunti_Basile_orcs sam:hasTrope datasam:trope_OurOgresAreHungrier .
 
 datasam:novellino_II_anonimo_setting2 a wdt:Q617332 ;
-    sam:hasPlace datasam:novellino_II_anonimo_atImperadoreFederigo .
-
-datasam:Belfagor_Arcidiavolo_Machiavelli_Creditori a sam:GroupOfCharacters .
+    sam:hasPlace datasam:novellino_II_anonimo_setting2_place .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_Plutone a wdt:Q95074 .
 
-datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliPrincipi a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Belfagor_Arcidiavolo_Machiavelli_infernaliPrincipi a wdt:Q95074 ;
     sam:hasTrope datasam:trope_DemonLordsAndArchdevils .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella a wdt:Q95074 ;
@@ -2112,7 +2129,9 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia a wdt:Q95074 ;
     sam:narratorName "Vecchia" ;
     wdp:P21 cwrc:cisWoman .
 
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Prigionieri a sam:GroupOfCharacters .
+datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Mercatanzia a wdt:Q617332 .
+
+datasam:Novella_del_Grasso_Legnaiuolo_anonimo_casaDeiFratelliDiMatteo a wdt:Q617332 .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_commaredellOrca a wdt:Q95074 .
 
@@ -2133,15 +2152,12 @@ cwrc:man a cwrc:Gender .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_ReLodovicoVII a wdt:Q95074 .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe a sam:GroupOfCharacters,
-        wdt:Q95074 ;
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso a wdt:Q617332 .
+
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe a wdt:Q95074 ;
     sam:hasTrope datasam:trope_TheAntagonist .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicinato a sam:GroupOfCharacters .
-
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Notaio a wdt:Q95074 .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_jokeMembers a sam:GroupOfCharacters .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia a wdt:Q95074 ;
     wdp:P2561 datasam:Petrosinella_CuntodeliCunti_Basile_Pascadozia_name .
@@ -2154,11 +2170,13 @@ datasam:novellino_II_anonimo_lapidario a wdt:Q95074 ;
     wdp:P21 cwrc:man .
 
 datasam:novellino_II_anonimo_setting1 a wdt:Q617332 ;
-    sam:hasPlace datasam:novellino_II_anonimo_atPrestoGiovanni .
+    sam:hasPlace datasam:novellino_II_anonimo_setting1_place .
 
 datasam:trope_HappyEnding a sam:TvTropesTrope ;
     sam:tropeURI "https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding" ;
     wdp:P710 datasam:Belfagor_Arcidiavolo_Machiavelli_GianmatteodelBricha .
+
+datasam:Novella_del_Grasso_Legnaiuolo_anonimo_prigione a wdt:Q617332 .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_figliodenoprencipe a wdt:Q95074 ;
     sam:hasTrope datasam:trope_KnightInShiningArmor .
@@ -2168,16 +2186,13 @@ datasam:Petrosinella_CuntodeliCunti_Basile_orca a wdt:Q95074 ;
     sam:narratorName "orca" ;
     wdp:P361 datasam:Petrosinella_CuntodeliCunti_Basile_orcs .
 
-datasam:novellino_II_anonimo_ambasciatori a sam:GroupOfCharacters ;
-    wdp:P106 datasam:novellino_II_anonimo_ambasciatori_occupation_ambasciatori .
+datasam:novellino_II_anonimo_ambasciatori wdp:P106 datasam:novellino_II_anonimo_ambasciatori_occupation_ambasciatori .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_FilippodiSerBrunellesco a wdt:Q95074 ;
     sam:hasTrope datasam:trope_ThePrankster ;
     wdp:P106 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_FilippodiSerBrunellesco_occupation ;
     wdp:P2561 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_FilippodiSerBrunellesco_name ;
     wdp:P361 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_jokeMembers .
-
-datasam:Novella_del_Grasso_Legnaiuolo_anonimo_fratelliDiMatteo a sam:GroupOfCharacters .
 
 datasam:novellino_II_anonimo_federigoImperadore a wdt:Q95074 ;
     sam:hasTrope datasam:trope_TheGoodKing ;
