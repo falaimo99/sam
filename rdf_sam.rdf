@@ -184,7 +184,7 @@
 
     <owl:ObjectProperty rdf:about="https://www.wikidata.org/wiki/Property:P2408">
         <rdfs:domain rdf:resource="https://www.wikidata.org/wiki/Q617332"/>
-        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Property:P2348"/>
+        <rdfs:range rdf:resource="https://www.wikidata.org/wiki/Q6428674"/>
         <rdf:Description>As described by Wikidata (&quot;https://www.wikidata.org/wiki/Property:P2408&quot;), historical, contemporary, or future period, year, century or day the work or genre is set in or event featured in the story of the work</rdf:Description>
         <rdfs:label>set in period</rdfs:label>
     </owl:ObjectProperty>
@@ -659,6 +659,15 @@
     
 
 
+    <!-- https://www.wikidata.org/wiki/Q6428674 -->
+
+    <owl:Class rdf:about="https://www.wikidata.org/wiki/Q6428674">
+        <rdf:Description>As descibed by Wikidata (&quot;https://www.wikidata.org/wiki/Property:P2348&quot;), time period (historic period or era, sports season, theatre season, legislative period etc.) in which the subject occurred or with which it is associated</rdf:Description>
+        <rdfs:label>Era</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://www.wikidata.org/wiki/Q82799 -->
 
     <owl:Class rdf:about="https://www.wikidata.org/wiki/Q82799">
@@ -682,15 +691,6 @@
     <owl:Class rdf:about="https://www.wikidata.org/wiki/Q96622155">
         <rdfs:comment>As described by Wikidata (&quot;https://www.wikidata.org/wiki/Q96622155&quot;), this class represents a reference to another work.</rdfs:comment>
         <rdfs:label>Reference</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://www.wikidata.org/wiki/Property:P2348 -->
-
-    <owl:Class rdf:about="https://www.wikidata.org/wiki/Property:P2348">
-        <rdf:Description>As descibed by Wikidata (&quot;https://www.wikidata.org/wiki/Property:P2348&quot;), time period (historic period or era, sports season, theatre season, legislative period etc.) in which the subject occurred or with which it is associated</rdf:Description>
-        <rdfs:label>Time Period</rdfs:label>
     </owl:Class>
     <rdf:Description>
         <rdf:Description></rdf:Description>

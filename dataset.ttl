@@ -34,6 +34,16 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio a sam:Story ;
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9 .
 
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Napoli a wdt:Q617332 .
+
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso a wdt:Q617332 .
+
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli a wdt:Q617332 ;
+    sam:diegeticTime datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli_time ;
+    sam:hasPlace datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli_place .
+
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_mercato_Napoli a wdt:Q617332 .
+
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_oste a wdt:Q95074 ;
     sam:narratorName "oste" .
 
@@ -461,17 +471,13 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_CharacterList a sam:CharacterL
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_1,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vicino_2 .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Mercato_di_Napoli a wdt:Q617332 .
-
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Mercato_di_Napoli ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene1_excerpt ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_vecchia .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_notSpecified ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene10_excerpt a wdt:Q1385610 ;
@@ -532,7 +538,6 @@ contò dove tornasse e perché venuto fosse.""" ;
     sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2_excerpt ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella,
@@ -575,7 +580,6 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene2_excerpt a wdt:Q1385610 
     sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3_excerpt ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella,
@@ -715,7 +719,6 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene3_excerpt a wdt:Q1385610 
     sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4_excerpt ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso .
@@ -767,7 +770,6 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene4_excerpt a wdt:Q1385610 
     sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5_excerpt ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanciullo,
@@ -915,7 +917,6 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene5_excerpt a wdt:Q1385610 
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6 a sam:Scene ;
     sam:hasChange datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_andreuccioDiPietro_change ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Napoli ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_excerpt ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe .
@@ -1002,7 +1003,6 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene6_excerpt a wdt:Q1385610 
     sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Napoli ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7_excerpt ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
         datasam:Novella_V_Giornata_II_Decameron_Boccaccio_famigliari,
@@ -1044,7 +1044,6 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene7_excerpt a wdt:Q1385610 
     sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli ;
     sam:hasTrope datasam:trope_RobbingTheDead ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8_excerpt ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
@@ -1105,7 +1104,6 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene8_excerpt a wdt:Q1385610 
     sam:referenceMaterialSource "https://it.wikisource.org/w/index.php?title=Decameron/Giornata_seconda/Novella_quinta&oldid=1999922" .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9 a sam:Scene ;
-    sam:hasSetting datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli ;
     sam:hasTrope datasam:trope_HappyEnding ;
     sam:referenceMaterial datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Scene9_excerpt ;
     wdp:P710 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro,
@@ -1163,6 +1161,13 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_name a wdt:
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_andreuccioDiPietro_occupation a wdt:Q12737077 ;
     sam:hasTitle "cozzone di cavalli" .
 
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli_place a wdt:Q17334923 ;
+    sam:placeDescriptor "Cattedrale Maggiore di Napoli" ;
+    wdp:P625 <https://geohack.toolforge.org/geohack.php?params=40.852606_N_14.259528_E_globe:earth&language=en> .
+
+datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli_time a wdt:Q12322185 ;
+    sam:stringDate "Night" .
+
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanticella_occupation_fanticella a wdt:Q12737077 ;
     sam:hasTitle "fanticella" ;
     wdp:P1416 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso .
@@ -1173,8 +1178,6 @@ datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso_name a wdt:Q
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_madama_Fiordaliso_occupation_prostituta a wdt:Q12737077 ;
     sam:hasTitle "prostituta" ;
     wdp:P1416 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ruffiano .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_notSpecified a wdt:Q617332 .
 
 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_CharacterList a sam:CharacterList ;
     wdp:P527 datasam:Novella_del_Grasso_Legnaiuolo_anonimo_Debitore,
@@ -1799,7 +1802,7 @@ datasam:Petrosinella_CuntodeliCunti_Basile_Scene7_excerpt a wdt:Q1385610 ;
     sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_Scene8 a sam:Scene ;
-    sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_notSpecified ;
+    sam:hasSetting datasam:Petrosinella_CuntodeliCunti_Basile_regnoDeLoPrencepe ;
     sam:hasTrope datasam:trope_HappyEnding ;
     sam:referenceMaterial datasam:Petrosinella_CuntodeliCunti_Basile_Scene8_excerpt ;
     wdp:P710 datasam:Petrosinella_CuntodeliCunti_Basile_Petrosinella,
@@ -1811,6 +1814,10 @@ datasam:Petrosinella_CuntodeliCunti_Basile_Scene8_excerpt a wdt:Q1385610 ;
           Che n’ora di buon puorto
           Fa scordare cient’anne de fortuna!""" ;
     sam:referenceMaterialSource "https://it.wikisource.org/wiki/Lo_cunto_de_li_cunti/Lo_Cunto_de_li_Cunti/Jornata_seconna/I" .
+
+datasam:Petrosinella_CuntodeliCunti_Basile_notSpecified a wdt:Q617332 .
+
+datasam:Petrosinella_CuntodeliCunti_Basile_regnoDeLoPrencepe a wdt:Q617332 .
 
 datasam:novellino_II_anonimo_CharacterList a sam:CharacterList ;
     wdp:P527 datasam:novellino_II_anonimo_ambasciatori,
@@ -2059,10 +2066,6 @@ datasam:Belfagor_Arcidiavolo_Machiavelli_figliuoladiAmbrogioAmidei a wdt:Q95074 
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_figliuoladiCarlo a wdt:Q95074 .
 
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_Napoli a wdt:Q617332 .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_cattedrale_maggiore_Napoli a wdt:Q617332 .
-
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_famigliari a wdt:Q95074 .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_fanciullo a wdt:Q95074 .
@@ -2101,8 +2104,6 @@ datasam:Novella_del_Grasso_Legnaiuolo_anonimo_prete a wdt:Q95074 .
 datasam:Petrosinella_CuntodeliCunti_Basile_animalitrasformati sam:hasTrope datasam:trope_SummonMagic .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_giardinoOrca a wdt:Q617332 .
-
-datasam:Petrosinella_CuntodeliCunti_Basile_notSpecified a wdt:Q617332 .
 
 datasam:Petrosinella_CuntodeliCunti_Basile_orcs sam:hasTrope datasam:trope_OurOgresAreHungrier .
 
@@ -2151,8 +2152,6 @@ cwrc:cisWoman a cwrc:Gender .
 cwrc:man a cwrc:Gender .
 
 datasam:Belfagor_Arcidiavolo_Machiavelli_ReLodovicoVII a wdt:Q95074 .
-
-datasam:Novella_V_Giornata_II_Decameron_Boccaccio_casa_fiordaliso a wdt:Q617332 .
 
 datasam:Novella_V_Giornata_II_Decameron_Boccaccio_ladri_di_tombe a wdt:Q95074 ;
     sam:hasTrope datasam:trope_TheAntagonist .

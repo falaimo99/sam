@@ -39,10 +39,13 @@
 
 </CharacterList>
 
-<setting xml:id="Napoli"></setting>
-<setting xml:id="mercato_Napoli"></setting>
-<setting xml:id="casa_fiordaliso"></setting>
-<setting xml:id="cattedrale_maggiore_Napoli" sameAs="https://www.wikidata.org/wiki/Q1084608"></setting>
+<Setting xml:id="Napoli"></Setting>
+<Setting xml:id="mercato_Napoli"></Setting>
+<Setting xml:id="casa_fiordaliso"></Setting>
+<Setting xml:id="cattedrale_maggiore_Napoli" sameAs="https://www.wikidata.org/wiki/Q1084608">
+    <place uri="https://geohack.toolforge.org/geohack.php?params=40.852606_N_14.259528_E_globe:earth&amp;language=en">Cattedrale Maggiore di Napoli</place>
+    <diegeticTime>Night</diegeticTime>
+</Setting>
 
 
 
@@ -66,7 +69,7 @@
     rete.
 </paraText>
 
-<Scene xml:id="Scene1" setting="Mercato_di_Napoli" >
+<Scene xml:id="Scene1" Setting="Mercato_di_Napoli" >
 <participants>
     <Character ref="andreuccioDiPietro"></Character>
     <Character ref="madama_Fiordaliso"></Character>
@@ -115,7 +118,7 @@ padre di lui e poi a Perugia dimorata era, e similmente le
 contò dove tornasse e perché venuto fosse. 
 </Scene>
 
-<Scene xml:id="Scene2" setting="casa_fiordaliso">
+<Scene xml:id="Scene2" Setting="casa_fiordaliso">
 	<participants>
 		<Character ref="madama_Fiordaliso"></Character>
 		<Character ref="vecchia"></Character>
@@ -156,7 +159,7 @@ contò dove tornasse e perché venuto fosse.
     - Or via mettiti avanti, io ti verrò appresso.
 </Scene>
 
-<Scene xml:id="Scene3" setting="casa_fiordaliso">
+<Scene xml:id="Scene3" Setting="casa_fiordaliso">
 	<participants>
 		<Character ref="fanticella"></Character>
 		<Character ref="andreuccioDiPietro"></Character>
@@ -294,7 +297,7 @@ contò dove tornasse e perché venuto fosse.
     credendo quello che meno di creder gli bisognava.
 </Scene>
 
-<Scene xml:id="Scene4" setting="casa_fiordaliso">
+<Scene xml:id="Scene4" Setting="casa_fiordaliso">
     <participants>
 		<Character ref="andreuccioDiPietro"></Character>
 		<Character ref="madama_Fiordaliso"></Character>
@@ -344,7 +347,7 @@ contò dove tornasse e perché venuto fosse.
     gliante.    
 </Scene>
 
-<Scene xml:id="Scene5" setting="casa_fiordaliso">
+<Scene xml:id="Scene5" Setting="casa_fiordaliso">
     <participants>
         <Character ref="fanciullo"></Character>
 		<Character ref="andreuccioDiPietro"></Character>
@@ -489,7 +492,7 @@ contò dove tornasse e perché venuto fosse.
     notte essere ucciso costì: vattene per lo tuo migliore.
 </Scene>
 
-<Scene xml:id="Scene6" setting="Napoli">
+<Scene xml:id="Scene6" Setting="Napoli">
     <participants>
         <Character ref="andreuccioDiPietro"></Character>
         <CharacterGroup ref="ladri_di_tombe"></CharacterGroup>
@@ -569,7 +572,7 @@ contò dove tornasse e perché venuto fosse.
     là e laverenlo spacciatamente.
 </Scene>
 
-<Scene xml:id="Scene7" setting="Napoli">
+<Scene xml:id="Scene7" Setting="Napoli">
     <participants>
         <Character ref="andreuccioDiPietro"></Character>
         <Character ref="ladri_di_tombe"></Character>
@@ -610,7 +613,7 @@ contò dove tornasse e perché venuto fosse.
 </Scene>
 
 <Scene xml:id="Scene8" 
-setting="cattedrale_maggiore_Napoli" 
+Setting="cattedrale_maggiore_Napoli" 
 >
     <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/RobbingTheDead"></trope>
     <participants>
@@ -671,7 +674,7 @@ setting="cattedrale_maggiore_Napoli"
     
 </Scene>
 
-<Scene xml:id="Scene9" setting="cattedrale_maggiore_Napoli">
+<Scene xml:id="Scene9" Setting="cattedrale_maggiore_Napoli">
     <trope uri="https://tvtropes.org/pmwiki/pmwiki.php/Main/HappyEnding"></trope>
     <participants>
         <Character ref="andreuccioDiPietro"></Character>
@@ -720,7 +723,7 @@ setting="cattedrale_maggiore_Napoli"
     La qual cosa veggendo Andreuccio, lieto oltre a quel¬
     lo che sperava, subito si gittò fuori e per quella via onde
     era venuto se ne uscì dalla chiesa;</Scene>
-    <Scene xml:id="Scene10" setting="notSpecified"><transition>e già avvicinandosi al
+    <Scene xml:id="Scene10" Setting="notSpecified"><transition>e già avvicinandosi al
     giorno, con quello anello in dito andando all’avventura,
     pervenne alla marina e quindi al suo albergo si abbattè;</transition>
     dove li suoi compagni e l’albergatore trovò tutta la notte

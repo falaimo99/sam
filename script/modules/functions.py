@@ -151,7 +151,7 @@ def set_trope(g, trope, domain, domain_URI):
         if trope.attrib["isPeriodic"] == "True":
             g.add((trope_URI, RDF.type, sam.PeriodicTableTrope))
     except:
-        print(f"{trope_URI} is not a PeriodicTableTrope")
+        pass
 
     if "participant" in trope.attrib:
         g.add(
@@ -372,6 +372,7 @@ def setting_properties(g, setting, setting_URI):
             place_URI = URIRef(
                 f"{setting_URI}_place"
             )
+            print(f"{setting_URI} has place")
             g.add((setting_URI, sam.hasPlace, place_URI))
             g.add((place_URI, RDF.type, wdt.Q17334923))
             if child.text:
@@ -383,7 +384,7 @@ def setting_properties(g, setting, setting_URI):
             diegeticTime_URI = URIRef(f"{setting_URI}_time")
             g.add((setting_URI, sam.diegeticTime, diegeticTime_URI))
             g.add((diegeticTime_URI, RDF.type, wdt.Q12322185))
-            if "date" in child.attrib:
+            if "dateTime" in child.attrib:
                 g.add(
                     (
                         diegeticTime_URI,
@@ -392,11 +393,11 @@ def setting_properties(g, setting, setting_URI):
                         datatype == XSD.dateTime,
                     )
                 )
-            if "stringDate" in child.attrib:
+            if child.text:
                 g.add(
                     (
                         diegeticTime_URI,
                         sam.stringDate,
-                        Literal(child.attrib["stringDate"]),
+                        Literal(child.text),
                     )
                 )
