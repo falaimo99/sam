@@ -9,3 +9,5 @@ In particular the `script/` folder contains code able to transform a SAM annotat
 The `short_stories/` folder contains the SAM XML annotated files, it will result evident that they're not using any standard XML namespace, and instead customized elements and attributes, specific to this project. The annotated stories come from the italian tradition of novella and folktale, that served as main study case for this project. Future developments involve other genres, in order to showcase more diverse SAM descriptions.
 
 The ontology visualization is hosted on [Purl](https://purl.org/samcore), and uses [LODE](https://essepuntato.it/lode)
+
+Some <a href="https://docs.google.com/presentation/d/1Ta8O114-qFgHT1NQn69GqJM3a26MRL-KRAPJ-actztE/edit?usp=drive_link">slides</a> are dedicated to the project presentation, it's a good starting point to grasp the overall idea behind it.
